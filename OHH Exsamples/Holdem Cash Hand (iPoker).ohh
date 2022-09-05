@@ -1,0 +1,196 @@
+{
+    "ohh": {
+        "spec_version": "1.2.2",
+        "internal_version": "1.2.2",
+        "network_name": "iPoker Network",
+        "site_name": "iPoker",
+        "game_type": "Holdem",
+        "table_name": "Brehuiesti",
+        "table_size": "6",
+        "game_number": "8599887794",
+        "start_date_utc": "2020-04-07T14:32:50",
+        "currency": "EUR",
+        "ante_amount": 0.00,
+        "small_blind_amount": 0.01,
+        "big_blind_amount": 0.02,
+        "bet_limit": {
+            "bet_cap": 0.00,
+            "bet_type": "NL"
+        },
+        "hero_player_id": 3,
+        "dealer_seat": 8,
+        "players": [
+            {
+                "name": "Player1",
+                "id": 0,
+                "player_bounty": 0,
+                "starting_stack": 0.80,
+                "seat": 1
+            },
+            {
+                "name": "Player3",
+                "id": 1,
+                "player_bounty": 0,
+                "starting_stack": 2.38,
+                "seat": 3
+            },
+            {
+                "name": "Player5",
+                "id": 2,
+                "player_bounty": 0,
+                "starting_stack": 2.67,
+                "seat": 5
+            },
+            {
+                "name": "Hero",
+                "id": 3,
+                "player_bounty": 0,
+                "starting_stack": 2.00,
+                "seat": 6
+            },
+            {
+                "name": "Player8",
+                "id": 4,
+                "player_bounty": 0,
+                "starting_stack": 2.86,
+                "seat": 8
+            },
+            {
+                "name": "Player10",
+                "id": 5,
+                "player_bounty": 0,
+                "starting_stack": 2.00,
+                "seat": 10
+            }
+        ],
+        "rounds": [
+            {
+                "id": 0,
+                "cards": "",
+                "street": "Preflop",
+                "actions": [
+                    {
+                        "action_number": 1,
+                        "player_id": 5,
+                        "action": "Post SB",
+                        "amount": 0.01,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 2,
+                        "player_id": 0,
+                        "action": "Post BB",
+                        "amount": 0.02,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 3,
+                        "player_id": 3,
+                        "cards": [
+                            "As",
+                            "Tc"
+                        ],
+                        "action": "Dealt Cards",
+                        "amount": 0.00,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 4,
+                        "player_id": 1,
+                        "action": "Fold",
+                        "amount": 0.00,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 5,
+                        "player_id": 2,
+                        "action": "Fold",
+                        "amount": 0.00,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 6,
+                        "player_id": 3,
+                        "action": "Raise",
+                        "amount": 0.06,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 7,
+                        "player_id": 4,
+                        "action": "Fold",
+                        "amount": 0.00,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 8,
+                        "player_id": 5,
+                        "action": "Fold",
+                        "amount": 0.00,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 9,
+                        "player_id": 0,
+                        "action": "Call",
+                        "amount": 0.04,
+                        "is_allin": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "cards": [
+                    "5c",
+                    "7d",
+                    "Js"
+                ],
+                "street": "Flop",
+                "actions": [
+                    {
+                        "action_number": 1,
+                        "player_id": 0,
+                        "action": "Check",
+                        "amount": 0.00,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 2,
+                        "player_id": 3,
+                        "action": "Bet",
+                        "amount": 0.06,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 3,
+                        "player_id": 0,
+                        "action": "Raise",
+                        "amount": 0.18,
+                        "is_allin": false
+                    },
+                    {
+                        "action_number": 4,
+                        "player_id": 3,
+                        "action": "Fold",
+                        "amount": 0.00,
+                        "is_allin": false
+                    }
+                ]
+            }
+        ],
+        "pots": [
+            {
+                "number": 0,
+                "amount": 0.25,
+                "rake": 0.01,
+                "player_wins": [
+                    {
+                        "player_id": 0,
+                        "win_amount": 0.24,
+                        "contributed_rake": 0.01
+                    }
+                ]
+            }
+        ]
+    }
+}
