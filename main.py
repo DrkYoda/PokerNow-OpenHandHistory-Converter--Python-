@@ -29,6 +29,7 @@ import json
 from logging import Logger
 from pathlib import Path
 import re
+
 # END MODULES
 
 # **************************************************************************************************
@@ -143,13 +144,10 @@ the tables dictionary
               they represent the last seen hand at the table from the processed logs
         - OHH: list - list of hand histories, each in JSON following the OHH format
 """
-#END DATA STRUCTURES
+# END DATA STRUCTURES
 
 # LOOKUP TABLE
-structures = {
-    "Pot Limit": "PL", 
-    "No Limit": "NL"
-}
+structures = {"Pot Limit": "PL", "No Limit": "NL"}
 
 games = {
     "Texas Hold'em": "Holdem",
@@ -176,7 +174,8 @@ post_types = {
     "posts a big blind": "Post BB",
     "posts a small blind": "Post SB",
     "posts a straddle": "Straddle",
-    "posts a missing small blind": "Post Dead"
+    "posts a missing small blind": "Post Dead",
+    "posts a missed big blind": "Poast Dead"
 }
 
 verb_to_action = {
@@ -244,8 +243,7 @@ def csv_reader(file_obj, rows):
     }
     for row in reader:
         subs_regex = re.compile("|".join(subs_dict.keys()))
-        row = [subs_regex.sub(
-            lambda match: subs_dict[match.group(0)], i) for i in row]
+        row = [subs_regex.sub(lambda match: subs_dict[match.group(0)], i) for i in row]
         rows.append(row)
     return rows.reverse()
 
@@ -261,14 +259,14 @@ def csv_reader(file_obj, rows):
 # found then create a config file and write the default values to the file.
 config = ConfigParser()
 try:
-    with open(CONFIG_FILE, encoding='utf-8') as config_file:
+    with open(CONFIG_FILE, encoding="utf-8") as config_file:
         config.read_file(config_file)
 except FileNotFoundError:
-    with open(CONFIG_FILE, mode="x" , encoding='utf-8') as config_file:
+    with open(CONFIG_FILE, mode="x", encoding="utf-8") as config_file:
         config["OHH Constants"] = DEFAULT_CONFIG
         config.write(config_file)
         config.read_file(config_file)
-ohh_constants=config["OHH Constants"]
+ohh_constants = config["OHH Constants"]
 spec_version = ohh_constants[SPEC_VERSION]
 internal_version = ohh_constants[INTERNAL_VERSION]
 network_name = ohh_constants[NETWORK_NAME]
@@ -277,15 +275,15 @@ currency = ohh_constants[CURRENCY]
 hero_name = ohh_constants[HERO_NAME]
 
 csv_dir = Path("PokerNowHandHistory")
-csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == '.csv']
+csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == ".csv"]
 
 # look for aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
 # then create a json file.
 try:
-    with open('name-map.json', encoding='utf-8') as name_map:
+    with open("name-map.json", encoding="utf-8") as name_map:
         name_map = json.load(name_map)
 except FileNotFoundError:
-    with open('name-map.json', mode="x" , encoding='utf-8') as name_map:
+    with open("name-map.json", mode="x", encoding="utf-8") as name_map:
         name_map = json.load(name_map)
 
 # Players can choose a different alias every time they sit at the table; therefore, it is necissary
@@ -305,38 +303,37 @@ blind_regex = re.compile(
     r"The game's (?P<blind_type>.+) was changed from \d+\.\d+ to (?P<amount>\d+.\d+)"
 )
 start_regex = re.compile(
-    r'-- starting hand #(?P<game_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\) \(dealer: "(?P<dealer_name>.+) @ .+"\) --'
+    r'-- starting hand #(?P<game_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\) \((dealer: \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\"|dead button)\) --'
 )
 hand_time_regex = re.compile(r"(?P<start_date_utc>.+\.\d+Z)")
 seats_regex = re.compile(
-    r"#(?P<seat>\d+) \"(?P<player>.+?) @ (?P<deviceID>.+?)\" \((?P<amount>[\d.]+)"
+    r' #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>[\d.]+)\)'
 )
 post_regex = re.compile(
-    r'"(?P<player>.+) @ .+" (?P<type>posts a .+) of (?P<amount>[\d.]+)'
+    r'\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) of (?P<amount>\d+.\d+)'
 )
 round_regex = re.compile(r"(?P<street>^[\w ]+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
-addon_regex = re.compile(
-    r".+ \"(?P<player>\w+) @ .+\" adding (?P<amount>[\d.]+)")
+addon_regex = re.compile(r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>[\d.]+)")
 hero_hand_regex = re.compile(r"Your hand is (?P<cards>.+)")
 non_bet_action_regex = re.compile(
-    r"\"(?P<player>.+) @ (\w+)\" (?P<player_action>\w+(?![ a-z]+[ \d.]+))"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+(?![ a-z]+[ \d.]+))"
 )
 bet_action_regex = re.compile(
-    r"\"(?P<player>.+) @ (\w+)\" (?!collected)(?!shows)(?P<player_action>\w+) [a-z]*\s*(?P<amount>[\d.]+)\s*(?P<all_in>[a-z ]+)*"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?!collected)(?!shows)(?P<player_action>\w+) [a-z]*\s*(?P<amount>[\d.]+)\s*(?P<all_in>[a-z ]+)*"
 )
 show_regex = re.compile(
-    r"\"(?P<player>.+) @ (\w+)\" (?P<player_action>\w+) a (?P<cards>\w{2}, \w{2})"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+) a (?P<cards>\w{2}, \w{2})"
 )
 winner_regex = re.compile(
-    r"\"(?P<player>.+) @ (\w+)\" (?P<player_action>collected) (?P<amount>[\d.]+)"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) (?P<amount>[\d.]+)"
 )
 
 
 # Process each file in the Poker Now hand history folder
 for poker_now_file in csv_file_list:
     # Initialize variables to their default starting values
-    lines = []
+    lines = [[]]
     fields = []
     big_blind: float = 0.20
     small_blind: float = 0.10
@@ -351,10 +348,22 @@ for poker_now_file in csv_file_list:
     # hand info is hand number, hand time, bet type, game type, dealer name, table name, big blind,
     # small blind, and ante. Everything else goes into TEXT.
     for i, line in enumerate(lines):
-        line = lines[i][0]
+        if i == len(lines) - 1:
+            break
+        entry = line[0]
+        #print(i, table_name)
+        # The hand "begins" when the "--- begin hand #X ---" log line is read, however the hand
+        # does not "end" until the following "--- begin hand #X+1 ---" log line is observed (or
+        # the end of the file is reached). This is because some actions such as a player
+        # voluntarily showing their cards at the end of the hand are reported between the
+        # "--- end hand #X ---" and the "--- begin hand #X+1 ---" lines
+        # Now increment the iterator and add lines to the TEXT key in the hands dictionary
+        # until the next hand is started
+        if not table_name in tables:
+            tables[table_name] = {COUNT: 0, LATEST: "", OHH: []}
         # The text match to look for what the blinds are set at
-        if "The game's" in line:
-            blinds_match = re.match(blind_regex, line)
+        if "The game's" in entry:
+            blinds_match = re.match(blind_regex, entry)
             blind_type = blinds_match.group("blind_type")
             blind_amount = float(blinds_match.group("amount"))
             if blind_type == "big blind":
@@ -364,14 +373,15 @@ for poker_now_file in csv_file_list:
             elif blind_type == "ante":
                 ante = blind_amount
         # the text match to look for the start of a hand
-        elif "-- starting hand " in line:
-            hand_start_match = re.match(start_regex, line)
+        elif "-- starting hand " in entry:
+            hand_start_match = re.match(start_regex, entry)
             hand_number = hand_start_match.group("game_number")
             bet_type = hand_start_match.group("bet_type")
             game_type = hand_start_match.group("game_type")
-            dealer_name = hand_start_match.group("dealer_name")
+            if not "dead button" in entry:
+                dealer_name = hand_start_match.group("player")
             # the text match to look for the time the hand started
-            hand_time_match = re.match(hand_time_regex, lines[i][1])
+            hand_time_match = re.match(hand_time_regex, line[1])
             hand_time = hand_time_match.group("start_date_utc")
             # Add the information extracted from the start of the hand to the the hands dictionary
             hands[hand_number] = {
@@ -388,24 +398,28 @@ for poker_now_file in csv_file_list:
             # Translate values from lookup tables
             hands[hand_number][BET_TYPE] = structures[bet_type]
             hands[hand_number][GAME_TYPE] = games[game_type]
-            # The hand "begins" when the "--- begin hand #X ---" log line is read, however the hand
-            # does not "end" until the following "--- begin hand #X+1 ---" log line is observed (or
-            # the end of the file is reached). This is because some actions such as a player 
-            # voluntarily showing their cards at the end of the hand are reported between the 
-            # "--- end hand #X ---" and the "--- begin hand #X+1 ---" lines
-            # Now increment the iterator and add lines to the TEXT key in the hands dictionary
-            # until the next hand is started
-            i += 1
-            while re.match(start_regex, lines[i][0]) is None:
-                if not table_name in tables:
-                    tables[table_name] = {COUNT: 0, LATEST: "", OHH: []}
-                hands[hand_number][TEXT] = hands[hand_number][TEXT] + \
-                    "\n" + lines[i][0]
-                if i == len(lines) - 1:
-                    break
-                i += 1
+        elif (
+            "joined" in entry
+            or "requested" in entry
+            or "quits" in entry
+            or "created" in entry
+            or "approved" in entry
+            or "changed" in entry
+            or "enqueued" in entry
+            or " stand up " in entry
+            or " sit back " in entry
+            or " canceled the seat " in entry
+            or " decide whether to run it twice" in entry
+            or "chooses to  run it twice." in entry
+            or "Dead Small Blind" in entry
+            or "The admin updated the player " in entry
+            or "the admin queued the stack change " in entry
+        ):
+            pass
         else:
-            i += 1
+            hands[hand_number][TEXT] = (
+                hands[hand_number][TEXT] + "\n" + entry
+            )
     # now that we have all hands from all the files, use the hand number of the imported hands to
     # process them in sequential order. This is the place for processing the text of each hand
     # and look for player actions
@@ -427,9 +441,7 @@ for poker_now_file in csv_file_list:
             START_DATE_UTC: hands[hand_number][DATETIME],
             TABLE_NAME: hands[hand_number][TABLE],
             GAME_TYPE: hands[hand_number][GAME_TYPE],
-            BET_LIMIT: {
-                BET_TYPE: hands[hand_number][BET_TYPE]
-            },
+            BET_LIMIT: {BET_TYPE: hands[hand_number][BET_TYPE]},
             TABLE_SIZE: 10,
             CURRENCY: currency,
             DEALER_SEAT: 1,
@@ -451,7 +463,7 @@ for poker_now_file in csv_file_list:
         round_number: int = 0
         action_number: int = 0
         pot_number: int = 0
-        round_obj = {ID: 0, STREET: '', CARDS: [], ACTIONS: []}
+        round_obj = {ID: 0, STREET: "", CARDS: [], ACTIONS: []}
         pot_obj = {}
         round_commit = {}
         hand_text: str = hands[hand_number][TEXT]
@@ -491,13 +503,13 @@ for poker_now_file in csv_file_list:
                 player = post.group("player")
                 post_type = post.group("type")
                 amount = float(post.group("amount"))
-#########################################################################################################
+                #########################################################################################################
                 # if current_round is not None:
                 #     rounds[ID] = round_number
                 #     current_round = first_rounds[ohh[GAME_TYPE]]
                 #     rounds[STREET] = current_round
                 #     round_commit[player] = amount
-#########################################################################################################
+                #########################################################################################################
                 round_obj[ID] = round_number
                 current_round = first_rounds[ohh[GAME_TYPE]]
                 round_obj[STREET] = current_round
@@ -628,7 +640,7 @@ for poker_now_file in csv_file_list:
                 action[ACTION_NUMBER] = action_number
                 action[PLAYER_ID] = player_ids[player]
                 action[ACTION] = verb_to_action[does]
-                if does in ('raises', 'calls'):
+                if does in ("raises", "calls"):
                     amount = round(amount - round_commit[player], 2)
                 action[AMOUNT] = amount
                 round_commit[player] += amount
@@ -666,7 +678,9 @@ for poker_now_file in csv_file_list:
             potObj = {NUMBER: pot_number, AMOUNT: amt, RAKE: rake, PLAYER_WINS: []}
             for player_id in pot_obj[pot_number][PLAYER_WINS]:
                 win_amount = pot_obj[pot_number][PLAYER_WINS][player_id][WIN_AMOUNT]
-                rake_contribution = pot_obj[pot_number][PLAYER_WINS][player_id][CONTRIBUTED_RAKE]
+                rake_contribution = pot_obj[pot_number][PLAYER_WINS][player_id][
+                    CONTRIBUTED_RAKE
+                ]
                 player_win_obj = {
                     PLAYER_ID: player_id,
                     WIN_AMOUNT: win_amount,
@@ -684,7 +698,11 @@ for poker_now_file in csv_file_list:
         # print(ohh)
     ohh_directory = Path("OpenHandHistory")
     for table in tables:
-        with open(ohh_directory / poker_now_file.with_suffix(".ohh").name , "w", encoding='utf-8') as f:
+        with open(
+            ohh_directory / poker_now_file.with_suffix(".ohh").name,
+            "w",
+            encoding="utf-8",
+        ) as f:
             for ohh in tables[table][OHH]:
                 wrapped_ohh = {}
                 wrapped_ohh[OHH] = ohh
