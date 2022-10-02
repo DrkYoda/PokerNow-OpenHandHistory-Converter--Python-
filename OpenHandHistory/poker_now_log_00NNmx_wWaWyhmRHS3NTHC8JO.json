@@ -57,7 +57,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.4
+                        "amount": 0.5
                     },
                     {
                         "action_number": 3,
@@ -223,7 +223,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -404,13 +404,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -581,13 +581,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -715,13 +715,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -928,7 +928,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -1094,7 +1094,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -1340,13 +1340,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -1506,19 +1506,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -1640,13 +1640,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -1680,7 +1680,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -1781,7 +1781,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -1867,13 +1867,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -1981,13 +1981,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -2016,13 +2016,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 3.0
+                        "amount": 3.25
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 2.0
+                        "amount": 3.25
                     }
                 ]
             },
@@ -2142,7 +2142,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -2228,7 +2228,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -2394,7 +2394,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -2560,7 +2560,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -2726,13 +2726,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -2840,13 +2840,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -3140,7 +3140,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -3386,13 +3386,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -3500,7 +3500,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -3586,7 +3586,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -3672,13 +3672,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -3764,19 +3764,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -3897,7 +3897,7 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -4135,7 +4135,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
@@ -4635,19 +4635,19 @@
                         "action_number": 4,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.5
+                        "amount": 0.75
                     },
                     {
                         "action_number": 6,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -4780,7 +4780,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 5,
@@ -4954,7 +4954,7 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
@@ -5030,7 +5030,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 7.76
+                        "amount": 11.64
                     }
                 ]
             },
@@ -5152,13 +5152,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -5208,7 +5208,7 @@
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 4.1
+                        "amount": 5.8
                     }
                 ]
             },
@@ -5342,7 +5342,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -5463,7 +5463,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
@@ -5474,7 +5474,7 @@
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -5603,13 +5603,13 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -5814,13 +5814,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -5954,13 +5954,13 @@
                         "action_number": 4,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -6099,7 +6099,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 5,
@@ -6326,7 +6326,7 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 5,
@@ -6525,13 +6525,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -6737,13 +6737,13 @@
                         "action_number": 4,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -6908,13 +6908,13 @@
                         "action_number": 5,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.63
+                        "amount": 0.88
                     },
                     {
                         "action_number": 6,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.63
+                        "amount": 0.88
                     }
                 ]
             },
@@ -7082,7 +7082,7 @@
                         "action_number": 6,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.85
+                        "amount": 1.1
                     }
                 ]
             },
@@ -7271,13 +7271,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -7446,13 +7446,13 @@
                         "action_number": 6,
                         "player_id": 4,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 7,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -7695,25 +7695,25 @@
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 3.04
+                        "amount": 3.14
                     },
                     {
                         "action_number": 7,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 2.89
+                        "amount": 3.14
                     },
                     {
                         "action_number": 8,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 2.89
+                        "amount": 3.14
                     },
                     {
                         "action_number": 9,
                         "player_id": 4,
                         "action": "Call",
-                        "amount": 2.26
+                        "amount": 3.14
                     }
                 ]
             },
@@ -7947,25 +7947,25 @@
                         "action_number": 6,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.25
+                        "amount": 1.35
                     },
                     {
                         "action_number": 7,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 1.1
+                        "amount": 1.35
                     },
                     {
                         "action_number": 8,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 1.1
+                        "amount": 1.35
                     },
                     {
                         "action_number": 9,
                         "player_id": 4,
                         "action": "Call",
-                        "amount": 1.1
+                        "amount": 1.35
                     }
                 ]
             },
@@ -8149,13 +8149,13 @@
                         "action_number": 6,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 7,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -8392,7 +8392,7 @@
                         "action_number": 7,
                         "player_id": 4,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -8575,13 +8575,13 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.6
+                        "amount": 0.85
                     },
                     {
                         "action_number": 6,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -8770,7 +8770,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
@@ -8781,7 +8781,7 @@
                         "action_number": 6,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -8914,7 +8914,7 @@
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -9061,13 +9061,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -9211,13 +9211,13 @@
                         "action_number": 4,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -9556,19 +9556,19 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 6,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -9706,7 +9706,7 @@
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -9976,7 +9976,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 5,
@@ -10169,7 +10169,7 @@
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -10303,13 +10303,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -10354,13 +10354,13 @@
                         "action_number": 5,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 4.25
+                        "amount": 5.95
                     },
                     {
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 4.25
+                        "amount": 5.95
                     }
                 ]
             },
@@ -10804,13 +10804,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 3.4
+                        "amount": 3.65
                     },
                     {
                         "action_number": 5,
@@ -10937,7 +10937,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
@@ -11154,7 +11154,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -11324,7 +11324,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -11557,13 +11557,13 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.65
+                        "amount": 2.9
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 2.05
+                        "amount": 2.9
                     }
                 ]
             },
@@ -11747,7 +11747,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -11998,19 +11998,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.5
+                        "amount": 0.75
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -12165,13 +12165,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -12221,7 +12221,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 7.5
+                        "amount": 12.0
                     }
                 ]
             },
@@ -12365,13 +12365,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -12533,7 +12533,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -12654,7 +12654,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -12835,7 +12835,7 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -12864,7 +12864,7 @@
                         "action_number": 2,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 4.5
+                        "amount": 5.85
                     }
                 ]
             },
@@ -13097,13 +13097,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -13225,19 +13225,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -13410,13 +13410,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -13565,13 +13565,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -13600,7 +13600,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 2.12
+                        "amount": 3.24
                     }
                 ]
             },
@@ -13732,13 +13732,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -13772,7 +13772,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 3.0
+                        "amount": 3.75
                     }
                 ]
             },
@@ -13799,14 +13799,14 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 28.52,
+                        "amount": 33.02,
                         "is_allin": true
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 10.52
+                        "amount": 33.02
                     }
                 ]
             },
@@ -13919,13 +13919,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -14033,13 +14033,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -14209,13 +14209,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -14379,13 +14379,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -14544,7 +14544,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -14630,13 +14630,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -14809,13 +14809,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -14942,13 +14942,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -15107,19 +15107,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -15287,13 +15287,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -15459,13 +15459,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -15551,13 +15551,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -15881,7 +15881,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -15967,19 +15967,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -16134,7 +16134,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -16380,7 +16380,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -16466,19 +16466,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -16720,13 +16720,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -16874,19 +16874,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -17050,7 +17050,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -17136,13 +17136,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -17228,13 +17228,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -17320,7 +17320,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -17566,13 +17566,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -17779,13 +17779,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -17955,7 +17955,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -18041,25 +18041,25 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.25
+                        "amount": 2.5
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 6.0
+                        "amount": 6.75
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 18.75
+                        "amount": 21.25
                     },
                     {
                         "action_number": 6,
@@ -18145,13 +18145,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -18322,13 +18322,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -18511,13 +18511,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -18683,7 +18683,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -18769,13 +18769,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -18920,19 +18920,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -19035,7 +19035,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -19121,13 +19121,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -19334,13 +19334,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -19426,13 +19426,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -19580,13 +19580,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -19752,19 +19752,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -19971,13 +19971,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -20112,7 +20112,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -20198,13 +20198,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -20368,13 +20368,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -20531,7 +20531,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -20777,25 +20777,25 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 5.5
+                        "amount": 6.25
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 4.0
+                        "amount": 6.25
                     }
                 ]
             },
@@ -20903,7 +20903,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -20989,13 +20989,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -21129,7 +21129,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -21215,7 +21215,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -21301,13 +21301,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -21485,13 +21485,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -21644,13 +21644,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -21825,13 +21825,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -21953,13 +21953,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -22086,13 +22086,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -22258,7 +22258,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -22344,19 +22344,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -22513,13 +22513,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -22683,13 +22683,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -22837,19 +22837,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -22973,13 +22973,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -23101,13 +23101,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -23234,7 +23234,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -23320,13 +23320,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -23412,7 +23412,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 28.02
+                        "amount": 37.36
                     }
                 ]
             },
@@ -23508,13 +23508,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -23664,13 +23664,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -23804,13 +23804,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -23988,19 +23988,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -24129,13 +24129,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -24258,13 +24258,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -24414,19 +24414,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -24534,13 +24534,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -24708,13 +24708,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -24916,13 +24916,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -25101,13 +25101,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 2.4
+                        "amount": 2.65
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.8
+                        "amount": 2.65
                     }
                 ]
             },
@@ -25222,13 +25222,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -25297,7 +25297,7 @@
                         "action_number": 2,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 9.34
+                        "amount": 12.14
                     }
                 ]
             },
@@ -25420,13 +25420,13 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.6
+                        "amount": 0.85
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -25639,7 +25639,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -25811,13 +25811,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -25979,7 +25979,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -26165,13 +26165,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -26338,7 +26338,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
@@ -26437,7 +26437,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.45
+                        "amount": 2.55
                     },
                     {
                         "action_number": 4,
@@ -26448,7 +26448,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.7
+                        "amount": 2.55
                     }
                 ]
             },
@@ -26637,7 +26637,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -26809,19 +26809,19 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -26946,7 +26946,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
@@ -27044,7 +27044,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -27170,7 +27170,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -27352,7 +27352,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.45
+                        "amount": 2.55
                     },
                     {
                         "action_number": 4,
@@ -27363,7 +27363,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.7
+                        "amount": 2.55
                     }
                 ]
             },
@@ -27825,7 +27825,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 3,
@@ -27933,13 +27933,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -28263,7 +28263,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 3,
@@ -28390,13 +28390,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -28644,7 +28644,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -28730,19 +28730,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -28908,13 +28908,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -29072,7 +29072,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 3,
@@ -29106,7 +29106,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.25
                     }
                 ]
             },
@@ -29319,19 +29319,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 1.0
+                        "amount": 1.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.0
+                        "amount": 1.25
                     }
                 ]
             },
@@ -29458,7 +29458,7 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 5,
@@ -29641,13 +29641,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -29768,19 +29768,19 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.7
+                        "amount": 2.8
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 2.55
+                        "amount": 2.8
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.95
+                        "amount": 2.8
                     }
                 ]
             },
@@ -29946,13 +29946,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -30132,7 +30132,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -30334,7 +30334,7 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -30455,13 +30455,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -30587,7 +30587,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -30773,7 +30773,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -30913,13 +30913,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -31067,19 +31067,19 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -31270,13 +31270,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -31456,13 +31456,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -31647,7 +31647,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
@@ -31658,7 +31658,7 @@
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -31774,7 +31774,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.7
+                        "amount": 2.8
                     },
                     {
                         "action_number": 4,
@@ -31785,7 +31785,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.95
+                        "amount": 2.8
                     }
                 ]
             },
@@ -31962,13 +31962,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -32118,19 +32118,19 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.71
+                        "amount": 0.81
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.56
+                        "amount": 0.81
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.56
+                        "amount": 0.81
                     }
                 ]
             },
@@ -32304,13 +32304,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -32426,13 +32426,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -32574,13 +32574,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 3.0
+                        "amount": 3.25
                     },
                     {
                         "action_number": 5,
@@ -32591,7 +32591,7 @@
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 2.25
+                        "amount": 3.25
                     }
                 ]
             },
@@ -32815,7 +32815,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -33042,7 +33042,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.45
+                        "amount": 2.55
                     },
                     {
                         "action_number": 4,
@@ -33243,7 +33243,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
@@ -33439,7 +33439,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -33710,7 +33710,7 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -33880,7 +33880,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -33994,13 +33994,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -34207,13 +34207,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
@@ -34317,13 +34317,13 @@
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 1.1
+                        "amount": 1.35
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 1.1
+                        "amount": 1.35
                     }
                 ]
             },
@@ -34542,13 +34542,13 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.4
+                        "amount": 2.65
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.8
+                        "amount": 2.65
                     }
                 ]
             },
@@ -34724,7 +34724,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
@@ -34828,13 +34828,13 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 1.5
+                        "amount": 1.75
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.9
+                        "amount": 1.75
                     }
                 ]
             },
@@ -34990,13 +34990,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -35146,7 +35146,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -35180,7 +35180,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.97
+                        "amount": 1.94
                     }
                 ]
             },
@@ -35299,7 +35299,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.45
+                        "amount": 2.55
                     },
                     {
                         "action_number": 4,
@@ -35310,7 +35310,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.7
+                        "amount": 2.55
                     }
                 ]
             },
@@ -35480,7 +35480,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -35612,19 +35612,19 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -35903,19 +35903,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -36076,19 +36076,19 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -36282,7 +36282,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.2
+                        "amount": 2.3
                     },
                     {
                         "action_number": 4,
@@ -36293,7 +36293,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.45
+                        "amount": 2.3
                     }
                 ]
             },
@@ -36453,19 +36453,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.5
+                        "amount": 0.75
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -36641,13 +36641,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -36826,13 +36826,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -37112,13 +37112,13 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -37258,13 +37258,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -37324,7 +37324,7 @@
                         "action_number": 2,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 7.65,
+                        "amount": 10.19,
                         "is_allin": true
                     }
                 ]
@@ -37451,13 +37451,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -37631,7 +37631,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -37805,7 +37805,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -37931,7 +37931,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -37994,19 +37994,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 9.0
+                        "amount": 9.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 19.12
+                        "amount": 22.12
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 12.37,
+                        "amount": 22.12,
                         "is_allin": true
                     }
                 ]
@@ -38133,7 +38133,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -38336,13 +38336,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -38497,19 +38497,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 1.72
+                        "amount": 1.82
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.57
+                        "amount": 1.82
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.97
+                        "amount": 1.82
                     }
                 ]
             },
@@ -38672,7 +38672,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.9
+                        "amount": 1.0
                     },
                     {
                         "action_number": 4,
@@ -38683,7 +38683,7 @@
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -38804,13 +38804,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -38990,19 +38990,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 3.15
+                        "amount": 3.4
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 2.55
+                        "amount": 3.4
                     },
                     {
                         "action_number": 6,
@@ -39129,7 +39129,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -39335,7 +39335,7 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -39461,7 +39461,7 @@
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -39638,7 +39638,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -39785,7 +39785,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.7
+                        "amount": 2.8
                     },
                     {
                         "action_number": 4,
@@ -39796,7 +39796,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.95
+                        "amount": 2.8
                     }
                 ]
             },
@@ -39976,19 +39976,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -40133,7 +40133,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 3,
@@ -40259,13 +40259,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -40443,7 +40443,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -40498,7 +40498,7 @@
                         "action_number": 2,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 4.5
+                        "amount": 6.0
                     }
                 ]
             },
@@ -40612,7 +40612,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -40806,19 +40806,19 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.7
+                        "amount": 2.8
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 2.55
+                        "amount": 2.8
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.95
+                        "amount": 2.8
                     }
                 ]
             },
@@ -41007,13 +41007,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -41302,13 +41302,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -41509,13 +41509,13 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -41711,25 +41711,25 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -41900,13 +41900,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -42021,19 +42021,19 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.5
+                        "amount": 0.75
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -42246,7 +42246,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.7
+                        "amount": 2.8
                     },
                     {
                         "action_number": 4,
@@ -42350,7 +42350,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
@@ -42490,7 +42490,7 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -42679,13 +42679,13 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 0.85
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.6
+                        "amount": 0.85
                     }
                 ]
             },
@@ -42761,13 +42761,13 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 19.08
+                        "amount": 22.26
                     },
                     {
                         "action_number": 6,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 12.72
+                        "amount": 22.26
                     }
                 ]
             },
@@ -42910,7 +42910,7 @@
                         "action_number": 3,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
@@ -43049,25 +43049,25 @@
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 5,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     },
                     {
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.75
+                        "amount": 1.0
                     }
                 ]
             },
@@ -43128,7 +43128,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 4.21
+                        "amount": 7.96
                     }
                 ]
             },
@@ -43321,13 +43321,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -43435,7 +43435,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -43521,13 +43521,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -43630,13 +43630,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -43739,13 +43739,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -43867,7 +43867,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -43953,13 +43953,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -44242,13 +44242,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -44494,13 +44494,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -44608,7 +44608,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -44694,7 +44694,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -44780,13 +44780,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -44974,7 +44974,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -45060,7 +45060,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -45146,7 +45146,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -45232,7 +45232,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -45318,19 +45318,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -45494,7 +45494,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -45660,7 +45660,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -45906,13 +45906,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -45960,7 +45960,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 2.0
+                        "amount": 2.25
                     }
                 ]
             },
@@ -46081,13 +46081,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -46214,7 +46214,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -46475,7 +46475,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -46561,7 +46561,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -46742,13 +46742,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
@@ -46834,13 +46834,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -47018,19 +47018,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -47133,7 +47133,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -47219,13 +47219,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -47428,7 +47428,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -47609,7 +47609,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -47695,13 +47695,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -47761,7 +47761,7 @@
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 3.5
+                        "amount": 5.0
                     }
                 ]
             },
@@ -47942,7 +47942,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -48028,13 +48028,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -48202,7 +48202,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -48472,13 +48472,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -48646,7 +48646,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -48732,7 +48732,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -48818,13 +48818,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -49062,7 +49062,7 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -49308,7 +49308,7 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
@@ -49394,19 +49394,19 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -49664,13 +49664,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -50249,13 +50249,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
@@ -50419,13 +50419,13 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.75
+                        "amount": 3.0
                     },
                     {
                         "action_number": 4,
@@ -50781,19 +50781,19 @@
                         "action_number": 2,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 2.0
+                        "amount": 2.25
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 1.5
+                        "amount": 2.25
                     }
                 ]
             },
@@ -50896,13 +50896,13 @@
                         "action_number": 2,
                         "player_id": 1,
                         "action": "Raise",
-                        "amount": 0.65
+                        "amount": 0.75
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.5
+                        "amount": 0.75
                     }
                 ]
             },
