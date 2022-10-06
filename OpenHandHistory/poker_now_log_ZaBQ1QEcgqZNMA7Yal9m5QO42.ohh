@@ -4,8 +4,42 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
+        "game_number": "0",
+        "start_date_utc": "",
+        "table_name": "",
+        "game_type": "Holdem",
+        "bet_limit": {
+            "bet_type": "NL"
+        },
+        "table_size": 10,
+        "currency": "USD",
+        "dealer_seat": 1,
+        "small_blind_amount": 0.1,
+        "big_blind_amount": 0.2,
+        "ante_amount": 0.0,
+        "hero_player_id": 0,
+        "flags": [],
+        "players": [],
+        "rounds": [
+            {
+                "id": 0,
+                "street": "",
+                "cards": [],
+                "actions": []
+            }
+        ],
+        "pots": []
+    }
+}
+
+{
+    "ohh": {
+        "spec_version": "1.2.2",
+        "site_name": "PokerStars",
+        "network_name": "PokerStars",
+        "internal_version": "1.2.2",
         "game_number": "1",
-        "start_date_utc": "2021-08-06T23:55:30.261Z",
+        "start_date_utc": "2021-08-06T23:55:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -114,7 +148,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "2",
-        "start_date_utc": "2021-08-06T23:55:46.856Z",
+        "start_date_utc": "2021-08-06T23:55:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -248,7 +282,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "3",
-        "start_date_utc": "2021-08-06T23:56:58.522Z",
+        "start_date_utc": "2021-08-06T23:56:58Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -328,7 +362,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "4",
-        "start_date_utc": "2021-08-06T23:57:12.320Z",
+        "start_date_utc": "2021-08-06T23:57:12Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -408,7 +442,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "5",
-        "start_date_utc": "2021-08-06T23:57:22.762Z",
+        "start_date_utc": "2021-08-06T23:57:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -517,7 +551,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "6",
-        "start_date_utc": "2021-08-06T23:58:24.201Z",
+        "start_date_utc": "2021-08-06T23:58:24Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -603,7 +637,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "7",
-        "start_date_utc": "2021-08-06T23:58:56.660Z",
+        "start_date_utc": "2021-08-06T23:58:56Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -689,7 +723,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "8",
-        "start_date_utc": "2021-08-06T23:59:10.094Z",
+        "start_date_utc": "2021-08-06T23:59:10Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -769,7 +803,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "9",
-        "start_date_utc": "2021-08-06T23:59:27.024Z",
+        "start_date_utc": "2021-08-06T23:59:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -923,7 +957,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "10",
-        "start_date_utc": "2021-08-07T00:02:18.362Z",
+        "start_date_utc": "2021-08-07T00:02:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1015,7 +1049,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "11",
-        "start_date_utc": "2021-08-07T00:03:11.401Z",
+        "start_date_utc": "2021-08-07T00:03:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1101,7 +1135,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "12",
-        "start_date_utc": "2021-08-07T00:03:21.921Z",
+        "start_date_utc": "2021-08-07T00:03:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1187,7 +1221,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "13",
-        "start_date_utc": "2021-08-07T00:03:35.098Z",
+        "start_date_utc": "2021-08-07T00:03:35Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1273,7 +1307,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "14",
-        "start_date_utc": "2021-08-07T00:03:44.503Z",
+        "start_date_utc": "2021-08-07T00:03:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1365,7 +1399,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "15",
-        "start_date_utc": "2021-08-07T00:04:20.042Z",
+        "start_date_utc": "2021-08-07T00:04:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1445,7 +1479,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "16",
-        "start_date_utc": "2021-08-07T00:04:30.005Z",
+        "start_date_utc": "2021-08-07T00:04:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1613,7 +1647,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "17",
-        "start_date_utc": "2021-08-07T00:05:53.940Z",
+        "start_date_utc": "2021-08-07T00:05:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1741,7 +1775,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "18",
-        "start_date_utc": "2021-08-07T00:06:20.148Z",
+        "start_date_utc": "2021-08-07T00:06:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1821,7 +1855,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "19",
-        "start_date_utc": "2021-08-07T00:06:41.422Z",
+        "start_date_utc": "2021-08-07T00:06:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -1991,7 +2025,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "20",
-        "start_date_utc": "2021-08-07T00:07:41.870Z",
+        "start_date_utc": "2021-08-07T00:07:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2077,7 +2111,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "21",
-        "start_date_utc": "2021-08-07T00:07:52.081Z",
+        "start_date_utc": "2021-08-07T00:07:52Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2163,7 +2197,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "22",
-        "start_date_utc": "2021-08-07T00:08:01.428Z",
+        "start_date_utc": "2021-08-07T00:08:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2243,7 +2277,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "23",
-        "start_date_utc": "2021-08-07T00:08:15.644Z",
+        "start_date_utc": "2021-08-07T00:08:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2376,7 +2410,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "24",
-        "start_date_utc": "2021-08-07T00:09:11.039Z",
+        "start_date_utc": "2021-08-07T00:09:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2462,7 +2496,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "25",
-        "start_date_utc": "2021-08-07T00:09:28.289Z",
+        "start_date_utc": "2021-08-07T00:09:28Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2542,7 +2576,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "26",
-        "start_date_utc": "2021-08-07T00:09:37.925Z",
+        "start_date_utc": "2021-08-07T00:09:37Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2712,7 +2746,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "27",
-        "start_date_utc": "2021-08-07T00:10:27.400Z",
+        "start_date_utc": "2021-08-07T00:10:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2792,7 +2826,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "28",
-        "start_date_utc": "2021-08-07T00:10:32.733Z",
+        "start_date_utc": "2021-08-07T00:10:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -2954,7 +2988,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "29",
-        "start_date_utc": "2021-08-07T00:11:56.347Z",
+        "start_date_utc": "2021-08-07T00:11:56Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3034,7 +3068,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "30",
-        "start_date_utc": "2021-08-07T00:12:01.934Z",
+        "start_date_utc": "2021-08-07T00:12:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3114,7 +3148,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "31",
-        "start_date_utc": "2021-08-07T00:12:22.264Z",
+        "start_date_utc": "2021-08-07T00:12:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3200,7 +3234,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "32",
-        "start_date_utc": "2021-08-07T00:12:32.346Z",
+        "start_date_utc": "2021-08-07T00:12:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3286,7 +3320,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "33",
-        "start_date_utc": "2021-08-07T00:13:02.643Z",
+        "start_date_utc": "2021-08-07T00:13:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3447,7 +3481,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "34",
-        "start_date_utc": "2021-08-07T00:14:45.243Z",
+        "start_date_utc": "2021-08-07T00:14:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3533,7 +3567,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "35",
-        "start_date_utc": "2021-08-07T00:15:02.750Z",
+        "start_date_utc": "2021-08-07T00:15:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3625,7 +3659,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "36",
-        "start_date_utc": "2021-08-07T00:15:15.248Z",
+        "start_date_utc": "2021-08-07T00:15:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3717,7 +3751,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "37",
-        "start_date_utc": "2021-08-07T00:15:49.706Z",
+        "start_date_utc": "2021-08-07T00:15:49Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3803,7 +3837,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "38",
-        "start_date_utc": "2021-08-07T00:16:03.501Z",
+        "start_date_utc": "2021-08-07T00:16:03Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3889,7 +3923,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "39",
-        "start_date_utc": "2021-08-07T00:16:43.395Z",
+        "start_date_utc": "2021-08-07T00:16:43Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -3975,7 +4009,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "40",
-        "start_date_utc": "2021-08-07T00:16:58.452Z",
+        "start_date_utc": "2021-08-07T00:16:58Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4067,7 +4101,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "41",
-        "start_date_utc": "2021-08-07T00:17:29.717Z",
+        "start_date_utc": "2021-08-07T00:17:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4204,7 +4238,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "42",
-        "start_date_utc": "2021-08-07T00:18:51.743Z",
+        "start_date_utc": "2021-08-07T00:18:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4302,7 +4336,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "43",
-        "start_date_utc": "2021-08-07T00:19:14.521Z",
+        "start_date_utc": "2021-08-07T00:19:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4494,7 +4528,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "44",
-        "start_date_utc": "2021-08-07T00:20:37.243Z",
+        "start_date_utc": "2021-08-07T00:20:37Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4634,7 +4668,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "45",
-        "start_date_utc": "2021-08-07T00:21:03.408Z",
+        "start_date_utc": "2021-08-07T00:21:03Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4810,7 +4844,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "46",
-        "start_date_utc": "2021-08-07T00:21:57.201Z",
+        "start_date_utc": "2021-08-07T00:21:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -4902,7 +4936,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "47",
-        "start_date_utc": "2021-08-07T00:22:04.984Z",
+        "start_date_utc": "2021-08-07T00:22:04Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5023,7 +5057,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "48",
-        "start_date_utc": "2021-08-07T00:22:35.139Z",
+        "start_date_utc": "2021-08-07T00:22:35Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5210,7 +5244,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "49",
-        "start_date_utc": "2021-08-07T00:23:58.431Z",
+        "start_date_utc": "2021-08-07T00:23:58Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5408,7 +5442,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "50",
-        "start_date_utc": "2021-08-07T00:25:21.216Z",
+        "start_date_utc": "2021-08-07T00:25:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5512,7 +5546,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "51",
-        "start_date_utc": "2021-08-07T00:25:53.612Z",
+        "start_date_utc": "2021-08-07T00:25:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5679,7 +5713,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "52",
-        "start_date_utc": "2021-08-07T00:27:05.590Z",
+        "start_date_utc": "2021-08-07T00:27:05Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5805,7 +5839,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "53",
-        "start_date_utc": "2021-08-07T00:27:42.393Z",
+        "start_date_utc": "2021-08-07T00:27:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -5993,7 +6027,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "54",
-        "start_date_utc": "2021-08-07T00:29:20.021Z",
+        "start_date_utc": "2021-08-07T00:29:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6097,7 +6131,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "55",
-        "start_date_utc": "2021-08-07T00:29:45.563Z",
+        "start_date_utc": "2021-08-07T00:29:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6239,7 +6273,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "56",
-        "start_date_utc": "2021-08-07T00:30:49.455Z",
+        "start_date_utc": "2021-08-07T00:30:49Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6377,7 +6411,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "57",
-        "start_date_utc": "2021-08-07T00:31:54.447Z",
+        "start_date_utc": "2021-08-07T00:31:54Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6475,7 +6509,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "58",
-        "start_date_utc": "2021-08-07T00:32:19.725Z",
+        "start_date_utc": "2021-08-07T00:32:19Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6629,7 +6663,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "59",
-        "start_date_utc": "2021-08-07T00:33:11.779Z",
+        "start_date_utc": "2021-08-07T00:33:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6727,7 +6761,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "60",
-        "start_date_utc": "2021-08-07T00:33:30.282Z",
+        "start_date_utc": "2021-08-07T00:33:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6825,7 +6859,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "61",
-        "start_date_utc": "2021-08-07T00:34:11.999Z",
+        "start_date_utc": "2021-08-07T00:34:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -6923,7 +6957,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "62",
-        "start_date_utc": "2021-08-07T00:34:38.392Z",
+        "start_date_utc": "2021-08-07T00:34:38Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7015,7 +7049,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "63",
-        "start_date_utc": "2021-08-07T00:34:47.210Z",
+        "start_date_utc": "2021-08-07T00:34:47Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7113,7 +7147,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "64",
-        "start_date_utc": "2021-08-07T00:35:16.216Z",
+        "start_date_utc": "2021-08-07T00:35:16Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7264,7 +7298,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "65",
-        "start_date_utc": "2021-08-07T00:37:07.767Z",
+        "start_date_utc": "2021-08-07T00:37:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7362,7 +7396,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "66",
-        "start_date_utc": "2021-08-07T00:37:38.293Z",
+        "start_date_utc": "2021-08-07T00:37:38Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7454,7 +7488,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "67",
-        "start_date_utc": "2021-08-07T00:37:52.134Z",
+        "start_date_utc": "2021-08-07T00:37:52Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7552,7 +7586,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "68",
-        "start_date_utc": "2021-08-07T00:38:17.453Z",
+        "start_date_utc": "2021-08-07T00:38:17Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7734,7 +7768,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "69",
-        "start_date_utc": "2021-08-07T00:40:08.717Z",
+        "start_date_utc": "2021-08-07T00:40:08Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -7861,7 +7895,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "70",
-        "start_date_utc": "2021-08-07T00:41:25.942Z",
+        "start_date_utc": "2021-08-07T00:41:25Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8010,7 +8044,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "71",
-        "start_date_utc": "2021-08-07T00:43:21.978Z",
+        "start_date_utc": "2021-08-07T00:43:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8217,7 +8251,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "72",
-        "start_date_utc": "2021-08-07T00:46:00.416Z",
+        "start_date_utc": "2021-08-07T00:46:00Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8309,7 +8343,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "73",
-        "start_date_utc": "2021-08-07T00:46:11.463Z",
+        "start_date_utc": "2021-08-07T00:46:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8489,7 +8523,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "74",
-        "start_date_utc": "2021-08-07T00:51:18.537Z",
+        "start_date_utc": "2021-08-07T00:51:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8587,7 +8621,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "75",
-        "start_date_utc": "2021-08-07T00:51:46.189Z",
+        "start_date_utc": "2021-08-07T00:51:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8714,7 +8748,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "76",
-        "start_date_utc": "2021-08-07T00:52:45.035Z",
+        "start_date_utc": "2021-08-07T00:52:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8884,7 +8918,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "77",
-        "start_date_utc": "2021-08-07T00:54:40.465Z",
+        "start_date_utc": "2021-08-07T00:54:40Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -8982,7 +9016,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "78",
-        "start_date_utc": "2021-08-07T00:54:56.122Z",
+        "start_date_utc": "2021-08-07T00:54:56Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -9080,7 +9114,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "79",
-        "start_date_utc": "2021-08-07T00:55:07.431Z",
+        "start_date_utc": "2021-08-07T00:55:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -9217,7 +9251,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "80",
-        "start_date_utc": "2021-08-07T00:56:42.039Z",
+        "start_date_utc": "2021-08-07T00:56:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -9410,7 +9444,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "81",
-        "start_date_utc": "2021-08-07T00:58:10.991Z",
+        "start_date_utc": "2021-08-07T00:58:10Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -9560,7 +9594,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "82",
-        "start_date_utc": "2021-08-07T00:58:44.035Z",
+        "start_date_utc": "2021-08-07T00:58:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -9741,7 +9775,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "83",
-        "start_date_utc": "2021-08-07T00:59:48.794Z",
+        "start_date_utc": "2021-08-07T00:59:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -9897,7 +9931,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "84",
-        "start_date_utc": "2021-08-07T01:00:36.785Z",
+        "start_date_utc": "2021-08-07T01:00:36Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10080,7 +10114,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "85",
-        "start_date_utc": "2021-08-07T01:01:46.889Z",
+        "start_date_utc": "2021-08-07T01:01:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10212,7 +10246,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "86",
-        "start_date_utc": "2021-08-07T01:02:34.059Z",
+        "start_date_utc": "2021-08-07T01:02:34Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10390,7 +10424,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "87",
-        "start_date_utc": "2021-08-07T01:04:20.956Z",
+        "start_date_utc": "2021-08-07T01:04:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10567,7 +10601,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "88",
-        "start_date_utc": "2021-08-07T01:05:51.462Z",
+        "start_date_utc": "2021-08-07T01:05:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10706,7 +10740,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "89",
-        "start_date_utc": "2021-08-07T01:06:30.731Z",
+        "start_date_utc": "2021-08-07T01:06:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10844,7 +10878,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "90",
-        "start_date_utc": "2021-08-07T01:07:33.268Z",
+        "start_date_utc": "2021-08-07T01:07:33Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -10988,7 +11022,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "91",
-        "start_date_utc": "2021-08-07T01:08:48.752Z",
+        "start_date_utc": "2021-08-07T01:08:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -11127,7 +11161,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "92",
-        "start_date_utc": "2021-08-07T01:10:02.744Z",
+        "start_date_utc": "2021-08-07T01:10:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -11310,7 +11344,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "93",
-        "start_date_utc": "2021-08-07T01:11:28.100Z",
+        "start_date_utc": "2021-08-07T01:11:28Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -11537,7 +11571,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "94",
-        "start_date_utc": "2021-08-07T01:14:15.495Z",
+        "start_date_utc": "2021-08-07T01:14:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -11691,7 +11725,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "95",
-        "start_date_utc": "2021-08-07T01:15:40.211Z",
+        "start_date_utc": "2021-08-07T01:15:40Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -11807,7 +11841,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "96",
-        "start_date_utc": "2021-08-07T01:15:57.491Z",
+        "start_date_utc": "2021-08-07T01:15:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -12033,7 +12067,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "97",
-        "start_date_utc": "2021-08-07T01:17:45.638Z",
+        "start_date_utc": "2021-08-07T01:17:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -12177,7 +12211,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "98",
-        "start_date_utc": "2021-08-07T01:18:54.935Z",
+        "start_date_utc": "2021-08-07T01:18:54Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -12344,7 +12378,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "99",
-        "start_date_utc": "2021-08-07T01:20:27.844Z",
+        "start_date_utc": "2021-08-07T01:20:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -12523,7 +12557,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "100",
-        "start_date_utc": "2021-08-07T01:21:47.942Z",
+        "start_date_utc": "2021-08-07T01:21:47Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -12727,7 +12761,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "101",
-        "start_date_utc": "2021-08-07T01:23:34.835Z",
+        "start_date_utc": "2021-08-07T01:23:34Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -12948,7 +12982,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "102",
-        "start_date_utc": "2021-08-07T01:24:51.037Z",
+        "start_date_utc": "2021-08-07T01:24:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -13155,7 +13189,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "103",
-        "start_date_utc": "2021-08-07T01:26:22.119Z",
+        "start_date_utc": "2021-08-07T01:26:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -13348,7 +13382,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "104",
-        "start_date_utc": "2021-08-07T01:28:18.584Z",
+        "start_date_utc": "2021-08-07T01:28:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -13536,7 +13570,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "105",
-        "start_date_utc": "2021-08-07T01:29:55.443Z",
+        "start_date_utc": "2021-08-07T01:29:55Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -13769,7 +13803,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "106",
-        "start_date_utc": "2021-08-07T01:32:06.746Z",
+        "start_date_utc": "2021-08-07T01:32:06Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -13969,7 +14003,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "107",
-        "start_date_utc": "2021-08-07T01:33:07.317Z",
+        "start_date_utc": "2021-08-07T01:33:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -14156,7 +14190,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "108",
-        "start_date_utc": "2021-08-07T01:34:29.529Z",
+        "start_date_utc": "2021-08-07T01:34:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -14312,7 +14346,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "109",
-        "start_date_utc": "2021-08-07T01:35:09.394Z",
+        "start_date_utc": "2021-08-07T01:35:09Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -14497,7 +14531,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "110",
-        "start_date_utc": "2021-08-07T01:37:30.035Z",
+        "start_date_utc": "2021-08-07T01:37:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -14666,7 +14700,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "111",
-        "start_date_utc": "2021-08-07T01:38:28.391Z",
+        "start_date_utc": "2021-08-07T01:38:28Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -14904,7 +14938,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "112",
-        "start_date_utc": "2021-08-07T01:40:41.129Z",
+        "start_date_utc": "2021-08-07T01:40:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -15071,7 +15105,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "113",
-        "start_date_utc": "2021-08-07T01:42:01.071Z",
+        "start_date_utc": "2021-08-07T01:42:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -15305,7 +15339,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "114",
-        "start_date_utc": "2021-08-07T01:44:35.292Z",
+        "start_date_utc": "2021-08-07T01:44:35Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -15519,7 +15553,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "115",
-        "start_date_utc": "2021-08-07T01:46:01.848Z",
+        "start_date_utc": "2021-08-07T01:46:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -15694,7 +15728,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "116",
-        "start_date_utc": "2021-08-07T01:47:01.500Z",
+        "start_date_utc": "2021-08-07T01:47:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -15882,7 +15916,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "117",
-        "start_date_utc": "2021-08-07T01:48:37.901Z",
+        "start_date_utc": "2021-08-07T01:48:37Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -16094,7 +16128,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "118",
-        "start_date_utc": "2021-08-07T01:50:20.053Z",
+        "start_date_utc": "2021-08-07T01:50:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -16320,7 +16354,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "119",
-        "start_date_utc": "2021-08-07T01:51:27.411Z",
+        "start_date_utc": "2021-08-07T01:51:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -16543,7 +16577,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "120",
-        "start_date_utc": "2021-08-07T01:53:41.032Z",
+        "start_date_utc": "2021-08-07T01:53:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -16693,7 +16727,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "121",
-        "start_date_utc": "2021-08-07T01:54:19.565Z",
+        "start_date_utc": "2021-08-07T01:54:19Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -16824,7 +16858,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "122",
-        "start_date_utc": "2021-08-07T01:54:36.223Z",
+        "start_date_utc": "2021-08-07T01:54:36Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -16980,7 +17014,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "123",
-        "start_date_utc": "2021-08-07T01:55:44.203Z",
+        "start_date_utc": "2021-08-07T01:55:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -17216,7 +17250,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "124",
-        "start_date_utc": "2021-08-07T01:58:07.002Z",
+        "start_date_utc": "2021-08-07T01:58:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -17320,7 +17354,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "125",
-        "start_date_utc": "2021-08-07T01:58:32.632Z",
+        "start_date_utc": "2021-08-07T01:58:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -17476,7 +17510,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "126",
-        "start_date_utc": "2021-08-07T01:59:09.520Z",
+        "start_date_utc": "2021-08-07T01:59:09Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -17662,7 +17696,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "127",
-        "start_date_utc": "2021-08-07T02:01:14.475Z",
+        "start_date_utc": "2021-08-07T02:01:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -17913,7 +17947,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "128",
-        "start_date_utc": "2021-08-07T02:02:51.250Z",
+        "start_date_utc": "2021-08-07T02:02:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -18035,7 +18069,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "129",
-        "start_date_utc": "2021-08-07T02:03:13.043Z",
+        "start_date_utc": "2021-08-07T02:03:13Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -18185,7 +18219,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "130",
-        "start_date_utc": "2021-08-07T02:04:01.529Z",
+        "start_date_utc": "2021-08-07T02:04:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -18404,7 +18438,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "131",
-        "start_date_utc": "2021-08-07T02:05:31.405Z",
+        "start_date_utc": "2021-08-07T02:05:31Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -18566,7 +18600,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "132",
-        "start_date_utc": "2021-08-07T02:06:29.649Z",
+        "start_date_utc": "2021-08-07T02:06:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -18772,7 +18806,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "133",
-        "start_date_utc": "2021-08-07T02:07:46.768Z",
+        "start_date_utc": "2021-08-07T02:07:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -18967,7 +19001,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "134",
-        "start_date_utc": "2021-08-07T02:08:45.389Z",
+        "start_date_utc": "2021-08-07T02:08:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -19226,7 +19260,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "135",
-        "start_date_utc": "2021-08-07T02:12:27.386Z",
+        "start_date_utc": "2021-08-07T02:12:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -19413,7 +19447,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "136",
-        "start_date_utc": "2021-08-07T02:13:32.047Z",
+        "start_date_utc": "2021-08-07T02:13:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -19600,7 +19634,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "137",
-        "start_date_utc": "2021-08-07T02:14:47.792Z",
+        "start_date_utc": "2021-08-07T02:14:47Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -19844,7 +19878,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "138",
-        "start_date_utc": "2021-08-07T02:17:04.463Z",
+        "start_date_utc": "2021-08-07T02:17:04Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -20073,7 +20107,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "139",
-        "start_date_utc": "2021-08-07T02:18:37.653Z",
+        "start_date_utc": "2021-08-07T02:18:37Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -20288,7 +20322,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "140",
-        "start_date_utc": "2021-08-07T02:20:10.330Z",
+        "start_date_utc": "2021-08-07T02:20:10Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -20426,7 +20460,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "141",
-        "start_date_utc": "2021-08-07T02:20:51.983Z",
+        "start_date_utc": "2021-08-07T02:20:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -20621,7 +20655,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "142",
-        "start_date_utc": "2021-08-07T02:21:56.885Z",
+        "start_date_utc": "2021-08-07T02:21:56Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -20816,7 +20850,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "143",
-        "start_date_utc": "2021-08-07T02:23:08.720Z",
+        "start_date_utc": "2021-08-07T02:23:08Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -21000,7 +21034,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "144",
-        "start_date_utc": "2021-08-07T02:24:32.850Z",
+        "start_date_utc": "2021-08-07T02:24:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -21175,7 +21209,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "145",
-        "start_date_utc": "2021-08-07T02:25:44.964Z",
+        "start_date_utc": "2021-08-07T02:25:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -21358,7 +21392,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "146",
-        "start_date_utc": "2021-08-07T02:27:12.584Z",
+        "start_date_utc": "2021-08-07T02:27:12Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -21557,7 +21591,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "147",
-        "start_date_utc": "2021-08-07T02:28:57.045Z",
+        "start_date_utc": "2021-08-07T02:28:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -21775,7 +21809,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "148",
-        "start_date_utc": "2021-08-07T02:30:13.304Z",
+        "start_date_utc": "2021-08-07T02:30:13Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -21871,7 +21905,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Poast Dead",
+                        "action": "Post Dead",
                         "amount": 0.25
                     },
                     {
@@ -22056,7 +22090,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "149",
-        "start_date_utc": "2021-08-07T02:32:48.063Z",
+        "start_date_utc": "2021-08-07T02:32:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -22256,7 +22290,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "150",
-        "start_date_utc": "2021-08-07T02:33:58.121Z",
+        "start_date_utc": "2021-08-07T02:33:58Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -22512,7 +22546,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "151",
-        "start_date_utc": "2021-08-07T02:36:15.006Z",
+        "start_date_utc": "2021-08-07T02:36:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -22713,7 +22747,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "152",
-        "start_date_utc": "2021-08-07T02:37:58.788Z",
+        "start_date_utc": "2021-08-07T02:37:58Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -22944,7 +22978,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "153",
-        "start_date_utc": "2021-08-07T02:39:42.343Z",
+        "start_date_utc": "2021-08-07T02:39:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -23203,7 +23237,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "154",
-        "start_date_utc": "2021-08-07T02:41:17.253Z",
+        "start_date_utc": "2021-08-07T02:41:17Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -23488,7 +23522,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "155",
-        "start_date_utc": "2021-08-07T02:44:15.737Z",
+        "start_date_utc": "2021-08-07T02:44:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -23681,7 +23715,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "156",
-        "start_date_utc": "2021-08-07T02:46:57.728Z",
+        "start_date_utc": "2021-08-07T02:46:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -23842,7 +23876,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "157",
-        "start_date_utc": "2021-08-07T02:47:46.511Z",
+        "start_date_utc": "2021-08-07T02:47:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -24031,7 +24065,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "158",
-        "start_date_utc": "2021-08-07T02:49:48.166Z",
+        "start_date_utc": "2021-08-07T02:49:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -24250,7 +24284,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "159",
-        "start_date_utc": "2021-08-07T02:51:10.065Z",
+        "start_date_utc": "2021-08-07T02:51:10Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -24497,7 +24531,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "160",
-        "start_date_utc": "2021-08-07T02:52:57.654Z",
+        "start_date_utc": "2021-08-07T02:52:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -24761,7 +24795,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "161",
-        "start_date_utc": "2021-08-07T02:54:13.157Z",
+        "start_date_utc": "2021-08-07T02:54:13Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -25034,7 +25068,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "162",
-        "start_date_utc": "2021-08-07T02:55:31.535Z",
+        "start_date_utc": "2021-08-07T02:55:31Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -25242,7 +25276,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "163",
-        "start_date_utc": "2021-08-07T02:57:05.950Z",
+        "start_date_utc": "2021-08-07T02:57:05Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -25447,7 +25481,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "164",
-        "start_date_utc": "2021-08-07T02:58:18.055Z",
+        "start_date_utc": "2021-08-07T02:58:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -25650,7 +25684,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "165",
-        "start_date_utc": "2021-08-07T03:00:03.901Z",
+        "start_date_utc": "2021-08-07T03:00:03Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -25817,7 +25851,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "166",
-        "start_date_utc": "2021-08-07T03:01:06.088Z",
+        "start_date_utc": "2021-08-07T03:01:06Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -26073,7 +26107,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "167",
-        "start_date_utc": "2021-08-07T03:02:50.201Z",
+        "start_date_utc": "2021-08-07T03:02:50Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -26297,7 +26331,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "168",
-        "start_date_utc": "2021-08-07T03:04:36.900Z",
+        "start_date_utc": "2021-08-07T03:04:36Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -26475,7 +26509,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "169",
-        "start_date_utc": "2021-08-07T03:05:40.901Z",
+        "start_date_utc": "2021-08-07T03:05:40Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -26680,7 +26714,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "170",
-        "start_date_utc": "2021-08-07T03:06:53.420Z",
+        "start_date_utc": "2021-08-07T03:06:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -26947,7 +26981,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "171",
-        "start_date_utc": "2021-08-07T03:07:55.715Z",
+        "start_date_utc": "2021-08-07T03:07:55Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -27158,7 +27192,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "172",
-        "start_date_utc": "2021-08-07T03:09:16.245Z",
+        "start_date_utc": "2021-08-07T03:09:16Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -27425,7 +27459,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "173",
-        "start_date_utc": "2021-08-07T03:10:46.486Z",
+        "start_date_utc": "2021-08-07T03:10:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -27675,7 +27709,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "174",
-        "start_date_utc": "2021-08-07T03:13:21.789Z",
+        "start_date_utc": "2021-08-07T03:13:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -27883,7 +27917,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "175",
-        "start_date_utc": "2021-08-07T03:14:15.278Z",
+        "start_date_utc": "2021-08-07T03:14:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -28044,7 +28078,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "176",
-        "start_date_utc": "2021-08-07T03:15:21.187Z",
+        "start_date_utc": "2021-08-07T03:15:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -28306,7 +28340,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "177",
-        "start_date_utc": "2021-08-07T03:17:21.749Z",
+        "start_date_utc": "2021-08-07T03:17:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -28581,7 +28615,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "178",
-        "start_date_utc": "2021-08-07T03:19:04.080Z",
+        "start_date_utc": "2021-08-07T03:19:04Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -28815,7 +28849,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "179",
-        "start_date_utc": "2021-08-07T03:20:36.881Z",
+        "start_date_utc": "2021-08-07T03:20:36Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -29111,7 +29145,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "180",
-        "start_date_utc": "2021-08-07T03:22:53.683Z",
+        "start_date_utc": "2021-08-07T03:22:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -29405,7 +29439,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "181",
-        "start_date_utc": "2021-08-07T03:24:44.941Z",
+        "start_date_utc": "2021-08-07T03:24:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -29681,7 +29715,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "182",
-        "start_date_utc": "2021-08-07T03:26:14.700Z",
+        "start_date_utc": "2021-08-07T03:26:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -29920,7 +29954,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "183",
-        "start_date_utc": "2021-08-07T03:28:07.099Z",
+        "start_date_utc": "2021-08-07T03:28:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -30133,7 +30167,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "184",
-        "start_date_utc": "2021-08-07T03:29:32.356Z",
+        "start_date_utc": "2021-08-07T03:29:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -30427,7 +30461,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "185",
-        "start_date_utc": "2021-08-07T03:32:19.983Z",
+        "start_date_utc": "2021-08-07T03:32:19Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -30693,7 +30727,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "186",
-        "start_date_utc": "2021-08-07T03:34:29.546Z",
+        "start_date_utc": "2021-08-07T03:34:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -30922,7 +30956,7 @@
         "pots": [
             {
                 "number": 0,
-                "amount": 54.440000000000005,
+                "amount": 54.44,
                 "rake": 0.0,
                 "player_wins": [
                     {
@@ -30948,7 +30982,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "187",
-        "start_date_utc": "2021-08-07T03:36:58.514Z",
+        "start_date_utc": "2021-08-07T03:36:58Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -31165,7 +31199,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "188",
-        "start_date_utc": "2021-08-07T03:38:30.694Z",
+        "start_date_utc": "2021-08-07T03:38:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -31450,7 +31484,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "189",
-        "start_date_utc": "2021-08-07T03:40:18.057Z",
+        "start_date_utc": "2021-08-07T03:40:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -31719,7 +31753,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "190",
-        "start_date_utc": "2021-08-07T03:42:08.997Z",
+        "start_date_utc": "2021-08-07T03:42:08Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -31988,7 +32022,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "191",
-        "start_date_utc": "2021-08-07T03:43:42.166Z",
+        "start_date_utc": "2021-08-07T03:43:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -32246,7 +32280,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "192",
-        "start_date_utc": "2021-08-07T03:45:22.416Z",
+        "start_date_utc": "2021-08-07T03:45:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -32458,7 +32492,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "193",
-        "start_date_utc": "2021-08-07T03:47:11.292Z",
+        "start_date_utc": "2021-08-07T03:47:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -32670,7 +32704,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "194",
-        "start_date_utc": "2021-08-07T03:48:03.946Z",
+        "start_date_utc": "2021-08-07T03:48:03Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -32889,7 +32923,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "195",
-        "start_date_utc": "2021-08-07T03:49:01.403Z",
+        "start_date_utc": "2021-08-07T03:49:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -33068,7 +33102,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "196",
-        "start_date_utc": "2021-08-07T03:50:07.416Z",
+        "start_date_utc": "2021-08-07T03:50:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -33278,7 +33312,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "197",
-        "start_date_utc": "2021-08-07T03:51:38.554Z",
+        "start_date_utc": "2021-08-07T03:51:38Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -33503,7 +33537,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "198",
-        "start_date_utc": "2021-08-07T03:53:06.311Z",
+        "start_date_utc": "2021-08-07T03:53:06Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -33669,7 +33703,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "199",
-        "start_date_utc": "2021-08-07T03:53:50.533Z",
+        "start_date_utc": "2021-08-07T03:53:50Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -33830,7 +33864,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "200",
-        "start_date_utc": "2021-08-07T03:54:46.894Z",
+        "start_date_utc": "2021-08-07T03:54:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -33989,7 +34023,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "201",
-        "start_date_utc": "2021-08-07T03:55:31.708Z",
+        "start_date_utc": "2021-08-07T03:55:31Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -34083,7 +34117,7 @@
                     {
                         "action_number": 4,
                         "player_id": 4,
-                        "action": "Poast Dead",
+                        "action": "Post Dead",
                         "amount": 0.25
                     },
                     {
@@ -34244,7 +34278,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "202",
-        "start_date_utc": "2021-08-07T03:57:14.697Z",
+        "start_date_utc": "2021-08-07T03:57:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -34421,7 +34455,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "203",
-        "start_date_utc": "2021-08-07T03:58:07.750Z",
+        "start_date_utc": "2021-08-07T03:58:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -34603,7 +34637,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "204",
-        "start_date_utc": "2021-08-07T03:59:14.147Z",
+        "start_date_utc": "2021-08-07T03:59:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -34789,7 +34823,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "205",
-        "start_date_utc": "2021-08-07T04:00:07.742Z",
+        "start_date_utc": "2021-08-07T04:00:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -34982,7 +35016,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "206",
-        "start_date_utc": "2021-08-07T04:01:15.441Z",
+        "start_date_utc": "2021-08-07T04:01:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -35230,7 +35264,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "207",
-        "start_date_utc": "2021-08-07T04:02:56.690Z",
+        "start_date_utc": "2021-08-07T04:02:56Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -35472,7 +35506,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "208",
-        "start_date_utc": "2021-08-07T04:04:38.380Z",
+        "start_date_utc": "2021-08-07T04:04:38Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -35700,7 +35734,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "209",
-        "start_date_utc": "2021-08-07T04:06:22.629Z",
+        "start_date_utc": "2021-08-07T04:06:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -35902,7 +35936,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "210",
-        "start_date_utc": "2021-08-07T04:07:44.283Z",
+        "start_date_utc": "2021-08-07T04:07:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -36092,7 +36126,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "211",
-        "start_date_utc": "2021-08-07T04:08:36.086Z",
+        "start_date_utc": "2021-08-07T04:08:36Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -36349,7 +36383,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "212",
-        "start_date_utc": "2021-08-07T04:10:07.101Z",
+        "start_date_utc": "2021-08-07T04:10:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -36520,7 +36554,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "213",
-        "start_date_utc": "2021-08-07T04:10:48.038Z",
+        "start_date_utc": "2021-08-07T04:10:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -36750,7 +36784,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "214",
-        "start_date_utc": "2021-08-07T04:12:29.699Z",
+        "start_date_utc": "2021-08-07T04:12:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -36975,7 +37009,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "215",
-        "start_date_utc": "2021-08-07T04:13:22.456Z",
+        "start_date_utc": "2021-08-07T04:13:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -37245,7 +37279,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "216",
-        "start_date_utc": "2021-08-07T04:15:13.919Z",
+        "start_date_utc": "2021-08-07T04:15:13Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -37417,7 +37451,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "217",
-        "start_date_utc": "2021-08-07T04:16:48.901Z",
+        "start_date_utc": "2021-08-07T04:16:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -37612,7 +37646,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "218",
-        "start_date_utc": "2021-08-07T04:17:38.946Z",
+        "start_date_utc": "2021-08-07T04:17:38Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -37850,7 +37884,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "219",
-        "start_date_utc": "2021-08-07T04:19:53.698Z",
+        "start_date_utc": "2021-08-07T04:19:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -38073,7 +38107,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "220",
-        "start_date_utc": "2021-08-07T04:21:35.464Z",
+        "start_date_utc": "2021-08-07T04:21:35Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -38278,7 +38312,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "221",
-        "start_date_utc": "2021-08-07T04:22:53.450Z",
+        "start_date_utc": "2021-08-07T04:22:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -38374,7 +38408,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Poast Dead",
+                        "action": "Post Dead",
                         "amount": 0.25
                     },
                     {
@@ -38539,7 +38573,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "222",
-        "start_date_utc": "2021-08-07T04:24:26.872Z",
+        "start_date_utc": "2021-08-07T04:24:26Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -38780,7 +38814,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "223",
-        "start_date_utc": "2021-08-07T04:26:02.941Z",
+        "start_date_utc": "2021-08-07T04:26:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -39044,7 +39078,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "224",
-        "start_date_utc": "2021-08-07T04:27:41.168Z",
+        "start_date_utc": "2021-08-07T04:27:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -39291,7 +39325,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "225",
-        "start_date_utc": "2021-08-07T04:29:18.806Z",
+        "start_date_utc": "2021-08-07T04:29:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -39558,7 +39592,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "226",
-        "start_date_utc": "2021-08-07T04:31:15.398Z",
+        "start_date_utc": "2021-08-07T04:31:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -39822,7 +39856,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "227",
-        "start_date_utc": "2021-08-07T04:32:43.196Z",
+        "start_date_utc": "2021-08-07T04:32:43Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -40098,7 +40132,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "228",
-        "start_date_utc": "2021-08-07T04:34:30.592Z",
+        "start_date_utc": "2021-08-07T04:34:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -40368,7 +40402,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "229",
-        "start_date_utc": "2021-08-07T04:36:21.824Z",
+        "start_date_utc": "2021-08-07T04:36:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -40615,7 +40649,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "230",
-        "start_date_utc": "2021-08-07T04:38:25.940Z",
+        "start_date_utc": "2021-08-07T04:38:25Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -40869,7 +40903,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "231",
-        "start_date_utc": "2021-08-07T04:39:53.747Z",
+        "start_date_utc": "2021-08-07T04:39:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -41132,7 +41166,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "232",
-        "start_date_utc": "2021-08-07T04:41:57.707Z",
+        "start_date_utc": "2021-08-07T04:41:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -41427,7 +41461,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "233",
-        "start_date_utc": "2021-08-07T04:44:04.660Z",
+        "start_date_utc": "2021-08-07T04:44:04Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -41699,7 +41733,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "234",
-        "start_date_utc": "2021-08-07T04:46:14.630Z",
+        "start_date_utc": "2021-08-07T04:46:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -41962,7 +41996,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "235",
-        "start_date_utc": "2021-08-07T04:48:08.049Z",
+        "start_date_utc": "2021-08-07T04:48:08Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -42147,7 +42181,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "236",
-        "start_date_utc": "2021-08-07T04:49:21.463Z",
+        "start_date_utc": "2021-08-07T04:49:21Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -42313,7 +42347,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "237",
-        "start_date_utc": "2021-08-07T04:50:32.388Z",
+        "start_date_utc": "2021-08-07T04:50:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -42501,7 +42535,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "238",
-        "start_date_utc": "2021-08-07T04:51:32.968Z",
+        "start_date_utc": "2021-08-07T04:51:32Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -42709,7 +42743,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "239",
-        "start_date_utc": "2021-08-07T04:53:15.738Z",
+        "start_date_utc": "2021-08-07T04:53:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -42834,7 +42868,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "240",
-        "start_date_utc": "2021-08-07T04:54:00.435Z",
+        "start_date_utc": "2021-08-07T04:54:00Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -42987,7 +43021,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "241",
-        "start_date_utc": "2021-08-07T04:54:47.822Z",
+        "start_date_utc": "2021-08-07T04:54:47Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -43203,7 +43237,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "242",
-        "start_date_utc": "2021-08-07T04:55:44.984Z",
+        "start_date_utc": "2021-08-07T04:55:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -43381,7 +43415,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "243",
-        "start_date_utc": "2021-08-07T04:56:57.298Z",
+        "start_date_utc": "2021-08-07T04:56:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -43545,7 +43579,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "244",
-        "start_date_utc": "2021-08-07T04:57:57.402Z",
+        "start_date_utc": "2021-08-07T04:57:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -43664,7 +43698,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "245",
-        "start_date_utc": "2021-08-07T04:58:14.118Z",
+        "start_date_utc": "2021-08-07T04:58:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -43826,7 +43860,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "246",
-        "start_date_utc": "2021-08-07T04:58:45.558Z",
+        "start_date_utc": "2021-08-07T04:58:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -44042,7 +44076,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "247",
-        "start_date_utc": "2021-08-07T04:59:59.100Z",
+        "start_date_utc": "2021-08-07T04:59:59Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -44284,7 +44318,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "248",
-        "start_date_utc": "2021-08-07T05:02:04.311Z",
+        "start_date_utc": "2021-08-07T05:02:04Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -44485,7 +44519,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "249",
-        "start_date_utc": "2021-08-07T05:03:10.556Z",
+        "start_date_utc": "2021-08-07T05:03:10Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -44572,7 +44606,7 @@
                     {
                         "action_number": 4,
                         "player_id": 4,
-                        "action": "Poast Dead",
+                        "action": "Post Dead",
                         "amount": 0.25
                     },
                     {
@@ -44680,7 +44714,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "250",
-        "start_date_utc": "2021-08-07T05:03:59.241Z",
+        "start_date_utc": "2021-08-07T05:03:59Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -44811,7 +44845,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "251",
-        "start_date_utc": "2021-08-07T05:04:29.751Z",
+        "start_date_utc": "2021-08-07T05:04:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -45039,7 +45073,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "252",
-        "start_date_utc": "2021-08-07T05:06:17.943Z",
+        "start_date_utc": "2021-08-07T05:06:17Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -45204,7 +45238,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "253",
-        "start_date_utc": "2021-08-07T05:07:02.726Z",
+        "start_date_utc": "2021-08-07T05:07:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -45410,7 +45444,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "254",
-        "start_date_utc": "2021-08-07T05:08:22.586Z",
+        "start_date_utc": "2021-08-07T05:08:22Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -45605,7 +45639,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "255",
-        "start_date_utc": "2021-08-07T05:09:53.670Z",
+        "start_date_utc": "2021-08-07T05:09:53Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -45777,7 +45811,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "256",
-        "start_date_utc": "2021-08-07T05:10:42.994Z",
+        "start_date_utc": "2021-08-07T05:10:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -46005,7 +46039,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "257",
-        "start_date_utc": "2021-08-07T05:11:43.952Z",
+        "start_date_utc": "2021-08-07T05:11:43Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -46215,7 +46249,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "258",
-        "start_date_utc": "2021-08-07T05:12:30.948Z",
+        "start_date_utc": "2021-08-07T05:12:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -46343,7 +46377,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "259",
-        "start_date_utc": "2021-08-07T05:12:41.443Z",
+        "start_date_utc": "2021-08-07T05:12:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -46563,7 +46597,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "260",
-        "start_date_utc": "2021-08-07T05:13:44.219Z",
+        "start_date_utc": "2021-08-07T05:13:44Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -46747,7 +46781,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "261",
-        "start_date_utc": "2021-08-07T05:14:30.327Z",
+        "start_date_utc": "2021-08-07T05:14:30Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -46990,7 +47024,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "262",
-        "start_date_utc": "2021-08-07T05:15:48.589Z",
+        "start_date_utc": "2021-08-07T05:15:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -47190,7 +47224,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "263",
-        "start_date_utc": "2021-08-07T05:16:27.755Z",
+        "start_date_utc": "2021-08-07T05:16:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -47404,7 +47438,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "264",
-        "start_date_utc": "2021-08-07T05:17:38.851Z",
+        "start_date_utc": "2021-08-07T05:17:38Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -47558,7 +47592,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "265",
-        "start_date_utc": "2021-08-07T05:18:13.404Z",
+        "start_date_utc": "2021-08-07T05:18:13Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -47738,7 +47772,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "266",
-        "start_date_utc": "2021-08-07T05:19:23.843Z",
+        "start_date_utc": "2021-08-07T05:19:23Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -47954,7 +47988,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "267",
-        "start_date_utc": "2021-08-07T05:20:24.144Z",
+        "start_date_utc": "2021-08-07T05:20:24Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -48100,7 +48134,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "268",
-        "start_date_utc": "2021-08-07T05:20:50.586Z",
+        "start_date_utc": "2021-08-07T05:20:50Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -48333,7 +48367,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "269",
-        "start_date_utc": "2021-08-07T05:21:50.551Z",
+        "start_date_utc": "2021-08-07T05:21:50Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -48506,7 +48540,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "270",
-        "start_date_utc": "2021-08-07T05:22:42.740Z",
+        "start_date_utc": "2021-08-07T05:22:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -48718,7 +48752,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "271",
-        "start_date_utc": "2021-08-07T05:23:28.178Z",
+        "start_date_utc": "2021-08-07T05:23:28Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -48876,7 +48910,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "272",
-        "start_date_utc": "2021-08-07T05:23:59.063Z",
+        "start_date_utc": "2021-08-07T05:23:59Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -49013,7 +49047,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "273",
-        "start_date_utc": "2021-08-07T05:24:28.153Z",
+        "start_date_utc": "2021-08-07T05:24:28Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -49161,7 +49195,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "274",
-        "start_date_utc": "2021-08-07T05:25:01.241Z",
+        "start_date_utc": "2021-08-07T05:25:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -49360,7 +49394,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "275",
-        "start_date_utc": "2021-08-07T05:26:19.217Z",
+        "start_date_utc": "2021-08-07T05:26:19Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -49507,7 +49541,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "276",
-        "start_date_utc": "2021-08-07T05:26:51.047Z",
+        "start_date_utc": "2021-08-07T05:26:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -49638,7 +49672,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "277",
-        "start_date_utc": "2021-08-07T05:27:27.608Z",
+        "start_date_utc": "2021-08-07T05:27:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -49856,7 +49890,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "278",
-        "start_date_utc": "2021-08-07T05:28:11.964Z",
+        "start_date_utc": "2021-08-07T05:28:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -50057,7 +50091,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "279",
-        "start_date_utc": "2021-08-07T05:29:07.656Z",
+        "start_date_utc": "2021-08-07T05:29:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -50264,7 +50298,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "280",
-        "start_date_utc": "2021-08-07T05:29:49.415Z",
+        "start_date_utc": "2021-08-07T05:29:49Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -50487,7 +50521,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "281",
-        "start_date_utc": "2021-08-07T05:31:26.401Z",
+        "start_date_utc": "2021-08-07T05:31:26Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -50654,7 +50688,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "282",
-        "start_date_utc": "2021-08-07T05:32:17.943Z",
+        "start_date_utc": "2021-08-07T05:32:17Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -50855,7 +50889,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "283",
-        "start_date_utc": "2021-08-07T05:33:01.340Z",
+        "start_date_utc": "2021-08-07T05:33:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -51062,7 +51096,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "284",
-        "start_date_utc": "2021-08-07T05:35:25.556Z",
+        "start_date_utc": "2021-08-07T05:35:25Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -51299,7 +51333,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "285",
-        "start_date_utc": "2021-08-07T05:37:01.848Z",
+        "start_date_utc": "2021-08-07T05:37:01Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -51489,7 +51523,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "286",
-        "start_date_utc": "2021-08-07T05:39:03.056Z",
+        "start_date_utc": "2021-08-07T05:39:03Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -51596,7 +51630,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "287",
-        "start_date_utc": "2021-08-07T05:39:26.526Z",
+        "start_date_utc": "2021-08-07T05:39:26Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -51730,7 +51764,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "288",
-        "start_date_utc": "2021-08-07T05:39:48.009Z",
+        "start_date_utc": "2021-08-07T05:39:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -51936,7 +51970,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "289",
-        "start_date_utc": "2021-08-07T05:41:00.606Z",
+        "start_date_utc": "2021-08-07T05:41:00Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -52037,7 +52071,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "290",
-        "start_date_utc": "2021-08-07T05:41:20.880Z",
+        "start_date_utc": "2021-08-07T05:41:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -52241,7 +52275,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "291",
-        "start_date_utc": "2021-08-07T05:42:08.048Z",
+        "start_date_utc": "2021-08-07T05:42:08Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -52434,7 +52468,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "292",
-        "start_date_utc": "2021-08-07T05:42:59.488Z",
+        "start_date_utc": "2021-08-07T05:42:59Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -52541,7 +52575,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "293",
-        "start_date_utc": "2021-08-07T05:43:18.835Z",
+        "start_date_utc": "2021-08-07T05:43:18Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -52745,7 +52779,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "294",
-        "start_date_utc": "2021-08-07T05:44:11.502Z",
+        "start_date_utc": "2021-08-07T05:44:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Holdem",
         "bet_limit": {
@@ -52906,7 +52940,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "295",
-        "start_date_utc": "2021-08-07T05:44:55.529Z",
+        "start_date_utc": "2021-08-07T05:44:55Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -53104,7 +53138,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "296",
-        "start_date_utc": "2021-08-07T05:46:09.403Z",
+        "start_date_utc": "2021-08-07T05:46:09Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -53271,7 +53305,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "297",
-        "start_date_utc": "2021-08-07T05:46:54.634Z",
+        "start_date_utc": "2021-08-07T05:46:54Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -53497,7 +53531,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "298",
-        "start_date_utc": "2021-08-07T05:48:00.641Z",
+        "start_date_utc": "2021-08-07T05:48:00Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -53664,7 +53698,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "299",
-        "start_date_utc": "2021-08-07T05:49:05.386Z",
+        "start_date_utc": "2021-08-07T05:49:05Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -53863,7 +53897,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "300",
-        "start_date_utc": "2021-08-07T05:50:20.205Z",
+        "start_date_utc": "2021-08-07T05:50:20Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -54068,7 +54102,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "301",
-        "start_date_utc": "2021-08-07T05:51:07.408Z",
+        "start_date_utc": "2021-08-07T05:51:07Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -54251,7 +54285,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "302",
-        "start_date_utc": "2021-08-07T05:52:06.443Z",
+        "start_date_utc": "2021-08-07T05:52:06Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -54425,7 +54459,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "303",
-        "start_date_utc": "2021-08-07T05:52:41.001Z",
+        "start_date_utc": "2021-08-07T05:52:41Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -54663,7 +54697,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "304",
-        "start_date_utc": "2021-08-07T05:53:42.846Z",
+        "start_date_utc": "2021-08-07T05:53:42Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -54814,7 +54848,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "305",
-        "start_date_utc": "2021-08-07T05:54:14.404Z",
+        "start_date_utc": "2021-08-07T05:54:14Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55007,7 +55041,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "306",
-        "start_date_utc": "2021-08-07T05:55:15.052Z",
+        "start_date_utc": "2021-08-07T05:55:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55165,7 +55199,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "307",
-        "start_date_utc": "2021-08-07T05:56:02.243Z",
+        "start_date_utc": "2021-08-07T05:56:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55379,7 +55413,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "308",
-        "start_date_utc": "2021-08-07T05:58:50.367Z",
+        "start_date_utc": "2021-08-07T05:58:50Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55527,7 +55561,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "309",
-        "start_date_utc": "2021-08-07T05:59:48.636Z",
+        "start_date_utc": "2021-08-07T05:59:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55651,7 +55685,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "310",
-        "start_date_utc": "2021-08-07T06:00:06.790Z",
+        "start_date_utc": "2021-08-07T06:00:06Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55789,7 +55823,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "311",
-        "start_date_utc": "2021-08-07T06:00:35.344Z",
+        "start_date_utc": "2021-08-07T06:00:35Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -55948,7 +55982,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "312",
-        "start_date_utc": "2021-08-07T06:01:09.663Z",
+        "start_date_utc": "2021-08-07T06:01:09Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -56099,7 +56133,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "313",
-        "start_date_utc": "2021-08-07T06:02:10.608Z",
+        "start_date_utc": "2021-08-07T06:02:10Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -56242,7 +56276,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "314",
-        "start_date_utc": "2021-08-07T06:02:57.415Z",
+        "start_date_utc": "2021-08-07T06:02:57Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -56411,7 +56445,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "315",
-        "start_date_utc": "2021-08-07T06:03:37.852Z",
+        "start_date_utc": "2021-08-07T06:03:37Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -56580,7 +56614,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "316",
-        "start_date_utc": "2021-08-07T06:04:54.947Z",
+        "start_date_utc": "2021-08-07T06:04:54Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -56768,7 +56802,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "317",
-        "start_date_utc": "2021-08-07T06:07:02.261Z",
+        "start_date_utc": "2021-08-07T06:07:02Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -56966,7 +57000,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "318",
-        "start_date_utc": "2021-08-07T06:07:55.645Z",
+        "start_date_utc": "2021-08-07T06:07:55Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -57190,7 +57224,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "319",
-        "start_date_utc": "2021-08-07T06:09:15.093Z",
+        "start_date_utc": "2021-08-07T06:09:15Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -57338,7 +57372,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "320",
-        "start_date_utc": "2021-08-07T06:09:46.769Z",
+        "start_date_utc": "2021-08-07T06:09:46Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -57476,7 +57510,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "321",
-        "start_date_utc": "2021-08-07T06:10:27.553Z",
+        "start_date_utc": "2021-08-07T06:10:27Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -57713,7 +57747,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "322",
-        "start_date_utc": "2021-08-07T06:11:11.220Z",
+        "start_date_utc": "2021-08-07T06:11:11Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -57816,7 +57850,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "323",
-        "start_date_utc": "2021-08-07T06:11:25.748Z",
+        "start_date_utc": "2021-08-07T06:11:25Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -57971,7 +58005,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "324",
-        "start_date_utc": "2021-08-07T06:11:55.384Z",
+        "start_date_utc": "2021-08-07T06:11:55Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -58128,7 +58162,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "325",
-        "start_date_utc": "2021-08-07T06:12:29.810Z",
+        "start_date_utc": "2021-08-07T06:12:29Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -58338,7 +58372,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "326",
-        "start_date_utc": "2021-08-07T06:13:13.489Z",
+        "start_date_utc": "2021-08-07T06:13:13Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -58486,7 +58520,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "327",
-        "start_date_utc": "2021-08-07T06:13:51.065Z",
+        "start_date_utc": "2021-08-07T06:13:51Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -58700,7 +58734,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "328",
-        "start_date_utc": "2021-08-07T06:14:56.450Z",
+        "start_date_utc": "2021-08-07T06:14:56Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -58897,7 +58931,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "329",
-        "start_date_utc": "2021-08-07T06:15:45.266Z",
+        "start_date_utc": "2021-08-07T06:15:45Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
@@ -59040,7 +59074,7 @@
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
         "game_number": "330",
-        "start_date_utc": "2021-08-07T06:16:48.846Z",
+        "start_date_utc": "2021-08-07T06:16:48Z",
         "table_name": "ZaBQ1QEcgqZNMA7Yal9m5QO42",
         "game_type": "Omaha",
         "bet_limit": {
