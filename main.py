@@ -20,22 +20,31 @@ Working with Ring games only, not tournaments
 
 Change Log
 09-14-22 v 1.0.0 First Version
+10-06-22 v 1.0.3
+    - Added timers to parts of the code to benchmark performance
+    - Made improvements to the way the program selects lines that should be ignored.
+    - Made improvements to the logging feature.
+        - Code performance will be logged.
+        - Lines that don't get processed will be logged in order to add them to the ignore list.
+        - It will be logged when the calculated pot amount is not equal to the the collected amount.
 ****************************************************************************************************
 """
 # MODULES
 from configparser import ConfigParser
 import csv
+from datetime import datetime
 import json
 import logging
 from pathlib import Path
 import re
+from time import perf_counter, process_time
 
 # END MODULES
-
 # **************************************************************************************************
 
 # **************************************************************************************************
-
+timer_perf_start = perf_counter()
+timer_proc_start = process_time()
 # CONSTANTS
 CONFIG_FILE = "config.ini"
 TEXT = "text"
@@ -175,7 +184,7 @@ post_types = {
     "posts a small blind": "Post SB",
     "posts a straddle": "Straddle",
     "posts a missing small blind": "Post Dead",
-    "posts a missed big blind": "Poast Dead",
+    "posts a missed big blind": "Post BB",
 }
 
 verb_to_action = {
@@ -265,13 +274,14 @@ for key, values in name_map.items():
 # Compile regular expressions for matching to identifiable strings in the hand history
 table_regex = re.compile(r"^.*poker_now_log_(?P<table_name>.*).csv$")
 blind_regex = re.compile(
-    r"The game's (?P<blind_type>.+) was changed from \d+\.\d+ to (?P<amount>\d+.\d+)"
+    r"The game's (?P<blind_type>.+) was changed from (\d+\.\d+|\d+) to "
+    r"(?P<amount>\d+\.\d+|\d+)\."
 )
 start_regex = re.compile(
     r"-- starting hand #(?P<game_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
     r" \((dealer: \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\"|dead button)\) --"
 )
-hand_time_regex = re.compile(r"(?P<start_date_utc>.+\.\d+Z)")
+hand_time_regex = re.compile(r"(?P<start_date_utc>.+:\d+)")
 seats_regex = re.compile(
     r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>[\d.]+)\)"
 )
@@ -291,21 +301,28 @@ bet_action_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?!collected)(?!shows)(?P<player_action>\w+) "
     r"[a-z]*\s*(?P<amount>[\d.]+)\s*(?P<all_in>[a-z ]+)*"
 )
+uncalled_regex = re.compile(
+    r"Uncalled bet of (?P<amount>[\d.]+) .+ \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\""
+)
 show_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+) a (?P<cards>\w{2}, \w{2})"
 )
 winner_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) (?P<amount>[\d.]+)"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) (?P<amount>[\d.]+).+"
 )
-
-log_file = Path("log.txt")
+log_dir = Path("./Logs")
+log_dir.mkdir(exist_ok=True)
+log_file = Path("log_" + datetime.now().strftime("%Y%m%d-%H%M%S")).with_suffix(".log")
+log_path = log_dir / log_file
 logging.basicConfig(
-    filename=log_file,
-    format="[%(asctime)s][%(lineno)d][%(levelname)s]:%(message)s",
+    filename=log_path,
+    format="[%(asctime)s][%(created)f][%(levelname)s]:%(message)s",
     level=logging.DEBUG,
 )
 # Process each file in the Poker Now hand history folder
 for poker_now_file in csv_file_list:
+    perf_start_1 = perf_counter()
+    proc_start_1 = process_time()
     # Initialize variables to their default starting values
     lines = [[]]
     big_blind: float = 0.20
@@ -313,8 +330,19 @@ for poker_now_file in csv_file_list:
     ante: float = 0.00
     dealer_name: str = ""
     table_name: str = ""
-    hand_number: str = "1"
+    hand_number: str = "0"
     hands = {}
+    hands[hand_number] = {
+        DATETIME: "",
+        BET_TYPE: "NL",
+        GAME_TYPE: "Holdem",
+        DEALER_NAME: "",
+        TABLE: "",
+        BIG_BLIND_AMOUNT: 0.20,
+        SMALL_BLIND_AMOUNT: 0.10,
+        ANTE_AMOUNT: 0.00,
+        TEXT: "",
+    }
     lines_ignored: int = 0
     lines_parsed: int = 0
     lines_saved: int = 0
@@ -369,7 +397,7 @@ for poker_now_file in csv_file_list:
                 # the text match to look for the time the hand started
                 hand_time_match = re.match(hand_time_regex, line[1])
                 if hand_time_match is not None:
-                    hand_time = hand_time_match.group("start_date_utc")
+                    hand_time = hand_time_match.group("start_date_utc") + "Z"
                     # Add the information extracted from the start of the hand to the hands
                     # dictionary
                     hands[hand_number] = {
@@ -392,22 +420,18 @@ for poker_now_file in csv_file_list:
             elif any(
                 i in entry
                 for i in [
+                    "The admin",
                     "joined",
                     "requested",
-                    "rejected",
+                    "-- ending hand",
+                    "canceled the seat",
+                    "authenticated",
                     "quits",
-                    "created",
-                    "approved",
-                    "changed",
-                    "enqueued",
-                    " stand up ",
-                    " sit back ",
-                    " canceled the seat ",
-                    " decide whether to run it twice",
-                    "chooses to  run it twice.",
+                    "stand up",
+                    "sit back",
+                    "run it twice",
                     "Dead Small Blind",
-                    "The admin updated the player ",
-                    "the admin queued the stack change ",
+                    "room ownership",
                 ]
             ):
                 lines_ignored += 1
@@ -421,6 +445,19 @@ for poker_now_file in csv_file_list:
     logging.info(f"[{table_name}] {lines_ignored} lines were ignored.")
     logging.info(f"[{table_name}] {lines_saved} lines were saved.")
     logging.info(f"[{table_name}] {hand_count} hands were seperated.")
+    logging.info(
+        f"[{table_name}] {round(lines_saved/hand_count, 2)} average number of lines per hand."
+    )
+    logging.info(
+        f"[{table_name}][{perf_counter() - perf_start_1}] Performance counter for hand seperation."
+    )
+    logging.info(
+        f"[{table_name}][{process_time() - proc_start_1}] Process time for hand seperation."
+    )
+    perf_start_2 = perf_counter()
+    proc_start_2 = process_time()
+    logging.info(f"[{table_name}] ***STARTING HAND PROCESSING***")
+    unprocessed_count: int = 0
     # Now that we have all hands from all the files, use the hand number of the imported hands to
     # process them in sequential order. This is the place for processing the text of each hand and
     # look for player actions
@@ -461,6 +498,7 @@ for poker_now_file in csv_file_list:
         round_number: int = int(0)
         action_number: int = int(0)
         pot_number: int = int(0)
+        total_pot = float(0.00)
         round_obj = {ID: 0, STREET: "", CARDS: [], ACTIONS: []}
         pot_obj = {}
         round_commit = {}
@@ -498,6 +536,7 @@ for poker_now_file in csv_file_list:
                     # out the id of each player when needed.
                     player_ids[player_display] = player_id
                     player_id += 1
+                    continue
             # the text to match for a post this also indicates that the dealing is happening and we
             # should move to the phase of assembling rounds of actions.
             post = re.match(post_regex, line)
@@ -514,7 +553,9 @@ for poker_now_file in csv_file_list:
                 action[ACTION] = post_types[post_type]
                 action[AMOUNT] = amount
                 round_obj[ACTIONS].append(action)
+                total_pot += amount
                 action_number += 1
+                continue
             # look for round markers note that cards dealt are melded together with opening round
             # and do not necessarily mark a new round
             round_marker = re.match(round_regex, line)
@@ -551,6 +592,7 @@ for poker_now_file in csv_file_list:
                             round_obj[CARDS].append(card)
                     else:
                         continue
+                continue
             show_hand = re.search(show_regex, line)
             if show_hand is not None:
                 player = show_hand.group("player")
@@ -631,10 +673,16 @@ for poker_now_file in csv_file_list:
                     amount = round(amount - round_commit[player], 2)
                 action[AMOUNT] = amount
                 round_commit[player] += amount
+                total_pot += amount
                 if all_in is not None:
                     action[IS_ALL_IN] = True
                 round_obj[ACTIONS].append(action)
                 action_number += 1
+                continue
+            uncalled_bet_match = re.match(uncalled_regex, line)
+            if uncalled_bet_match is not None:
+                amount = round(float(uncalled_bet_match.group("amount")), 2)
+                total_pot -= amount
                 continue
             winner = re.match(winner_regex, line)
             if winner is not None:
@@ -658,13 +706,16 @@ for poker_now_file in csv_file_list:
                     }
                 pot_obj[pot_number][AMOUNT] += amount
                 pot_obj[pot_number][PLAYER_WINS][player_id][WIN_AMOUNT] += amount
+                continue
+            unprocessed_count += 1
+            logging.debug(f"[{table_name}][{hand_number}] '{line}' was not processed.")
 
         for pot_number, pot in pot_obj.items():
-            amt = pot[AMOUNT]
+            amt = round(pot[AMOUNT], 2)
             rake = pot[RAKE]
             potObj = {NUMBER: pot_number, AMOUNT: amt, RAKE: rake, PLAYER_WINS: []}
             for player_id in pot[PLAYER_WINS]:
-                win_amount = pot[PLAYER_WINS][player_id][WIN_AMOUNT]
+                win_amount = round(pot[PLAYER_WINS][player_id][WIN_AMOUNT], 2)
                 rake_contribution = pot[PLAYER_WINS][player_id][CONTRIBUTED_RAKE]
                 player_win_obj = {
                     PLAYER_ID: player_id,
@@ -672,10 +723,18 @@ for poker_now_file in csv_file_list:
                     CONTRIBUTED_RAKE: rake_contribution,
                 }
                 potObj[PLAYER_WINS].append(player_win_obj)
+            if round(pot[AMOUNT], 2) != round(total_pot, 2):
+                logging.debug(
+                    f"[{table_name}][{hand_number}] Calculated pot ({round(total_pot, 2)}) does not"
+                    f" equal collected pot ({round(pot[AMOUNT], 2)})"
+                )
+
             ohh[POTS].append(potObj)
         ohh[PLAYERS] = players
         ohh[ROUNDS].append(round_obj)
         tables[table_name][OHH].append(ohh)
+    logging.info(f"[{table_name}] ***FINISHED HAND PARSING***")
+    logging.info(f"[{table_name}] {unprocessed_count} lines were not parsed.")
     ohh_directory = Path("OpenHandHistory")
     for table_name, table_dict in tables.items():
         with open(
@@ -689,5 +748,26 @@ for poker_now_file in csv_file_list:
                 f.write(json.dumps(wrapped_ohh, indent=4))
                 f.write("\n")
                 f.write("\n")
+    logging.info(
+        f"[{table_name}][{perf_counter() - perf_start_2}] Performance counter for hand parsing."
+    )
+    logging.info(
+        f"[{table_name}][{process_time() - proc_start_2}] Process time for hand parsing."
+    )
+
+    print(
+        f"Completed processing {csv_file_list.index(poker_now_file) + 1} out of "
+        f"{len(csv_file_list)} files "
+        f"{round(((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list))*100, 2)}% "
+        f"complete. Time to process table {table_name}"
+    )
+    print(f"{perf_counter() - perf_start_2} Performance counter for hand parsing.")
+    print(f"{process_time() - proc_start_2} Process time for hand parsing.")
+logging.info(
+    f"[ALL][{perf_counter() - timer_perf_start}] Performance counter for all hands."
+)
+logging.info(f"[ALL][{process_time() - timer_proc_start}] Process time for all hands.")
+print(f"{perf_counter() - timer_perf_start} Performance counter for all hands.")
+print(f"{process_time() - timer_proc_start} Process time for all hands.")
 # end of code
 # *************************************************************************************************
