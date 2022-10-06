@@ -184,7 +184,7 @@ post_types = {
     "posts a small blind": "Post SB",
     "posts a straddle": "Straddle",
     "posts a missing small blind": "Post Dead",
-    "posts a missed big blind": "Post Dead",
+    "posts a missed big blind": "Post BB",
 }
 
 verb_to_action = {
