@@ -27,6 +27,8 @@ Change Log
         - Code performance will be logged.
         - Lines that don't get processed will be logged in order to add them to the ignore list.
         - It will be logged when the calculated pot amount is not equal to the the collected amount.
+v 1.0.4
+    - Made change to correctly handle dead blinds.
 ****************************************************************************************************
 """
 # MODULES
@@ -546,13 +548,27 @@ for poker_now_file in csv_file_list:
                 amount = float(post.group("amount"))
                 round_obj[ID] = round_number
                 round_obj[STREET] = current_round
-                round_commit[player] = amount
                 action = {}
                 action[ACTION_NUMBER] = action_number
                 action[PLAYER_ID] = player_ids[player]
                 action[ACTION] = post_types[post_type]
                 action[AMOUNT] = amount
                 round_obj[ACTIONS].append(action)
+                # Poker now records the amounts associated with actions such as bets, raises, calls,
+                # and posting blinds as the the sum total of the current and all previous actions of
+                # the player during the round. However, the OHH standard requires the amount put in
+                # from the current action rather than the sum total from the round. This difference
+                # in accounting methods requires the amount commited by each player in the round to
+                # be rcorded in a dictionary {player1: amount, player2: amount, ...}. The amount the
+                # player has commited to the round can then be subtracted from the current amount to
+                # get the amount commited in the action, that OHH requires. There is one exception
+                # to this rule, in the case of a dead blind being posted by a player who missed the
+                # blinds. Posting a missed SB is considered a "dead" and is not considered to be a
+                # amount commited, but a missed BB is a "live" blind and should be added to the
+                # amount commited to the round.
+                if action[ACTION] != "Post Dead":
+                    amount = round(amount - round_commit[player], 2)
+                    round_commit[player] += amount
                 total_pot += amount
                 action_number += 1
                 continue
