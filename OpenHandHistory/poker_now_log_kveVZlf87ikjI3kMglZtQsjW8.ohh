@@ -5384,7 +5384,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.5
                     },
                     {
@@ -10809,7 +10809,7 @@
                     {
                         "action_number": 4,
                         "player_id": 6,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.5
                     },
                     {
@@ -13496,7 +13496,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.25
+                        "amount": 0.5
                     },
                     {
                         "action_number": 6,
@@ -26596,7 +26596,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.5
                     },
                     {
@@ -36316,7 +36316,7 @@
                     {
                         "action_number": 4,
                         "player_id": 4,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.5
                     },
                     {
@@ -46205,7 +46205,7 @@
                         "action_number": 10,
                         "player_id": 5,
                         "action": "Call",
-                        "amount": 1.0
+                        "amount": 0.75
                     }
                 ]
             },
@@ -47434,7 +47434,7 @@
                         "action_number": 6,
                         "player_id": 0,
                         "action": "Raise",
-                        "amount": 4.3
+                        "amount": 4.55
                     },
                     {
                         "action_number": 7,
@@ -55833,7 +55833,7 @@
                         "action_number": 7,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 1.75
+                        "amount": 1.5
                     }
                 ]
             },
