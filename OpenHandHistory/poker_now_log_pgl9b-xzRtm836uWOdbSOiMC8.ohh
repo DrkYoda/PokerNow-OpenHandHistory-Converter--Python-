@@ -17990,7 +17990,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -18164,6 +18166,22 @@
             },
             {
                 "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "Ts"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "7h"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -20576,7 +20594,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -20718,6 +20738,32 @@
                 "street": "River",
                 "cards": [
                     "Qc"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "Flop",
+                "cards": [
+                    "Ad,",
+                    "Kc,",
+                    "Jd"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "Turn",
+                "cards": [
+                    "Ks"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
+                "street": "River",
+                "cards": [
+                    "Js"
                 ],
                 "actions": []
             }

@@ -31,6 +31,7 @@ Change Log
 v 1.0.4
     - Made change to correctly handle dead blinds.
     - Corrected a problem that was causing become progressively slower with multiple files.
+    - Added ability to parse hands that run it twice.
 ****************************************************************************************************
 """
 # MODULES
@@ -177,8 +178,11 @@ first_rounds = {
 make_new_round = {
     "Player stacks": "Preflop",
     "Flop": "Flop",
+    "Flop (second run)": "Flop",
     "Turn": "Turn",
+    "Turn (second run)": "Turn",
     "River": "River",
+    "River (second run)": "River",
     "Show Down": "Showdown",
 }
 
@@ -292,7 +296,7 @@ seats_regex = re.compile(
 post_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) of (?P<amount>\d+.\d+)"
 )
-round_regex = re.compile(r"(?P<street>^[\w ]+):.+")
+round_regex = re.compile(r"(?P<street>^\w.+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
 addon_regex = re.compile(
     r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>[\d.]+)"
@@ -434,7 +438,9 @@ for poker_now_file in csv_file_list:
                     "quits",
                     "stand up",
                     "sit back",
-                    "run it twice",
+                    "Remaining players",
+                    "chooses",
+                    "choose to not",
                     "Dead Small Blind",
                     "room ownership",
                 ]
@@ -730,6 +736,12 @@ for poker_now_file in csv_file_list:
                         }
                     pot_obj[pot_number][AMOUNT] += amount
                     pot_obj[pot_number][PLAYER_WINS][player_id][WIN_AMOUNT] += amount
+                    continue
+                # Hands with the option to run it twice there are several lines in the
+                # csv file that will contain the string "run it twice" but the only line
+                # that will have made it this far will indicat that all players approved.
+                if "run it twice" in line:
+                    ohh[FLAGS].append("Run_It_Twice")
                     continue
                 unprocessed_count += 1
                 logging.debug(

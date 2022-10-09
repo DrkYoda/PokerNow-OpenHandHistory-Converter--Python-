@@ -6627,7 +6627,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -6831,6 +6833,14 @@
                 "street": "River",
                 "cards": [
                     "Th"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "Js"
                 ],
                 "actions": []
             }

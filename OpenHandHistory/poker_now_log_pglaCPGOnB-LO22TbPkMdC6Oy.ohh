@@ -15894,7 +15894,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -16078,6 +16080,22 @@
             },
             {
                 "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "Ah"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "3d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -20503,7 +20521,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -20663,6 +20683,22 @@
             },
             {
                 "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "9c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "3d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
                 "street": "Showdown",
                 "actions": [
                     {
