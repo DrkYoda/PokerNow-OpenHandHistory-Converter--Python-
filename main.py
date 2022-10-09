@@ -32,6 +32,7 @@ v 1.0.4
     - Made change to correctly handle dead blinds.
     - Corrected a problem that was causing become progressively slower with multiple files.
     - Added ability to parse hands that run it twice.
+    - Fixed issue #4 where Omaha hands were being converted to 2 card hands.
 ****************************************************************************************************
 """
 # MODULES
@@ -282,8 +283,8 @@ for key, values in name_map.items():
 # Compile regular expressions for matching to identifiable strings in the hand history
 table_regex = re.compile(r"^.*poker_now_log_(?P<table_name>.*).csv$")
 blind_regex = re.compile(
-    r"The game's (?P<blind_type>.+) was changed from (\d+\.\d+|\d+) to "
-    r"(?P<amount>\d+\.\d+|\d+)\."
+    r"The game's (?P<blind_type>.+) was changed from (\d+\.\d{2}|\d+) to "
+    r"(?P<amount>\d+\.\d{2}|\d+)\."
 )
 start_regex = re.compile(
     r"-- starting hand #(?P<game_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
@@ -291,32 +292,34 @@ start_regex = re.compile(
 )
 hand_time_regex = re.compile(r"(?P<start_date_utc>.+:\d+)")
 seats_regex = re.compile(
-    r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>[\d.]+)\)"
+    r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>\d+\.\d{2})\)"
 )
 post_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) of (?P<amount>\d+.\d+)"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) of (?P<amount>\d+\.\d{2})"
 )
 round_regex = re.compile(r"(?P<street>^\w.+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
 addon_regex = re.compile(
-    r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>[\d.]+)"
+    r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>\d+\.\d{2})"
 )
 hero_hand_regex = re.compile(r"Your hand is (?P<cards>.+)")
 non_bet_action_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+(?![ a-z]+[ \d.]+))"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+(?![ a-z]+\d+\.\d{2}))"
 )
 bet_action_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?!collected)(?!shows)(?P<player_action>\w+) "
-    r"[a-z]*\s*(?P<amount>[\d.]+)\s*(?P<all_in>[a-z ]+)*"
+    r"[a-z]*\s*(?P<amount>\d+\.\d{2})\s*(?P<all_in>[a-z ]+)*"
 )
 uncalled_regex = re.compile(
-    r"Uncalled bet of (?P<amount>[\d.]+) .+ \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\""
+    r"Uncalled bet of (?P<amount>\d+\.\d{2}) .+ \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\""
 )
 show_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+) a (?P<cards>\w{2}, \w{2})"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" "
+    r"(?P<player_action>\w+) a (?P<cards>[\dAKQJTshcd, ]+)\."
 )
 winner_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) (?P<amount>[\d.]+).+"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) "
+    r"(?P<amount>\d+\.\d{2}).+"
 )
 log_dir = Path("./Logs")
 log_dir.mkdir(exist_ok=True)

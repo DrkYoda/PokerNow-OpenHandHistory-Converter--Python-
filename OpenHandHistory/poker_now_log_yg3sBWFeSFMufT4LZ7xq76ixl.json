@@ -19784,7 +19784,9 @@
         "big_blind_amount": 25.0,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -20058,6 +20060,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "Qc"
+                ],
+                "actions": []
             }
         ],
         "pots": [
@@ -20896,7 +20906,9 @@
         "big_blind_amount": 25.0,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -21139,6 +21151,14 @@
             },
             {
                 "id": 5,
+                "street": "River",
+                "cards": [
+                    "6c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
                 "street": "Showdown",
                 "actions": [
                     {

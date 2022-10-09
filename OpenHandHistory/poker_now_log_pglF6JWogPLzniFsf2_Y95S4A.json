@@ -3754,7 +3754,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -3889,6 +3891,32 @@
             },
             {
                 "id": 5,
+                "street": "Flop",
+                "cards": [
+                    "Kh,",
+                    "As,",
+                    "Ks"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "Turn",
+                "cards": [
+                    "4d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
+                "street": "River",
+                "cards": [
+                    "8s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 8,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -7627,7 +7655,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -7786,6 +7816,22 @@
             },
             {
                 "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "5d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "9c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -18202,7 +18248,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -18414,6 +18462,14 @@
             },
             {
                 "id": 5,
+                "street": "River",
+                "cards": [
+                    "Kh"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
                 "street": "Showdown",
                 "actions": [
                     {
