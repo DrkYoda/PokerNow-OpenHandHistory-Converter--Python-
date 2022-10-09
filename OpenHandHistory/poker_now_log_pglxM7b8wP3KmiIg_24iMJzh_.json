@@ -15960,7 +15960,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 5,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -16150,6 +16152,32 @@
                 "street": "River",
                 "cards": [
                     "Qc"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "Flop",
+                "cards": [
+                    "9c,",
+                    "8h,",
+                    "3h"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "Turn",
+                "cards": [
+                    "Kd"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
+                "street": "River",
+                "cards": [
+                    "7h"
                 ],
                 "actions": []
             }
@@ -17131,7 +17159,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 5,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -17346,6 +17376,14 @@
                 "street": "River",
                 "cards": [
                     "7s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "As"
                 ],
                 "actions": []
             }
@@ -19485,7 +19523,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 4,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -19665,6 +19705,22 @@
                 "street": "River",
                 "cards": [
                     "9s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "5h"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "Jc"
                 ],
                 "actions": []
             }
@@ -38197,7 +38253,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 2,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -38347,6 +38405,32 @@
                 "street": "River",
                 "cards": [
                     "Qs"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "Flop",
+                "cards": [
+                    "5d,",
+                    "8c,",
+                    "5c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "Turn",
+                "cards": [
+                    "Ts"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
+                "street": "River",
+                "cards": [
+                    "3s"
                 ],
                 "actions": []
             }

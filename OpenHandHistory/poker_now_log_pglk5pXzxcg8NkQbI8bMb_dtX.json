@@ -21906,7 +21906,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -22089,6 +22091,14 @@
             },
             {
                 "id": 5,
+                "street": "River",
+                "cards": [
+                    "2d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
                 "street": "Showdown",
                 "actions": [
                     {
