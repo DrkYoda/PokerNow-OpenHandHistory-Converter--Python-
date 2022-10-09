@@ -21905,7 +21905,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -30740,7 +30740,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 2,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -30949,6 +30951,22 @@
                 "street": "River",
                 "cards": [
                     "As"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "Kc"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "4d"
                 ],
                 "actions": []
             }
@@ -31497,7 +31515,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -31725,6 +31745,14 @@
                 "street": "River",
                 "cards": [
                     "6s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "Td"
                 ],
                 "actions": []
             }
@@ -34117,7 +34145,7 @@
                     {
                         "action_number": 4,
                         "player_id": 4,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -38408,7 +38436,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -44606,7 +44634,7 @@
                     {
                         "action_number": 4,
                         "player_id": 4,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {

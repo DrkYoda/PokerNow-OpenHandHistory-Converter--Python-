@@ -18103,7 +18103,9 @@
         "big_blind_amount": 10.0,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -18302,6 +18304,14 @@
             },
             {
                 "id": 4,
+                "street": "River",
+                "cards": [
+                    "9s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -20490,7 +20500,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -22756,7 +22766,7 @@
                     {
                         "action_number": 4,
                         "player_id": 3,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -28707,13 +28717,13 @@
                     {
                         "action_number": 5,
                         "player_id": 5,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
                         "action_number": 6,
                         "player_id": 4,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -30966,7 +30976,7 @@
                     {
                         "action_number": 4,
                         "player_id": 3,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -35871,7 +35881,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -41096,7 +41106,7 @@
                         "action_number": 5,
                         "player_id": 0,
                         "action": "Call",
-                        "amount": 0.15
+                        "amount": 0.2
                     },
                     {
                         "action_number": 6,

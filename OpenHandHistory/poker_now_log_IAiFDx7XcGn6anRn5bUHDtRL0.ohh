@@ -1770,7 +1770,7 @@
                         "action_number": 7,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.4
+                        "amount": 0.35
                     },
                     {
                         "action_number": 8,
@@ -7784,7 +7784,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -8417,7 +8417,9 @@
         "big_blind_amount": 10.0,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -8606,6 +8608,14 @@
                 "street": "River",
                 "cards": [
                     "5s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "3s"
                 ],
                 "actions": []
             }
@@ -11259,7 +11269,7 @@
                         "action_number": 4,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.05
+                        "amount": 0.1
                     },
                     {
                         "action_number": 5,
@@ -23082,7 +23092,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -32299,7 +32309,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {

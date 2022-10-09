@@ -14148,7 +14148,7 @@
                     {
                         "action_number": 4,
                         "player_id": 5,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -15515,7 +15515,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -19784,7 +19784,9 @@
         "big_blind_amount": 25.0,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -19871,13 +19873,13 @@
                     {
                         "action_number": 5,
                         "player_id": 3,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
                         "action_number": 6,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -20058,6 +20060,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "Qc"
+                ],
+                "actions": []
             }
         ],
         "pots": [
@@ -20432,7 +20442,7 @@
                     {
                         "action_number": 4,
                         "player_id": 6,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -20896,7 +20906,9 @@
         "big_blind_amount": 25.0,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -21139,6 +21151,14 @@
             },
             {
                 "id": 5,
+                "street": "River",
+                "cards": [
+                    "6c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -25931,7 +25951,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -27438,7 +27458,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -36034,7 +36054,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {

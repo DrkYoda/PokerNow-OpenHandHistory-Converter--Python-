@@ -35554,7 +35554,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -38338,7 +38338,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 3,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -38522,6 +38524,14 @@
                 "street": "River",
                 "cards": [
                     "4d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "Js"
                 ],
                 "actions": []
             }
@@ -43977,7 +43987,7 @@
                         "action_number": 6,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.85
+                        "amount": 0.7
                     }
                 ]
             },

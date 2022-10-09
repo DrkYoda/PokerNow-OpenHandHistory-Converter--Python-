@@ -3628,7 +3628,7 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -9042,7 +9042,9 @@
         "big_blind_amount": 0.1,
         "ante_amount": 0.0,
         "hero_player_id": 0,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -9190,6 +9192,14 @@
                 "street": "River",
                 "cards": [
                     "Ts"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "Jc"
                 ],
                 "actions": []
             }
@@ -19882,7 +19892,7 @@
                     {
                         "action_number": 4,
                         "player_id": 3,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.1
                     },
                     {
@@ -42620,7 +42630,9 @@
         "big_blind_amount": 0.1,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -42783,6 +42795,14 @@
                 "street": "River",
                 "cards": [
                     "5s"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "Ts"
                 ],
                 "actions": []
             }

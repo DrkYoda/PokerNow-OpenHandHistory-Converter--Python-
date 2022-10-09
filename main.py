@@ -1,7 +1,6 @@
 # PokerNowToOHH.py
 # Mark Sudduth sudduth.mark@gmail.com
 """
-
 ****************************************************************************************************
 WHAT THIS DOES
 
@@ -19,7 +18,9 @@ KEY ASSUMPTIONS
 Working with Ring games only, not tournaments
 
 Change Log
+
 09-14-22 v 1.0.0 First Version
+
 10-06-22 v 1.0.3
     - Added timers to parts of the code to benchmark performance
     - Made improvements to the way the program selects lines that should be ignored.
@@ -27,6 +28,10 @@ Change Log
         - Code performance will be logged.
         - Lines that don't get processed will be logged in order to add them to the ignore list.
         - It will be logged when the calculated pot amount is not equal to the the collected amount.
+v 1.0.4
+    - Made change to correctly handle dead blinds.
+    - Corrected a problem that was causing become progressively slower with multiple files.
+    - Added ability to parse hands that run it twice.
 ****************************************************************************************************
 """
 # MODULES
@@ -173,8 +178,11 @@ first_rounds = {
 make_new_round = {
     "Player stacks": "Preflop",
     "Flop": "Flop",
+    "Flop (second run)": "Flop",
     "Turn": "Turn",
+    "Turn (second run)": "Turn",
     "River": "River",
+    "River (second run)": "River",
     "Show Down": "Showdown",
 }
 
@@ -288,7 +296,7 @@ seats_regex = re.compile(
 post_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) of (?P<amount>\d+.\d+)"
 )
-round_regex = re.compile(r"(?P<street>^[\w ]+):.+")
+round_regex = re.compile(r"(?P<street>^\w.+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
 addon_regex = re.compile(
     r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>[\d.]+)"
@@ -347,6 +355,7 @@ for poker_now_file in csv_file_list:
     lines_parsed: int = 0
     lines_saved: int = 0
     hand_count: int = 0
+    table = []
     # The text match to look for table name.
     table_name_match = re.match(table_regex, poker_now_file.name)
     if table_name_match is not None:
@@ -429,7 +438,9 @@ for poker_now_file in csv_file_list:
                     "quits",
                     "stand up",
                     "sit back",
-                    "run it twice",
+                    "Remaining players",
+                    "chooses",
+                    "choose to not",
                     "Dead Small Blind",
                     "room ownership",
                 ]
@@ -440,329 +451,355 @@ for poker_now_file in csv_file_list:
             else:
                 hands[hand_number][TEXT] = hands[hand_number][TEXT] + "\n" + entry
                 lines_saved += 1
-    logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
-    logging.info(f"[{table_name}] {lines_parsed} lines were parsed.")
-    logging.info(f"[{table_name}] {lines_ignored} lines were ignored.")
-    logging.info(f"[{table_name}] {lines_saved} lines were saved.")
-    logging.info(f"[{table_name}] {hand_count} hands were seperated.")
-    logging.info(
-        f"[{table_name}] {round(lines_saved/hand_count, 2)} average number of lines per hand."
-    )
-    logging.info(
-        f"[{table_name}][{perf_counter() - perf_start_1}] Performance counter for hand seperation."
-    )
-    logging.info(
-        f"[{table_name}][{process_time() - proc_start_1}] Process time for hand seperation."
-    )
-    perf_start_2 = perf_counter()
-    proc_start_2 = process_time()
-    logging.info(f"[{table_name}] ***STARTING HAND PROCESSING***")
-    unprocessed_count: int = 0
-    # Now that we have all hands from all the files, use the hand number of the imported hands to
-    # process them in sequential order. This is the place for processing the text of each hand and
-    # look for player actions
-    for hand_number, hand in hands.items():
-        hand_time = hand[DATETIME]
-        tables[table_name][COUNT] += 1
-        tables[table_name][LATEST] = hand_time
-        tables[table_name][LAST] = hand_number
-        # initialize the OHH JSON populating as many fields as possible and initializing key arrays
-        ohh = {
-            SPEC_VERSION: spec_version,
-            SITE_NAME: site_name,
-            NETWORK_NAME: network_name,
-            INTERNAL_VERSION: internal_version,
-            GAME_NUMBER: hand_number,
-            START_DATE_UTC: hand[DATETIME],
-            TABLE_NAME: hand[TABLE],
-            GAME_TYPE: hand[GAME_TYPE],
-            BET_LIMIT: {BET_TYPE: hand[BET_TYPE]},
-            TABLE_SIZE: 10,
-            CURRENCY: currency,
-            DEALER_SEAT: 1,
-            SMALL_BLIND_AMOUNT: hand[SMALL_BLIND_AMOUNT],
-            BIG_BLIND_AMOUNT: hand[BIG_BLIND_AMOUNT],
-            ANTE_AMOUNT: hand[ANTE_AMOUNT],
-            HERO_PLAYER_ID: 0,
-            FLAGS: [],
-            PLAYERS: [],
-            ROUNDS: [],
-            POTS: [],
-        }
-        # initialize variables, lists, and dictionaries for a new hand
-        players = []
-        player_ids = {}
-        current_round = first_rounds[ohh[GAME_TYPE]]
-        hero_playing: bool = bool(False)
-        winners = []
-        round_number: int = int(0)
-        action_number: int = int(0)
-        pot_number: int = int(0)
-        total_pot = float(0.00)
-        round_obj = {ID: 0, STREET: "", CARDS: [], ACTIONS: []}
-        pot_obj = {}
-        round_commit = {}
-        hand_text: str = hand[TEXT]
-        # Split the hand text loop through it line by line looking for regular expressions to parse
-        for line in hand_text.strip().splitlines(False):
-            # The text match to look for a seated player and see their starting chip amount.
-            seats = re.finditer(seats_regex, line)
-            if seats is not None:
-                player_id: int = 0
-                for player in seats:
-                    seat_number = int(player.group("seat"))
-                    player_display: str = player.group("player")
-                    player_stack = float(player.group("amount"))
-                    players.append(
-                        {
-                            ID: player_id,
-                            SEAT: seat_number,
-                            NAME: names[player_display],
-                            DISPLAY: player_display,
-                            STARTING_STACK: player_stack,
-                        }
-                    )
-                    # If the player is the dealer, set the value of the dealers seat number in the
-                    # ohh dictionary
-                    if hand[DEALER_NAME] == player_display:
-                        ohh[DEALER_SEAT] = seat_number
-                    # If the player is the hero, set the value of players ID in the ohh dictionary.
-                    if names[player_display] == hero_name:
-                        ohh[HERO_PLAYER_ID] = player_id
-                        hero_playing: bool = True
-                    # The OHH standard has a unique identifier for every player within the hand.
-                    # This id is used to identify the player in all other locations of the hand
-                    # history. Therefore, it is convenient to creat a dictionary to easily pull
-                    # out the id of each player when needed.
-                    player_ids[player_display] = player_id
-                    player_id += 1
-                    continue
-            # the text to match for a post this also indicates that the dealing is happening and we
-            # should move to the phase of assembling rounds of actions.
-            post = re.match(post_regex, line)
-            if post is not None:
-                player = post.group("player")
-                post_type = post.group("type")
-                amount = float(post.group("amount"))
-                round_obj[ID] = round_number
-                round_obj[STREET] = current_round
-                round_commit[player] = amount
-                action = {}
-                action[ACTION_NUMBER] = action_number
-                action[PLAYER_ID] = player_ids[player]
-                action[ACTION] = post_types[post_type]
-                action[AMOUNT] = amount
-                round_obj[ACTIONS].append(action)
-                total_pot += amount
-                action_number += 1
-                continue
-            # look for round markers note that cards dealt are melded together with opening round
-            # and do not necessarily mark a new round
-            round_marker = re.match(round_regex, line)
-            cards_match = re.search(cards_regex, line)
-            if round_marker is not None:
-                label = round_marker.group("street")
-                if label == PLAYER_STACKS:
-                    action_number: int = 0
-                    round_obj[ID] = round_number
-                    current_round = first_rounds[ohh[GAME_TYPE]]
-                    round_obj[STREET] = current_round
-                    action = {}
-                    round_commit = {}
-                    for p in player_ids:
-                        round_commit[p] = float(0)
-                elif label in make_new_round:
-                    # Make new round we need to add current round object to the OHH JSON and make a
-                    # clean one increment round number and reset action number
-                    ohh[ROUNDS].append(round_obj)
-                    round_obj = {}
-                    round_number += 1
-                    action_number: int = 0
-                    current_round = make_new_round[label]
-                    round_obj[ID] = round_number
-                    round_obj[STREET] = current_round
-                    round_obj[CARDS] = []
-                    round_obj[ACTIONS] = []
-                    round_commit = {}
-                    for p in player_ids:
-                        round_commit[p] = 0
-                    if cards_match is not None:
-                        cards = cards_match.group("cards")
-                        for card in cards.split():
-                            round_obj[CARDS].append(card)
-                    else:
+        logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
+        logging.info(f"[{table_name}] {lines_parsed} lines were parsed.")
+        logging.info(f"[{table_name}] {lines_ignored} lines were ignored.")
+        logging.info(f"[{table_name}] {lines_saved} lines were saved.")
+        logging.info(f"[{table_name}] {hand_count} hands were seperated.")
+        logging.info(
+            f"[{table_name}] {round(lines_saved/hand_count, 2)} average number of lines per hand."
+        )
+        logging.info(
+            f"[{table_name}][{perf_counter() - perf_start_1}] Performance counter for hand"
+            f"seperation."
+        )
+        logging.info(
+            f"[{table_name}][{process_time() - proc_start_1}] Process time for hand seperation."
+        )
+        perf_start_2 = perf_counter()
+        proc_start_2 = process_time()
+        logging.info(f"[{table_name}] ***STARTING HAND PROCESSING***")
+        unprocessed_count: int = 0
+        # Now that we have all hands from all the files, use the hand number of the imported hands
+        # to process them in sequential order. This is the place for processing the text of each
+        # hand and look for player actions
+        for hand_number, hand in hands.items():
+            hand_time = hand[DATETIME]
+            tables[table_name][COUNT] += 1
+            tables[table_name][LATEST] = hand_time
+            tables[table_name][LAST] = hand_number
+            # initialize the OHH JSON populating as many fields as possible and initializing arrays.
+            ohh = {
+                SPEC_VERSION: spec_version,
+                SITE_NAME: site_name,
+                NETWORK_NAME: network_name,
+                INTERNAL_VERSION: internal_version,
+                GAME_NUMBER: hand_number,
+                START_DATE_UTC: hand[DATETIME],
+                TABLE_NAME: hand[TABLE],
+                GAME_TYPE: hand[GAME_TYPE],
+                BET_LIMIT: {BET_TYPE: hand[BET_TYPE]},
+                TABLE_SIZE: 10,
+                CURRENCY: currency,
+                DEALER_SEAT: 1,
+                SMALL_BLIND_AMOUNT: hand[SMALL_BLIND_AMOUNT],
+                BIG_BLIND_AMOUNT: hand[BIG_BLIND_AMOUNT],
+                ANTE_AMOUNT: hand[ANTE_AMOUNT],
+                HERO_PLAYER_ID: 0,
+                FLAGS: [],
+                PLAYERS: [],
+                ROUNDS: [],
+                POTS: [],
+            }
+            # initialize variables, lists, and dictionaries for a new hand
+            players = []
+            player_ids = {}
+            current_round = first_rounds[ohh[GAME_TYPE]]
+            hero_playing: bool = bool(False)
+            winners = []
+            round_number: int = int(0)
+            action_number: int = int(0)
+            pot_number: int = int(0)
+            total_pot = float(0.00)
+            round_obj = {ID: 0, STREET: "", CARDS: [], ACTIONS: []}
+            pot_obj = {}
+            round_commit = {}
+            hand_text: str = hand[TEXT]
+            # Split the hand text and loop through it line by line looking for regular expressions
+            # to parse.
+            for line in hand_text.strip().splitlines(False):
+                # The text match to look for a seated player and see their starting chip amount.
+                seats = re.finditer(seats_regex, line)
+                if seats is not None:
+                    player_id: int = 0
+                    for player in seats:
+                        seat_number = int(player.group("seat"))
+                        player_display: str = player.group("player")
+                        player_stack = float(player.group("amount"))
+                        players.append(
+                            {
+                                ID: player_id,
+                                SEAT: seat_number,
+                                NAME: names[player_display],
+                                DISPLAY: player_display,
+                                STARTING_STACK: player_stack,
+                            }
+                        )
+                        # If the player is the dealer, set the value of the dealers seat number in
+                        # the ohh dictionary
+                        if hand[DEALER_NAME] == player_display:
+                            ohh[DEALER_SEAT] = seat_number
+                        # If the player is the hero, set the value of players ID in the ohh
+                        # dictionary.
+                        if names[player_display] == hero_name:
+                            ohh[HERO_PLAYER_ID] = player_id
+                            hero_playing: bool = True
+                        # The OHH standard has a unique identifier for every player within the hand.
+                        # This id is used to identify the player in all other locations of the hand
+                        # history. Therefore, it is convenient to creat a dictionary to easily pull
+                        # out the id of each player when needed.
+                        player_ids[player_display] = player_id
+                        player_id += 1
                         continue
-                continue
-            show_hand = re.search(show_regex, line)
-            if show_hand is not None:
-                player = show_hand.group("player")
-                does = show_hand.group("player_action")
-                cards = show_hand.group("cards")
-                if current_round != SHOW_DOWN:
-                    ohh[ROUNDS].append(round_obj)
-                    round_obj = {}
-                    round_number += 1
-                    action_number: int = 0
-                    current_round: str = SHOW_DOWN
+                # the text to match for a post this also indicates that the dealing is happening and
+                # we should move to the phase of assembling rounds of actions.
+                post = re.match(post_regex, line)
+                if post is not None:
+                    player = post.group("player")
+                    post_type = post.group("type")
+                    amount = float(post.group("amount"))
                     round_obj[ID] = round_number
-                    round_obj[STREET] = make_new_round[SHOW_DOWN]
-                    round_obj[ACTIONS] = []
-                action = {}
-                action[ACTION_NUMBER] = action_number
-                action[PLAYER_ID] = player_ids[player]
-                action[ACTION] = "Shows Hand"
-                action[CARDS] = []
-                for card in cards.split():
-                    action[CARDS].append(card)
-                round_obj[ACTIONS].append(action)
-                action_number += 1
-                round_commit = {}
-                for p in player_ids:
-                    round_commit[p] = 0
-                continue
-            # the text to match for an add on
-            add_on = re.match(addon_regex, line)
-            if add_on is not None:
-                player = add_on.group("player")
-                additional = float(add_on.group("amount"))
-                if current_round is not None and player in player_ids:
+                    round_obj[STREET] = current_round
                     action = {}
                     action[ACTION_NUMBER] = action_number
                     action[PLAYER_ID] = player_ids[player]
-                    action[AMOUNT] = additional
-                    action[ACTION] = "Added Chips"
+                    action[ACTION] = post_types[post_type]
+                    action[AMOUNT] = amount
+                    round_obj[ACTIONS].append(action)
+                    # Poker now records the amounts associated with actions such as bets, raises,
+                    # calls, and posting blinds as the the sum total of the current and all previous
+                    # actions of the player during the round. However, the OHH standard requires the
+                    # amount put in from the current action rather than the sum total of the round.
+                    # This difference in accounting methods requires the amount commited by each
+                    # player in the round to be rcorded in a dictionary
+                    # {player1: amount, player2: amount, ...}.
+                    # The amount the player has commited to the round can then be subtracted from
+                    # the current amount to get the amount commited in the action, that OHH
+                    # requires. There is one exception to this rule, in the case of a dead blind
+                    # being posted by a player who missed the blinds. Posting a missed SB is
+                    # considered a "dead" and is not considered to be a amount commited, but a
+                    # missed BB is a "live"blind and should be added to the amount commited to the
+                    # round.
+                    if action[ACTION] != "Post Dead":
+                        amount = round(amount - round_commit[player], 2)
+                        round_commit[player] += amount
+                    total_pot += amount
+                    action_number += 1
+                    continue
+                # look for round markers note that cards dealt are melded together with opening
+                # round and do not necessarily mark a new round
+                round_marker = re.match(round_regex, line)
+                cards_match = re.search(cards_regex, line)
+                if round_marker is not None:
+                    label = round_marker.group("street")
+                    if label == PLAYER_STACKS:
+                        action_number: int = 0
+                        round_obj[ID] = round_number
+                        current_round = first_rounds[ohh[GAME_TYPE]]
+                        round_obj[STREET] = current_round
+                        action = {}
+                        round_commit = {}
+                        for p in player_ids:
+                            round_commit[p] = float(0)
+                    elif label in make_new_round:
+                        # Make new round we need to add current round object to the OHH JSON and
+                        # make a clean one increment round number and reset action number
+                        ohh[ROUNDS].append(round_obj)
+                        round_obj = {}
+                        round_number += 1
+                        action_number: int = 0
+                        current_round = make_new_round[label]
+                        round_obj[ID] = round_number
+                        round_obj[STREET] = current_round
+                        round_obj[CARDS] = []
+                        round_obj[ACTIONS] = []
+                        round_commit = {}
+                        for p in player_ids:
+                            round_commit[p] = 0
+                        if cards_match is not None:
+                            cards = cards_match.group("cards")
+                            for card in cards.split():
+                                round_obj[CARDS].append(card)
+                        else:
+                            continue
+                    continue
+                show_hand = re.search(show_regex, line)
+                if show_hand is not None:
+                    player = show_hand.group("player")
+                    does = show_hand.group("player_action")
+                    cards = show_hand.group("cards")
+                    if current_round != SHOW_DOWN:
+                        ohh[ROUNDS].append(round_obj)
+                        round_obj = {}
+                        round_number += 1
+                        action_number: int = 0
+                        current_round: str = SHOW_DOWN
+                        round_obj[ID] = round_number
+                        round_obj[STREET] = make_new_round[SHOW_DOWN]
+                        round_obj[ACTIONS] = []
+                    action = {}
+                    action[ACTION_NUMBER] = action_number
+                    action[PLAYER_ID] = player_ids[player]
+                    action[ACTION] = "Shows Hand"
+                    action[CARDS] = []
+                    for card in cards.split():
+                        action[CARDS].append(card)
                     round_obj[ACTIONS].append(action)
                     action_number += 1
-                continue
-            # the text to match for cards dealt
-            hero_hand = re.match(hero_hand_regex, line)
-            if hero_hand is not None:
-                cards = hero_hand.group("cards")
-                action = {}
-                action[ACTION_NUMBER] = action_number
-                action[PLAYER_ID] = ohh[HERO_PLAYER_ID]
-                action[ACTION] = "Dealt Cards"
-                action[CARDS] = []
-                for card in cards.split():
-                    action[CARDS].append(card)
-                round_obj[ACTIONS].append(action)
-                action_number += 1
-                continue
-            non_bet_action = re.match(non_bet_action_regex, line)
-            if non_bet_action is not None:
-                player = non_bet_action.group("player")
-                does = non_bet_action.group("player_action")
-                action = {}
-                action[ACTION_NUMBER] = action_number
-                action[PLAYER_ID] = player_ids[player]
-                action[ACTION] = verb_to_action[does]
-                round_obj[ACTIONS].append(action)
-                action_number += 1
-                continue
-            bet_action = re.match(bet_action_regex, line)
-            if bet_action is not None:
-                player = bet_action.group("player")
-                does = bet_action.group("player_action")
-                amount = float(bet_action.group("amount"))
-                all_in = bet_action.group("all_in")
-                action = {}
-                action[ACTION_NUMBER] = action_number
-                action[PLAYER_ID] = player_ids[player]
-                action[ACTION] = verb_to_action[does]
-                if does in ("raises", "calls"):
-                    amount = round(amount - round_commit[player], 2)
-                action[AMOUNT] = amount
-                round_commit[player] += amount
-                total_pot += amount
-                if all_in is not None:
-                    action[IS_ALL_IN] = True
-                round_obj[ACTIONS].append(action)
-                action_number += 1
-                continue
-            uncalled_bet_match = re.match(uncalled_regex, line)
-            if uncalled_bet_match is not None:
-                amount = round(float(uncalled_bet_match.group("amount")), 2)
-                total_pot -= amount
-                continue
-            winner = re.match(winner_regex, line)
-            if winner is not None:
-                player = winner.group("player")
-                does = winner.group("player_action")
-                amount = float(winner.group("amount"))
-                player_id = player_ids[player]
-                winners.append(player_id)
-                if pot_number not in pot_obj:
-                    pot_obj[pot_number] = {
-                        NUMBER: pot_number,
-                        AMOUNT: 0.00,
-                        RAKE: 0.00,
-                        PLAYER_WINS: {},
-                    }
-                if not player_id in pot_obj[pot_number][PLAYER_WINS]:
-                    pot_obj[pot_number][PLAYER_WINS][player_id] = {
-                        PLAYER_ID: player_id,
-                        WIN_AMOUNT: 0.00,
-                        CONTRIBUTED_RAKE: 0.00,
-                    }
-                pot_obj[pot_number][AMOUNT] += amount
-                pot_obj[pot_number][PLAYER_WINS][player_id][WIN_AMOUNT] += amount
-                continue
-            unprocessed_count += 1
-            logging.debug(f"[{table_name}][{hand_number}] '{line}' was not processed.")
-
-        for pot_number, pot in pot_obj.items():
-            amt = round(pot[AMOUNT], 2)
-            rake = pot[RAKE]
-            potObj = {NUMBER: pot_number, AMOUNT: amt, RAKE: rake, PLAYER_WINS: []}
-            for player_id in pot[PLAYER_WINS]:
-                win_amount = round(pot[PLAYER_WINS][player_id][WIN_AMOUNT], 2)
-                rake_contribution = pot[PLAYER_WINS][player_id][CONTRIBUTED_RAKE]
-                player_win_obj = {
-                    PLAYER_ID: player_id,
-                    WIN_AMOUNT: win_amount,
-                    CONTRIBUTED_RAKE: rake_contribution,
-                }
-                potObj[PLAYER_WINS].append(player_win_obj)
-            if round(pot[AMOUNT], 2) != round(total_pot, 2):
+                    round_commit = {}
+                    for p in player_ids:
+                        round_commit[p] = 0
+                    continue
+                # the text to match for an add on
+                add_on = re.match(addon_regex, line)
+                if add_on is not None:
+                    player = add_on.group("player")
+                    additional = float(add_on.group("amount"))
+                    if current_round is not None and player in player_ids:
+                        action = {}
+                        action[ACTION_NUMBER] = action_number
+                        action[PLAYER_ID] = player_ids[player]
+                        action[AMOUNT] = additional
+                        action[ACTION] = "Added Chips"
+                        round_obj[ACTIONS].append(action)
+                        action_number += 1
+                    continue
+                # the text to match for cards dealt
+                hero_hand = re.match(hero_hand_regex, line)
+                if hero_hand is not None:
+                    cards = hero_hand.group("cards")
+                    action = {}
+                    action[ACTION_NUMBER] = action_number
+                    action[PLAYER_ID] = ohh[HERO_PLAYER_ID]
+                    action[ACTION] = "Dealt Cards"
+                    action[CARDS] = []
+                    for card in cards.split():
+                        action[CARDS].append(card)
+                    round_obj[ACTIONS].append(action)
+                    action_number += 1
+                    continue
+                non_bet_action = re.match(non_bet_action_regex, line)
+                if non_bet_action is not None:
+                    player = non_bet_action.group("player")
+                    does = non_bet_action.group("player_action")
+                    action = {}
+                    action[ACTION_NUMBER] = action_number
+                    action[PLAYER_ID] = player_ids[player]
+                    action[ACTION] = verb_to_action[does]
+                    round_obj[ACTIONS].append(action)
+                    action_number += 1
+                    continue
+                bet_action = re.match(bet_action_regex, line)
+                if bet_action is not None:
+                    player = bet_action.group("player")
+                    does = bet_action.group("player_action")
+                    amount = float(bet_action.group("amount"))
+                    all_in = bet_action.group("all_in")
+                    action = {}
+                    action[ACTION_NUMBER] = action_number
+                    action[PLAYER_ID] = player_ids[player]
+                    action[ACTION] = verb_to_action[does]
+                    if does in ("raises", "calls"):
+                        amount = round(amount - round_commit[player], 2)
+                    action[AMOUNT] = amount
+                    round_commit[player] += amount
+                    total_pot += amount
+                    if all_in is not None:
+                        action[IS_ALL_IN] = True
+                    round_obj[ACTIONS].append(action)
+                    action_number += 1
+                    continue
+                uncalled_bet_match = re.match(uncalled_regex, line)
+                if uncalled_bet_match is not None:
+                    amount = round(float(uncalled_bet_match.group("amount")), 2)
+                    total_pot -= amount
+                    continue
+                winner = re.match(winner_regex, line)
+                if winner is not None:
+                    player = winner.group("player")
+                    does = winner.group("player_action")
+                    amount = float(winner.group("amount"))
+                    player_id = player_ids[player]
+                    winners.append(player_id)
+                    if pot_number not in pot_obj:
+                        pot_obj[pot_number] = {
+                            NUMBER: pot_number,
+                            AMOUNT: 0.00,
+                            RAKE: 0.00,
+                            PLAYER_WINS: {},
+                        }
+                    if not player_id in pot_obj[pot_number][PLAYER_WINS]:
+                        pot_obj[pot_number][PLAYER_WINS][player_id] = {
+                            PLAYER_ID: player_id,
+                            WIN_AMOUNT: 0.00,
+                            CONTRIBUTED_RAKE: 0.00,
+                        }
+                    pot_obj[pot_number][AMOUNT] += amount
+                    pot_obj[pot_number][PLAYER_WINS][player_id][WIN_AMOUNT] += amount
+                    continue
+                # Hands with the option to run it twice there are several lines in the
+                # csv file that will contain the string "run it twice" but the only line
+                # that will have made it this far will indicat that all players approved.
+                if "run it twice" in line:
+                    ohh[FLAGS].append("Run_It_Twice")
+                    continue
+                unprocessed_count += 1
                 logging.debug(
-                    f"[{table_name}][{hand_number}] Calculated pot ({round(total_pot, 2)}) does not"
-                    f" equal collected pot ({round(pot[AMOUNT], 2)})"
+                    f"[{table_name}][{hand_number}] '{line}' was not processed."
                 )
 
-            ohh[POTS].append(potObj)
-        ohh[PLAYERS] = players
-        ohh[ROUNDS].append(round_obj)
-        tables[table_name][OHH].append(ohh)
-    logging.info(f"[{table_name}] ***FINISHED HAND PARSING***")
-    logging.info(f"[{table_name}] {unprocessed_count} lines were not parsed.")
-    ohh_directory = Path("OpenHandHistory")
-    for table_name, table_dict in tables.items():
+            for pot_number, pot in pot_obj.items():
+                amt = round(pot[AMOUNT], 2)
+                rake = pot[RAKE]
+                potObj = {NUMBER: pot_number, AMOUNT: amt, RAKE: rake, PLAYER_WINS: []}
+                for player_id in pot[PLAYER_WINS]:
+                    win_amount = round(pot[PLAYER_WINS][player_id][WIN_AMOUNT], 2)
+                    rake_contribution = pot[PLAYER_WINS][player_id][CONTRIBUTED_RAKE]
+                    player_win_obj = {
+                        PLAYER_ID: player_id,
+                        WIN_AMOUNT: win_amount,
+                        CONTRIBUTED_RAKE: rake_contribution,
+                    }
+                    potObj[PLAYER_WINS].append(player_win_obj)
+                if round(pot[AMOUNT], 2) != round(total_pot, 2):
+                    logging.debug(
+                        f"[{table_name}][{hand_number}] Calculated pot ({round(total_pot, 2)})"
+                        f"does not equal collected pot ({round(pot[AMOUNT], 2)})"
+                    )
+
+                ohh[POTS].append(potObj)
+            ohh[PLAYERS] = players
+            ohh[ROUNDS].append(round_obj)
+            table.append(ohh)
+        logging.info(f"[{table_name}] ***FINISHED HAND PARSING***")
+        logging.info(f"[{table_name}] {unprocessed_count} lines were not parsed.")
+        ohh_directory = Path("OpenHandHistory")
         with open(
             ohh_directory / poker_now_file.with_suffix(".ohh").name,
             "w",
             encoding="utf-8",
         ) as f:
-            for ohh in table_dict[OHH]:
+            for ohh in table:
                 wrapped_ohh = {}
                 wrapped_ohh[OHH] = ohh
                 f.write(json.dumps(wrapped_ohh, indent=4))
                 f.write("\n")
                 f.write("\n")
-    logging.info(
-        f"[{table_name}][{perf_counter() - perf_start_2}] Performance counter for hand parsing."
-    )
-    logging.info(
-        f"[{table_name}][{process_time() - proc_start_2}] Process time for hand parsing."
-    )
+        logging.info(
+            f"[{table_name}][{perf_counter() - perf_start_2}] Performance counter for hand parsing."
+        )
+        logging.info(
+            f"[{table_name}][{process_time() - proc_start_2}] Process time for hand parsing."
+        )
 
-    print(
-        f"Completed processing {csv_file_list.index(poker_now_file) + 1} out of "
-        f"{len(csv_file_list)} files "
-        f"{round(((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list))*100, 2)}% "
-        f"complete. Time to process table {table_name}"
-    )
-    print(f"{perf_counter() - perf_start_2} Performance counter for hand parsing.")
-    print(f"{process_time() - proc_start_2} Process time for hand parsing.")
+        print(
+            f"Completed processing {csv_file_list.index(poker_now_file) + 1} out of "
+            f"{len(csv_file_list)} files "
+            f"{round(((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list))*100, 2)}% "
+            f"complete. Time to process table {table_name}"
+        )
+        print(f"{perf_counter() - perf_start_2} Performance counter for hand parsing.")
+        print(f"{process_time() - proc_start_2} Process time for hand parsing.")
 logging.info(
     f"[ALL][{perf_counter() - timer_perf_start}] Performance counter for all hands."
 )

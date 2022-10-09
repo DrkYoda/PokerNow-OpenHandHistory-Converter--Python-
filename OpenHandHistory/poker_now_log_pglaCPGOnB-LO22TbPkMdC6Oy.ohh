@@ -2536,7 +2536,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.02
                     },
                     {
@@ -5786,7 +5786,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.02
                     },
                     {
@@ -14323,7 +14323,7 @@
                         "action_number": 9,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.09
+                        "amount": 0.08
                     },
                     {
                         "action_number": 10,
@@ -15894,7 +15894,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -16078,6 +16080,22 @@
             },
             {
                 "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "Ah"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "3d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -20503,7 +20521,9 @@
         "big_blind_amount": 0.02,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -20663,6 +20683,22 @@
             },
             {
                 "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "9c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "3d"
+                ],
+                "actions": []
+            },
+            {
+                "id": 7,
                 "street": "Showdown",
                 "actions": [
                     {
@@ -26558,7 +26594,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.02
                     },
                     {
@@ -35865,7 +35901,7 @@
                         "action_number": 7,
                         "player_id": 3,
                         "action": "Call",
-                        "amount": 0.07
+                        "amount": 0.06
                     }
                 ]
             },
@@ -45316,7 +45352,7 @@
                     {
                         "action_number": 4,
                         "player_id": 3,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.02
                     },
                     {

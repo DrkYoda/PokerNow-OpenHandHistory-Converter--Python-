@@ -2950,7 +2950,9 @@
         "big_blind_amount": 0.1,
         "ante_amount": 0.0,
         "hero_player_id": 2,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -3111,6 +3113,14 @@
                 "street": "River",
                 "cards": [
                     "Kd"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "7d"
                 ],
                 "actions": []
             }
@@ -32735,7 +32745,9 @@
         "big_blind_amount": 0.1,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -32901,6 +32913,14 @@
                 "street": "River",
                 "cards": [
                     "9h"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "River",
+                "cards": [
+                    "2s"
                 ],
                 "actions": []
             }
