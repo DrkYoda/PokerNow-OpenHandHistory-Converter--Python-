@@ -28,12 +28,12 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 ### Desktop
- - OS: [e.g. iOS]
-   - Version: 
- - Language [e.g. Python, Javascript, C++]
-   - Version: 
- - File [e.g. main.py]
-   - Version
+ - **OS**: _[e.g. Windows 10]_
+   - **Version**: _[e.g. 10.0.19043]_
+ - **Language**: _[e.g. Python, Javascript, C++]_
+   - **Version**: _[e.g 3.2.10]_
+ - **File**: _[e.g. main.py]_
+   - **Version**: _[e.g. 1.0.3]_
 
 ### Additional Context
 Add any other context about the problem here.
