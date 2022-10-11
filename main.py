@@ -33,6 +33,7 @@ v 1.0.4
     - Corrected a problem that was causing become progressively slower with multiple files.
     - Added ability to parse hands that run it twice.
     - Fixed issue #4 where Omaha hands were being converted to 2 card hands.
+    - Fixed issue #8 Dummy ohh object with "game_number": "0"
 ****************************************************************************************************
 """
 # MODULES
@@ -142,7 +143,7 @@ the hands dictionary
         - GAME_TYPE: string - The game type (Texas Hold'em, Omaha High, Omaha Hi/Lo 8 or Better)
         - DEALER_NAME: string - The name of the dealer
         - TABLE: string - table where the hand happened
-        - BIG_BLIND_AMOuNT: float - Amount of the big blind
+        - BIG_BLIND_AMOUNT: float - Amount of the big blind
         - SMALL_BLIND_AMOUNT: float - Amount of the small blind
         - ANTE_AMOUNT: float - Amount of the ante
         - TEXT: string - full text of hand, with newlines
@@ -343,17 +344,6 @@ for poker_now_file in csv_file_list:
     table_name: str = ""
     hand_number: str = "0"
     hands = {}
-    hands[hand_number] = {
-        DATETIME: "",
-        BET_TYPE: "NL",
-        GAME_TYPE: "Holdem",
-        DEALER_NAME: "",
-        TABLE: "",
-        BIG_BLIND_AMOUNT: 0.20,
-        SMALL_BLIND_AMOUNT: 0.10,
-        ANTE_AMOUNT: 0.00,
-        TEXT: "",
-    }
     lines_ignored: int = 0
     lines_parsed: int = 0
     lines_saved: int = 0
@@ -446,6 +436,8 @@ for poker_now_file in csv_file_list:
                     "choose to not",
                     "Dead Small Blind",
                     "room ownership",
+                    "IMPORTANT:",
+                    "WARNING:",
                 ]
             ):
                 lines_ignored += 1
