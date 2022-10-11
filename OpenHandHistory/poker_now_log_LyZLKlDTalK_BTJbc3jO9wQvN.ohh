@@ -4,40 +4,6 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "0",
-        "start_date_utc": "",
-        "table_name": "",
-        "game_type": "Holdem",
-        "bet_limit": {
-            "bet_type": "NL"
-        },
-        "table_size": 10,
-        "currency": "USD",
-        "dealer_seat": 1,
-        "small_blind_amount": 0.1,
-        "big_blind_amount": 0.2,
-        "ante_amount": 0.0,
-        "hero_player_id": 0,
-        "flags": [],
-        "players": [],
-        "rounds": [
-            {
-                "id": 0,
-                "street": "",
-                "cards": [],
-                "actions": []
-            }
-        ],
-        "pots": []
-    }
-}
-
-{
-    "ohh": {
-        "spec_version": "1.2.2",
-        "site_name": "PokerStars",
-        "network_name": "PokerStars",
-        "internal_version": "1.2.2",
         "game_number": "1",
         "start_date_utc": "2021-08-28T03:00:07Z",
         "table_name": "LyZLKlDTalK_BTJbc3jO9wQvN",
