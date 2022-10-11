@@ -4,40 +4,6 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "0",
-        "start_date_utc": "",
-        "table_name": "",
-        "game_type": "Holdem",
-        "bet_limit": {
-            "bet_type": "NL"
-        },
-        "table_size": 10,
-        "currency": "USD",
-        "dealer_seat": 1,
-        "small_blind_amount": 0.1,
-        "big_blind_amount": 0.2,
-        "ante_amount": 0.0,
-        "hero_player_id": 0,
-        "flags": [],
-        "players": [],
-        "rounds": [
-            {
-                "id": 0,
-                "street": "",
-                "cards": [],
-                "actions": []
-            }
-        ],
-        "pots": []
-    }
-}
-
-{
-    "ohh": {
-        "spec_version": "1.2.2",
-        "site_name": "PokerStars",
-        "network_name": "PokerStars",
-        "internal_version": "1.2.2",
         "game_number": "1",
         "start_date_utc": "2021-12-19T01:04:39Z",
         "table_name": "wZN7vBD-UxEDj7i4PzSoIuizE",
@@ -3840,7 +3806,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qh,",
-                            "6d"
+                            "6d,",
+                            "3d,",
+                            "7h"
                         ]
                     },
                     {
@@ -3849,7 +3817,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5s,",
-                            "Qd"
+                            "Qd,",
+                            "Qs,",
+                            "8d"
                         ]
                     }
                 ]
@@ -4081,7 +4051,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "As"
+                            "As,",
+                            "4d,",
+                            "Tc"
                         ]
                     }
                 ]
@@ -4188,7 +4160,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4d,",
-                            "Kh"
+                            "Kh,",
+                            "3c,",
+                            "Kd"
                         ]
                     },
                     {
@@ -4197,7 +4171,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ad,",
-                            "2s"
+                            "2s,",
+                            "As,",
+                            "9s"
                         ]
                     }
                 ]
@@ -4439,7 +4415,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "As,",
-                            "4h"
+                            "4h,",
+                            "6c,",
+                            "5s"
                         ]
                     },
                     {
@@ -4448,7 +4426,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3c,",
-                            "3h"
+                            "3h,",
+                            "Kd,",
+                            "Kc"
                         ]
                     }
                 ]
@@ -4689,7 +4669,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9h,",
-                            "7d"
+                            "7d,",
+                            "9c,",
+                            "Ts"
                         ]
                     },
                     {
@@ -4698,7 +4680,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kd,",
-                            "4s"
+                            "4s,",
+                            "8d,",
+                            "Ac"
                         ]
                     }
                 ]
@@ -4793,7 +4777,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "Ah"
+                            "Ah,",
+                            "As,",
+                            "Td"
                         ]
                     }
                 ]
@@ -5035,7 +5021,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3c,",
-                            "6h"
+                            "6h,",
+                            "3s,",
+                            "3d"
                         ]
                     }
                 ]
@@ -5714,7 +5702,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Js,",
-                            "3c"
+                            "3c,",
+                            "Ac,",
+                            "6d"
                         ]
                     },
                     {
@@ -5723,7 +5713,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Tc,",
-                            "Kc"
+                            "Kc,",
+                            "Qc,",
+                            "Th"
                         ]
                     }
                 ]
@@ -6362,7 +6354,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ad,",
-                            "Th"
+                            "Th,",
+                            "4h,",
+                            "8h"
                         ]
                     },
                     {
@@ -6371,7 +6365,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4d,",
-                            "3d"
+                            "3d,",
+                            "Ah,",
+                            "7s"
                         ]
                     }
                 ]
@@ -6564,7 +6560,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8d,",
-                            "9s"
+                            "9s,",
+                            "Th,",
+                            "Kd"
                         ]
                     }
                 ]
@@ -6788,7 +6786,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Td,",
-                            "Qh"
+                            "Qh,",
+                            "3s,",
+                            "As"
                         ]
                     },
                     {
@@ -6797,7 +6797,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7d,",
-                            "Ts"
+                            "Ts,",
+                            "4d,",
+                            "6s"
                         ]
                     }
                 ]
@@ -7107,7 +7109,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Td,",
-                            "Tc"
+                            "Tc,",
+                            "4c,",
+                            "5c"
                         ]
                     }
                 ]
@@ -7617,7 +7621,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "2h"
+                            "2h,",
+                            "4s,",
+                            "3h"
                         ]
                     }
                 ]
@@ -7845,7 +7851,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8c,",
-                            "5h"
+                            "5h,",
+                            "8h,",
+                            "6d"
                         ]
                     },
                     {
@@ -7854,7 +7862,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3d,",
-                            "9s"
+                            "9s,",
+                            "Qs,",
+                            "Ah"
                         ]
                     },
                     {
@@ -7863,7 +7873,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9h,",
-                            "Jc"
+                            "Jc,",
+                            "7c,",
+                            "Td"
                         ]
                     }
                 ]
@@ -8085,7 +8097,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "Jd"
+                            "Jd,",
+                            "7d,",
+                            "8d"
                         ]
                     }
                 ]
@@ -8221,7 +8235,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ad,",
-                            "5c"
+                            "5c,",
+                            "4h,",
+                            "3h"
                         ]
                     }
                 ]
@@ -8419,7 +8435,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "Jd"
+                            "Jd,",
+                            "As,",
+                            "Ts"
                         ]
                     },
                     {
@@ -8428,7 +8446,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5d,",
-                            "2h"
+                            "2h,",
+                            "7s,",
+                            "2c"
                         ]
                     },
                     {
@@ -8437,7 +8457,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9h,",
-                            "Ad"
+                            "Ad,",
+                            "4h,",
+                            "6c"
                         ]
                     }
                 ]
@@ -8931,7 +8953,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jc,",
-                            "Qh"
+                            "Qh,",
+                            "Qc,",
+                            "6c"
                         ]
                     }
                 ]
@@ -9145,7 +9169,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Td,",
-                            "Js"
+                            "Js,",
+                            "Kc,",
+                            "5c"
                         ]
                     }
                 ]
@@ -9348,7 +9374,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qd,",
-                            "3c"
+                            "3c,",
+                            "9c,",
+                            "5d"
                         ]
                     }
                 ]
@@ -9537,7 +9565,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ad,",
-                            "Qs"
+                            "Qs,",
+                            "9h,",
+                            "Ts"
                         ]
                     },
                     {
@@ -9546,7 +9576,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7d,",
-                            "5h"
+                            "5h,",
+                            "Jc,",
+                            "9c"
                         ]
                     }
                 ]
@@ -14054,7 +14086,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jc,",
-                            "Qd"
+                            "Qd,",
+                            "4s,",
+                            "As"
                         ]
                     },
                     {
@@ -14063,7 +14097,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4d,",
-                            "Js"
+                            "Js,",
+                            "5s,",
+                            "6h"
                         ]
                     }
                 ]
@@ -15331,7 +15367,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "4s"
+                            "4s,",
+                            "Jh,",
+                            "Tc"
                         ]
                     },
                     {
@@ -15340,7 +15378,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6c,",
-                            "7s"
+                            "7s,",
+                            "8c,",
+                            "5d"
                         ]
                     }
                 ]
@@ -15556,7 +15596,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8d,",
-                            "7d"
+                            "7d,",
+                            "Ks,",
+                            "Ac"
                         ]
                     }
                 ]
@@ -15881,7 +15923,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4s,",
-                            "Ks"
+                            "Ks,",
+                            "Jd,",
+                            "Th"
                         ]
                     },
                     {
@@ -15890,7 +15934,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3s,",
-                            "9h"
+                            "9h,",
+                            "6h,",
+                            "As"
                         ]
                     }
                 ]
@@ -20149,7 +20195,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -21239,7 +21285,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8d,",
-                            "6s"
+                            "6s,",
+                            "Kd,",
+                            "9d"
                         ]
                     },
                     {
@@ -21248,7 +21296,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3d,",
-                            "Td"
+                            "Td,",
+                            "9c,",
+                            "6c"
                         ]
                     }
                 ]
@@ -21468,7 +21518,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jc,",
-                            "Ts"
+                            "Ts,",
+                            "9d,",
+                            "3h"
                         ]
                     },
                     {
@@ -21477,7 +21529,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5s,",
-                            "6c"
+                            "6c,",
+                            "Tc,",
+                            "Qs"
                         ]
                     }
                 ]
@@ -21689,7 +21743,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kd,",
-                            "2c"
+                            "2c,",
+                            "Jd,",
+                            "Th"
                         ]
                     }
                 ]
@@ -22036,7 +22092,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qh,",
-                            "Kd"
+                            "Kd,",
+                            "5s,",
+                            "Th"
                         ]
                     },
                     {
@@ -22045,7 +22103,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6c,",
-                            "3c"
+                            "3c,",
+                            "Js,",
+                            "6d"
                         ]
                     }
                 ]
@@ -22421,7 +22481,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8h,",
-                            "6s"
+                            "6s,",
+                            "2h,",
+                            "Td"
                         ]
                     },
                     {
@@ -22430,7 +22492,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kh,",
-                            "9h"
+                            "9h,",
+                            "3h,",
+                            "Kc"
                         ]
                     }
                 ]
@@ -27770,7 +27834,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9d,",
-                            "Ad"
+                            "Ad,",
+                            "Ts,",
+                            "3h"
                         ]
                     },
                     {
@@ -27779,7 +27845,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9c,",
-                            "Th"
+                            "Th,",
+                            "Ks,",
+                            "7h"
                         ]
                     }
                 ]
@@ -28595,7 +28663,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "2h,",
-                            "Ac"
+                            "Ac,",
+                            "Ad,",
+                            "6c"
                         ]
                     }
                 ]
@@ -28961,7 +29031,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ts,",
-                            "3d"
+                            "3d,",
+                            "Kd,",
+                            "9c"
                         ]
                     },
                     {
@@ -28970,7 +29042,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qs,",
-                            "6s"
+                            "6s,",
+                            "4h,",
+                            "3h"
                         ]
                     }
                 ]
@@ -29152,7 +29226,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6d,",
-                            "As"
+                            "As,",
+                            "8c,",
+                            "Jh"
                         ]
                     }
                 ]
@@ -29476,7 +29552,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "Ah"
+                            "Ah,",
+                            "3d,",
+                            "4d"
                         ]
                     },
                     {
@@ -29485,7 +29563,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4h,",
-                            "8h"
+                            "8h,",
+                            "7d,",
+                            "Jc"
                         ]
                     }
                 ]
@@ -29597,7 +29677,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -29711,7 +29791,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qc,",
-                            "2h"
+                            "2h,",
+                            "4c,",
+                            "3h"
                         ]
                     }
                 ]
@@ -29924,7 +30006,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qc,",
-                            "9h"
+                            "9h,",
+                            "6h,",
+                            "Jh"
                         ]
                     }
                 ]
@@ -34544,7 +34628,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "2h,",
-                            "5s"
+                            "5s,",
+                            "9s,",
+                            "Jh"
                         ]
                     }
                 ]
@@ -34760,7 +34846,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6d,",
-                            "7d"
+                            "7d,",
+                            "2c,",
+                            "2h"
                         ]
                     },
                     {
@@ -34769,7 +34857,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9d,",
-                            "6h"
+                            "6h,",
+                            "4c,",
+                            "7h"
                         ]
                     }
                 ]
@@ -35360,7 +35450,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4h,",
-                            "3d"
+                            "3d,",
+                            "Ad,",
+                            "Ac"
                         ]
                     },
                     {
@@ -35369,7 +35461,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "2h,",
-                            "Ah"
+                            "Ah,",
+                            "Kd,",
+                            "2c"
                         ]
                     }
                 ]
@@ -35400,7 +35494,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Th,",
-                            "9c"
+                            "9c,",
+                            "8d,",
+                            "Js"
                         ]
                     }
                 ]
@@ -35748,7 +35844,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ad,",
-                            "Jc"
+                            "Jc,",
+                            "As,",
+                            "2d"
                         ]
                     },
                     {
@@ -35757,7 +35855,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4d,",
-                            "7c"
+                            "7c,",
+                            "8s,",
+                            "4c"
                         ]
                     }
                 ]
@@ -35963,7 +36063,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9c,",
-                            "8c"
+                            "8c,",
+                            "8d,",
+                            "Js"
                         ]
                     },
                     {
@@ -35972,7 +36074,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "7h"
+                            "7h,",
+                            "Qd,",
+                            "9h"
                         ]
                     }
                 ]
@@ -36205,7 +36309,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kc,",
-                            "Ks"
+                            "Ks,",
+                            "3c,",
+                            "8s"
                         ]
                     }
                 ]
@@ -36402,7 +36508,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7s,",
-                            "Jh"
+                            "Jh,",
+                            "Jd,",
+                            "Kh"
                         ]
                     },
                     {
@@ -36411,7 +36519,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8c,",
-                            "9c"
+                            "9c,",
+                            "As,",
+                            "9d"
                         ]
                     }
                 ]
@@ -36618,7 +36728,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6d,",
-                            "Td"
+                            "Td,",
+                            "Ks,",
+                            "Th"
                         ]
                     },
                     {
@@ -36627,7 +36739,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jd,",
-                            "6s"
+                            "6s,",
+                            "9d,",
+                            "Ts"
                         ]
                     }
                 ]
@@ -37226,7 +37340,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5d,",
-                            "2s"
+                            "2s,",
+                            "2c,",
+                            "7s"
                         ]
                     },
                     {
@@ -37235,7 +37351,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kc,",
-                            "Ac"
+                            "Ac,",
+                            "9c,",
+                            "3s"
                         ]
                     }
                 ]
@@ -37603,7 +37721,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Js,",
-                            "Ks"
+                            "Ks,",
+                            "6h,",
+                            "4h"
                         ]
                     },
                     {
@@ -37612,7 +37732,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9s,",
-                            "Jh"
+                            "Jh,",
+                            "Jc,",
+                            "As"
                         ]
                     }
                 ]
@@ -37790,7 +37912,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4s,",
-                            "Qs"
+                            "Qs,",
+                            "Qh,",
+                            "5h"
                         ]
                     }
                 ]
@@ -38245,7 +38369,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jc,",
-                            "4h"
+                            "4h,",
+                            "6d,",
+                            "Kc"
                         ]
                     },
                     {
@@ -38254,7 +38380,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3s,",
-                            "3d"
+                            "3d,",
+                            "4d,",
+                            "2d"
                         ]
                     }
                 ]
@@ -38732,7 +38860,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "4d"
+                            "4d,",
+                            "Td,",
+                            "Kh"
                         ]
                     }
                 ]
@@ -38864,7 +38994,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "7s"
+                            "7s,",
+                            "6s,",
+                            "6h"
                         ]
                     },
                     {
@@ -38873,7 +39005,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kd,",
-                            "Td"
+                            "Td,",
+                            "9s,",
+                            "9h"
                         ]
                     }
                 ]
@@ -39078,7 +39212,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "4d"
+                            "4d,",
+                            "9c,",
+                            "Jd"
                         ]
                     }
                 ]
@@ -40768,7 +40904,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jd,",
-                            "9d"
+                            "9d,",
+                            "9c,",
+                            "Qs"
                         ]
                     },
                     {
@@ -40777,7 +40915,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Th,",
-                            "Td"
+                            "Td,",
+                            "5h,",
+                            "8d"
                         ]
                     }
                 ]
@@ -40966,7 +41106,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jh,",
-                            "8h"
+                            "8h,",
+                            "5h,",
+                            "7d"
                         ]
                     },
                     {
@@ -40975,7 +41117,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qd,",
-                            "4s"
+                            "4s,",
+                            "2h,",
+                            "4d"
                         ]
                     }
                 ]
@@ -41180,7 +41324,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qc,",
-                            "Kc"
+                            "Kc,",
+                            "6c,",
+                            "3h"
                         ]
                     },
                     {
@@ -41189,7 +41335,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ah,",
-                            "7d"
+                            "7d,",
+                            "3s,",
+                            "8c"
                         ]
                     },
                     {
@@ -41198,7 +41346,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7h,",
-                            "Js"
+                            "Js,",
+                            "2c,",
+                            "2d"
                         ]
                     }
                 ]
@@ -41393,7 +41543,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "3s"
+                            "3s,",
+                            "Th,",
+                            "9h"
                         ]
                     }
                 ]
@@ -41719,7 +41871,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8s,",
-                            "9c"
+                            "9c,",
+                            "4s,",
+                            "7d"
                         ]
                     },
                     {
@@ -41728,7 +41882,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3h,",
-                            "5h"
+                            "5h,",
+                            "6h,",
+                            "Jc"
                         ]
                     }
                 ]
@@ -42211,7 +42367,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9c,",
-                            "Td"
+                            "Td,",
+                            "6c,",
+                            "Jc"
                         ]
                     },
                     {
@@ -42220,7 +42378,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jd,",
-                            "Ah"
+                            "Ah,",
+                            "7c,",
+                            "Ts"
                         ]
                     }
                 ]
@@ -42428,7 +42588,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9d,",
-                            "3s"
+                            "3s,",
+                            "5s,",
+                            "6c"
                         ]
                     },
                     {
@@ -42437,7 +42599,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kd,",
-                            "Qh"
+                            "Qh,",
+                            "3d,",
+                            "2s"
                         ]
                     }
                 ]
@@ -42807,7 +42971,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8h,",
-                            "3s"
+                            "3s,",
+                            "2c,",
+                            "7c"
                         ]
                     }
                 ]
@@ -43006,7 +43172,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Js,",
-                            "8s"
+                            "8s,",
+                            "9s,",
+                            "2c"
                         ]
                     }
                 ]
@@ -43481,7 +43649,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "Kh"
+                            "Kh,",
+                            "As,",
+                            "Jh"
                         ]
                     }
                 ]
@@ -43985,7 +44155,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4h,",
-                            "Ad"
+                            "Ad,",
+                            "Ts,",
+                            "8s"
                         ]
                     },
                     {
@@ -43994,7 +44166,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "2h,",
-                            "Ah"
+                            "Ah,",
+                            "Qc,",
+                            "Tc"
                         ]
                     }
                 ]
@@ -44315,7 +44489,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kc,",
-                            "6s"
+                            "6s,",
+                            "Qs,",
+                            "7h"
                         ]
                     },
                     {
@@ -44324,7 +44500,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Tc,",
-                            "Qc"
+                            "Qc,",
+                            "Jh,",
+                            "8d"
                         ]
                     }
                 ]
@@ -49036,7 +49214,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9d,",
-                            "9s"
+                            "9s,",
+                            "Jc,",
+                            "3s"
                         ]
                     },
                     {
@@ -49045,7 +49225,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ts,",
-                            "Th"
+                            "Th,",
+                            "Qh,",
+                            "Kh"
                         ]
                     }
                 ]
@@ -49578,7 +49760,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3s,",
-                            "Ac"
+                            "Ac,",
+                            "6s,",
+                            "7s"
                         ]
                     },
                     {
@@ -49587,7 +49771,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9s,",
-                            "5c"
+                            "5c,",
+                            "8s,",
+                            "7d"
                         ]
                     }
                 ]
@@ -49784,7 +49970,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4s,",
-                            "Tc"
+                            "Tc,",
+                            "7d,",
+                            "5d"
                         ]
                     },
                     {
@@ -49793,7 +49981,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9d,",
-                            "8h"
+                            "8h,",
+                            "5s,",
+                            "4h"
                         ]
                     }
                 ]
@@ -50412,7 +50602,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ah,",
-                            "Ad"
+                            "Ad,",
+                            "Kc,",
+                            "As"
                         ]
                     }
                 ]
@@ -50606,7 +50798,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kc,",
-                            "6d"
+                            "6d,",
+                            "2c,",
+                            "9d"
                         ]
                     }
                 ]
@@ -50958,7 +51152,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ah,",
-                            "Qd"
+                            "Qd,",
+                            "Kc,",
+                            "4h"
                         ]
                     },
                     {
@@ -50967,7 +51163,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8s,",
-                            "9s"
+                            "9s,",
+                            "7c,",
+                            "Js"
                         ]
                     },
                     {
@@ -50976,7 +51174,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7d,",
-                            "Qh"
+                            "Qh,",
+                            "Ad,",
+                            "2s"
                         ]
                     }
                 ]
@@ -51470,7 +51670,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8d,",
-                            "Td"
+                            "Td,",
+                            "3s,",
+                            "9s"
                         ]
                     },
                     {
@@ -51479,7 +51681,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9c,",
-                            "Qh"
+                            "Qh,",
+                            "As,",
+                            "Kc"
                         ]
                     }
                 ]
@@ -51837,7 +52041,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qs,",
-                            "Jh"
+                            "Jh,",
+                            "5c,",
+                            "3c"
                         ]
                     }
                 ]
@@ -52718,7 +52924,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "2c,",
-                            "Ac"
+                            "Ac,",
+                            "Js,",
+                            "6h"
                         ]
                     }
                 ]
@@ -53165,7 +53373,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4c,",
-                            "Kh"
+                            "Kh,",
+                            "Qc,",
+                            "Ac"
                         ]
                     },
                     {
@@ -53174,7 +53384,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qd,",
-                            "9h"
+                            "9h,",
+                            "6c,",
+                            "2c"
                         ]
                     }
                 ]
@@ -53357,7 +53569,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kc,",
-                            "Js"
+                            "Js,",
+                            "5s,",
+                            "Ah"
                         ]
                     },
                     {
@@ -53366,7 +53580,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9s,",
-                            "8d"
+                            "8d,",
+                            "3c,",
+                            "3s"
                         ]
                     }
                 ]
@@ -53849,7 +54065,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qc,",
-                            "8h"
+                            "8h,",
+                            "Ac,",
+                            "3d"
                         ]
                     },
                     {
@@ -53858,7 +54076,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4c,",
-                            "3s"
+                            "3s,",
+                            "Jc,",
+                            "9d"
                         ]
                     }
                 ]
@@ -54073,7 +54293,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ks,",
-                            "6s"
+                            "6s,",
+                            "9s,",
+                            "6h"
                         ]
                     },
                     {
@@ -54082,7 +54304,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Th,",
-                            "8s"
+                            "8s,",
+                            "8d,",
+                            "2s"
                         ]
                     }
                 ]
@@ -54253,7 +54477,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ts,",
-                            "8h"
+                            "8h,",
+                            "5s,",
+                            "Jh"
                         ]
                     },
                     {
@@ -54262,7 +54488,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Td,",
-                            "Ks"
+                            "Ks,",
+                            "7s,",
+                            "Qc"
                         ]
                     }
                 ]
@@ -54468,7 +54696,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7c,",
-                            "3d"
+                            "3d,",
+                            "3c,",
+                            "Qc"
                         ]
                     },
                     {
@@ -54477,7 +54707,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "4d,",
-                            "2s"
+                            "2s,",
+                            "3h,",
+                            "Ts"
                         ]
                     }
                 ]
@@ -54662,7 +54894,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "5h,",
-                            "As"
+                            "As,",
+                            "7s,",
+                            "9h"
                         ]
                     },
                     {
@@ -54671,7 +54905,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ad,",
-                            "4d"
+                            "4d,",
+                            "Td,",
+                            "Th"
                         ]
                     }
                 ]
@@ -54891,7 +55127,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "8h,",
-                            "7d"
+                            "7d,",
+                            "Td,",
+                            "6d"
                         ]
                     },
                     {
@@ -54900,7 +55138,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Th,",
-                            "Kc"
+                            "Kc,",
+                            "2h,",
+                            "6h"
                         ]
                     }
                 ]
@@ -55106,7 +55346,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "As,",
-                            "8h"
+                            "8h,",
+                            "9d,",
+                            "3h"
                         ]
                     },
                     {
@@ -55115,7 +55357,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ks,",
-                            "Kd"
+                            "Kd,",
+                            "7c,",
+                            "Th"
                         ]
                     },
                     {
@@ -55124,7 +55368,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "7h,",
-                            "Qc"
+                            "Qc,",
+                            "Jh,",
+                            "Ts"
                         ]
                     }
                 ]
@@ -55702,7 +55948,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qs,",
-                            "6h"
+                            "6h,",
+                            "2h,",
+                            "Qh"
                         ]
                     }
                 ]

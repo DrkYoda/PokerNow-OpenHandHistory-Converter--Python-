@@ -4,40 +4,6 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "0",
-        "start_date_utc": "",
-        "table_name": "",
-        "game_type": "Holdem",
-        "bet_limit": {
-            "bet_type": "NL"
-        },
-        "table_size": 10,
-        "currency": "USD",
-        "dealer_seat": 1,
-        "small_blind_amount": 0.1,
-        "big_blind_amount": 0.2,
-        "ante_amount": 0.0,
-        "hero_player_id": 0,
-        "flags": [],
-        "players": [],
-        "rounds": [
-            {
-                "id": 0,
-                "street": "",
-                "cards": [],
-                "actions": []
-            }
-        ],
-        "pots": []
-    }
-}
-
-{
-    "ohh": {
-        "spec_version": "1.2.2",
-        "site_name": "PokerStars",
-        "network_name": "PokerStars",
-        "internal_version": "1.2.2",
         "game_number": "1",
         "start_date_utc": "2022-04-24T00:14:46Z",
         "table_name": "pgl723Y3wBkLhu9axkjmZsIiz",
@@ -15253,7 +15219,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -26412,7 +26378,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -29990,7 +29956,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -32146,7 +32112,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ks,",
-                            "8c"
+                            "8c,",
+                            "Js,",
+                            "5d"
                         ]
                     },
                     {
@@ -32155,7 +32123,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "2h,",
-                            "Tc"
+                            "Tc,",
+                            "2d,",
+                            "Kc"
                         ]
                     }
                 ]
@@ -32515,7 +32485,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Jd,",
-                            "Kc"
+                            "Kc,",
+                            "6d,",
+                            "Ad"
                         ]
                     }
                 ]
@@ -32698,7 +32670,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6c,",
-                            "9h"
+                            "9h,",
+                            "Kh,",
+                            "9d"
                         ]
                     }
                 ]
@@ -32942,7 +32916,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Post Dead",
+                        "action": "Post BB",
                         "amount": 0.25
                     },
                     {
@@ -33163,7 +33137,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Ac,",
-                            "7h"
+                            "7h,",
+                            "8c,",
+                            "7d"
                         ]
                     },
                     {
@@ -33172,7 +33148,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "9d,",
-                            "4c"
+                            "4c,",
+                            "Kd,",
+                            "7c"
                         ]
                     }
                 ]
@@ -33574,7 +33552,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "6s,",
-                            "Ac"
+                            "Ac,",
+                            "6h,",
+                            "Ah"
                         ]
                     },
                     {
@@ -33583,7 +33563,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Kh,",
-                            "Js"
+                            "Js,",
+                            "2s,",
+                            "Kd"
                         ]
                     }
                 ]
@@ -33988,7 +33970,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "3h,",
-                            "Kh"
+                            "Kh,",
+                            "9s,",
+                            "Kd"
                         ]
                     }
                 ]
@@ -34659,7 +34643,7 @@
                         "action_number": 6,
                         "player_id": 2,
                         "action": "Call",
-                        "amount": 0.85
+                        "amount": 0.7
                     }
                 ]
             },
@@ -34734,7 +34718,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Qd,",
-                            "Th"
+                            "Th,",
+                            "Ah,",
+                            "As"
                         ]
                     },
                     {
@@ -34743,7 +34729,9 @@
                         "action": "Shows Hand",
                         "cards": [
                             "Td,",
-                            "Ts"
+                            "Ts,",
+                            "7s,",
+                            "7h"
                         ]
                     }
                 ]
@@ -41170,7 +41158,9 @@
         "big_blind_amount": 0.25,
         "ante_amount": 0.0,
         "hero_player_id": 1,
-        "flags": [],
+        "flags": [
+            "Run_It_Twice"
+        ],
         "players": [
             {
                 "id": 0,
@@ -41336,6 +41326,22 @@
                 "street": "River",
                 "cards": [
                     "9c"
+                ],
+                "actions": []
+            },
+            {
+                "id": 5,
+                "street": "Turn",
+                "cards": [
+                    "8h"
+                ],
+                "actions": []
+            },
+            {
+                "id": 6,
+                "street": "River",
+                "cards": [
+                    "9d"
                 ],
                 "actions": []
             }
