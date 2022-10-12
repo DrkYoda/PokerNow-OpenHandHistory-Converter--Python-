@@ -34,6 +34,9 @@ v 1.0.4
     - Added ability to parse hands that run it twice.
     - Fixed issue #4 where Omaha hands were being converted to 2 card hands.
     - Fixed issue #8 Dummy ohh object with "game_number": "0"
+v 1.1.0
+    - Fixed issue #13 and added the attribute "is_allin" to action objects that have an amount>0.00
+
 ****************************************************************************************************
 """
 # MODULES
@@ -296,7 +299,8 @@ seats_regex = re.compile(
     r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>\d+\.\d{2})\)"
 )
 post_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) of (?P<amount>\d+\.\d{2})"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) "
+    r"of (?P<amount>\d+\.\d{2})\s*(?P<all_in>[a-z ]+)*"
 )
 round_regex = re.compile(r"(?P<street>^\w.+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
@@ -553,6 +557,7 @@ for poker_now_file in csv_file_list:
                     player = post.group("player")
                     post_type = post.group("type")
                     amount = float(post.group("amount"))
+                    all_in = post.group("all_in")
                     round_obj[ID] = round_number
                     round_obj[STREET] = current_round
                     action = {}
@@ -560,6 +565,10 @@ for poker_now_file in csv_file_list:
                     action[PLAYER_ID] = player_ids[player]
                     action[ACTION] = post_types[post_type]
                     action[AMOUNT] = amount
+                    if all_in is not None:
+                        action[IS_ALL_IN] = True
+                    else:
+                        action[IS_ALL_IN] = False
                     round_obj[ACTIONS].append(action)
                     # Poker now records the amounts associated with actions such as bets, raises,
                     # calls, and posting blinds as the the sum total of the current and all previous
@@ -701,6 +710,8 @@ for poker_now_file in csv_file_list:
                     total_pot += amount
                     if all_in is not None:
                         action[IS_ALL_IN] = True
+                    else:
+                        action[IS_ALL_IN] = False
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     continue
