@@ -82,8 +82,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qs,",
-                    "9c,",
+                    "Qs",
+                    "9c",
                     "6c"
                 ],
                 "actions": [
@@ -367,8 +367,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "As,",
-                    "Kh,",
+                    "As",
+                    "Kh",
                     "2c"
                 ],
                 "actions": [
@@ -641,18 +641,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qh,",
+                            "Qh",
                             "Qd"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4c,",
+                            "4c",
                             "Ac"
                         ]
                     }
@@ -662,8 +662,8 @@
                 "id": 2,
                 "street": "Flop",
                 "cards": [
-                    "5d,",
-                    "5c,",
+                    "5d",
+                    "5c",
                     "7c"
                 ],
                 "actions": []
@@ -786,8 +786,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ac,",
-                    "6c,",
+                    "Ac",
+                    "6c",
                     "9s"
                 ],
                 "actions": [
@@ -996,8 +996,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5d,",
-                    "3s,",
+                    "5d",
+                    "3s",
                     "6c"
                 ],
                 "actions": [
@@ -1148,8 +1148,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2s,",
-                    "Js,",
+                    "2s",
+                    "Js",
                     "2h"
                 ],
                 "actions": [
@@ -1388,8 +1388,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "7s,",
-                    "7d,",
+                    "7s",
+                    "7d",
                     "Js"
                 ],
                 "actions": [
@@ -1472,18 +1472,18 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qd,",
+                            "Qd",
                             "Jd"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8d,",
+                            "8d",
                             "8c"
                         ]
                     }
@@ -1690,8 +1690,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5s,",
-                    "Jc,",
+                    "5s",
+                    "Jc",
                     "5c"
                 ],
                 "actions": [
@@ -1831,8 +1831,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kd,",
-                    "8d,",
+                    "Kd",
+                    "8d",
                     "Js"
                 ],
                 "actions": [
@@ -1995,8 +1995,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jc,",
-                    "Qc,",
+                    "Jc",
+                    "Qc",
                     "9h"
                 ],
                 "actions": [
@@ -2133,8 +2133,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kd,",
-                    "Ts,",
+                    "Kd",
+                    "Ts",
                     "3d"
                 ],
                 "actions": [
@@ -2199,18 +2199,18 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3h,",
+                            "3h",
                             "Ac"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ad,",
+                            "Ad",
                             "7d"
                         ]
                     }
@@ -2436,8 +2436,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "7h,",
-                    "9d,",
+                    "7h",
+                    "9d",
                     "5c"
                 ],
                 "actions": [
@@ -2603,8 +2603,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4d,",
-                    "3s,",
+                    "4d",
+                    "3s",
                     "Qc"
                 ],
                 "actions": [
@@ -2634,9 +2634,9 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qh,",
+                            "Qh",
                             "Qs"
                         ]
                     }
@@ -2768,8 +2768,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Tc,",
-                    "9d,",
+                    "Tc",
+                    "9d",
                     "8d"
                 ],
                 "actions": [
@@ -2911,8 +2911,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6s,",
-                    "7h,",
+                    "6s",
+                    "7h",
                     "Ks"
                 ],
                 "actions": [
@@ -3106,8 +3106,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kc,",
-                    "3c,",
+                    "Kc",
+                    "3c",
                     "Qc"
                 ],
                 "actions": [
@@ -3177,18 +3177,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kh,",
+                            "Kh",
                             "9c"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Js,",
+                            "Js",
                             "Ad"
                         ]
                     }
@@ -3313,8 +3313,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9s,",
-                    "Ac,",
+                    "9s",
+                    "Ac",
                     "Td"
                 ],
                 "actions": [
@@ -3451,8 +3451,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qs,",
-                    "2h,",
+                    "Qs",
+                    "2h",
                     "Th"
                 ],
                 "actions": [
@@ -3594,8 +3594,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9c,",
-                    "5h,",
+                    "9c",
+                    "5h",
                     "Qd"
                 ],
                 "actions": [
@@ -3772,8 +3772,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2h,",
-                    "8s,",
+                    "2h",
+                    "8s",
                     "3d"
                 ],
                 "actions": [
@@ -3969,8 +3969,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3s,",
-                    "Ks,",
+                    "3s",
+                    "Ks",
                     "2c"
                 ],
                 "actions": [
@@ -4049,18 +4049,18 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "Ts"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Tc,",
+                            "Tc",
                             "Ac"
                         ]
                     }
@@ -4187,8 +4187,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ad,",
-                    "As,",
+                    "Ad",
+                    "As",
                     "5s"
                 ],
                 "actions": [
@@ -4379,8 +4379,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qd,",
-                    "8d,",
+                    "Qd",
+                    "8d",
                     "Qc"
                 ],
                 "actions": [
@@ -4469,18 +4469,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "Qh"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6s,",
+                            "6s",
                             "Ad"
                         ]
                     }
@@ -4605,8 +4605,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4s,",
-                    "2d,",
+                    "4s",
+                    "2d",
                     "9h"
                 ],
                 "actions": [
@@ -4695,18 +4695,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3d,",
+                            "3d",
                             "5d"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3s,",
+                            "3s",
                             "4d"
                         ]
                     }
@@ -4833,8 +4833,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qd,",
-                    "Qs,",
+                    "Qd",
+                    "Qs",
                     "8d"
                 ],
                 "actions": [
@@ -4893,18 +4893,18 @@
                     {
                         "action_number": 0,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "5s,",
+                            "5s",
                             "Ac"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9c,",
+                            "9c",
                             "8c"
                         ]
                     }
@@ -5031,8 +5031,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "7d,",
-                    "Qd,",
+                    "7d",
+                    "Qd",
                     "9d"
                 ],
                 "actions": [
@@ -5393,8 +5393,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ah,",
-                    "5c,",
+                    "Ah",
+                    "5c",
                     "9s"
                 ],
                 "actions": [
@@ -5531,8 +5531,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3h,",
-                    "7s,",
+                    "3h",
+                    "7s",
                     "8h"
                 ],
                 "actions": [
@@ -5712,8 +5712,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qc,",
-                    "4c,",
+                    "Qc",
+                    "4c",
                     "3s"
                 ],
                 "actions": [
@@ -5783,9 +5783,9 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kh,",
+                            "Kh",
                             "Qh"
                         ]
                     }
@@ -5924,8 +5924,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5s,",
-                    "8c,",
+                    "5s",
+                    "8c",
                     "3c"
                 ],
                 "actions": [
@@ -6062,8 +6062,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4s,",
-                    "7d,",
+                    "4s",
+                    "7d",
                     "6h"
                 ],
                 "actions": [
@@ -6198,8 +6198,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kh,",
-                    "As,",
+                    "Kh",
+                    "As",
                     "7s"
                 ],
                 "actions": [
@@ -6341,8 +6341,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "As,",
-                    "3c,",
+                    "As",
+                    "3c",
                     "Kd"
                 ],
                 "actions": [
@@ -6477,8 +6477,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4h,",
-                    "7h,",
+                    "4h",
+                    "7h",
                     "9d"
                 ],
                 "actions": [
@@ -6657,8 +6657,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jh,",
-                    "9h,",
+                    "Jh",
+                    "9h",
                     "5c"
                 ],
                 "actions": [
@@ -6798,8 +6798,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qh,",
-                    "Js,",
+                    "Qh",
+                    "Js",
                     "4d"
                 ],
                 "actions": [
@@ -6909,7 +6909,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9h,",
+                            "9h",
                             "Ks"
                         ]
                     },
@@ -6962,8 +6962,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2c,",
-                    "Qs,",
+                    "2c",
+                    "Qs",
                     "4h"
                 ],
                 "actions": [
@@ -7092,7 +7092,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "5d"
                         ]
                     },
@@ -7152,8 +7152,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ks,",
-                    "Kc,",
+                    "Ks",
+                    "Kc",
                     "3d"
                 ],
                 "actions": [
@@ -7223,18 +7223,18 @@
                     {
                         "action_number": 0,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8h,",
+                            "8h",
                             "Ah"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9d,",
+                            "9d",
                             "Ac"
                         ]
                     }
@@ -7327,7 +7327,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2s,",
+                            "2s",
                             "5d"
                         ]
                     },
@@ -7387,8 +7387,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6d,",
-                    "3d,",
+                    "6d",
+                    "3d",
                     "Jd"
                 ],
                 "actions": [
@@ -7468,18 +7468,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "2d,",
+                            "2d",
                             "Kd"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9h,",
+                            "9h",
                             "8h"
                         ]
                     }
@@ -7565,7 +7565,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "Jd"
                         ]
                     },
@@ -7613,8 +7613,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3s,",
-                    "6c,",
+                    "3s",
+                    "6c",
                     "Kc"
                 ],
                 "actions": [
@@ -7749,7 +7749,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5h,",
+                            "5h",
                             "Js"
                         ]
                     },
@@ -7802,8 +7802,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9c,",
-                    "5c,",
+                    "9c",
+                    "5c",
                     "Ts"
                 ],
                 "actions": [
@@ -7951,7 +7951,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Jh,",
+                            "Jh",
                             "Td"
                         ]
                     },
@@ -8011,8 +8011,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9d,",
-                    "Ac,",
+                    "9d",
+                    "Ac",
                     "Tc"
                 ],
                 "actions": [
@@ -8042,9 +8042,9 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Jh,",
+                            "Jh",
                             "Td"
                         ]
                     }
@@ -8137,7 +8137,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5c,",
+                            "5c",
                             "4h"
                         ]
                     },
@@ -8197,8 +8197,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ah,",
-                    "8s,",
+                    "Ah",
+                    "8s",
                     "2h"
                 ],
                 "actions": [
@@ -8303,7 +8303,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5h,",
+                            "5h",
                             "7d"
                         ]
                     },
@@ -8437,7 +8437,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qs,",
+                            "Qs",
                             "Th"
                         ]
                     },
@@ -8490,8 +8490,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9s,",
-                    "Kh,",
+                    "9s",
+                    "Kh",
                     "Jh"
                 ],
                 "actions": [
@@ -8634,7 +8634,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qd,",
+                            "Qd",
                             "Ah"
                         ]
                     },
@@ -8718,27 +8718,27 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ks,",
+                            "Ks",
                             "Kh"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ks,",
+                            "Ks",
                             "Kh"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "Kc"
                         ]
                     }
@@ -8748,8 +8748,8 @@
                 "id": 2,
                 "street": "Flop",
                 "cards": [
-                    "9s,",
-                    "Jc,",
+                    "9s",
+                    "Jc",
                     "8d"
                 ],
                 "actions": []
@@ -8850,7 +8850,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ac,",
+                            "Ac",
                             "9d"
                         ]
                     },
@@ -8893,8 +8893,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8c,",
-                    "Jc,",
+                    "8c",
+                    "Jc",
                     "Ts"
                 ],
                 "actions": [
@@ -9035,7 +9035,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8s,",
+                            "8s",
                             "Js"
                         ]
                     },
@@ -9164,7 +9164,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qh,",
+                            "Qh",
                             "3h"
                         ]
                     },
@@ -9215,8 +9215,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ts,",
-                    "6d,",
+                    "Ts",
+                    "6d",
                     "5s"
                 ],
                 "actions": [
@@ -9264,9 +9264,9 @@
                     {
                         "action_number": 0,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Jc,",
+                            "Jc",
                             "Js"
                         ]
                     }
@@ -9359,7 +9359,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ah,",
+                            "Ah",
                             "5s"
                         ]
                     },
@@ -9414,8 +9414,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6c,",
-                    "Kc,",
+                    "6c",
+                    "Kc",
                     "Kd"
                 ],
                 "actions": [
@@ -9563,7 +9563,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ks,",
+                            "Ks",
                             "Kh"
                         ]
                     },
@@ -9704,7 +9704,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2s,",
+                            "2s",
                             "4s"
                         ]
                     },
@@ -9757,8 +9757,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4h,",
-                    "Ts,",
+                    "4h",
+                    "Ts",
                     "5s"
                 ],
                 "actions": [
@@ -9902,7 +9902,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qs,",
+                            "Qs",
                             "9s"
                         ]
                     },
@@ -9957,8 +9957,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5s,",
-                    "Jc,",
+                    "5s",
+                    "Jc",
                     "Qc"
                 ],
                 "actions": [
@@ -10033,18 +10033,18 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qs,",
+                            "Qs",
                             "9s"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "6h"
                         ]
                     }
@@ -10137,7 +10137,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9s,",
+                            "9s",
                             "2d"
                         ]
                     },
@@ -10271,7 +10271,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4c,",
+                            "4c",
                             "3c"
                         ]
                     },
@@ -10324,8 +10324,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qh,",
-                    "Kd,",
+                    "Qh",
+                    "Kd",
                     "Ac"
                 ],
                 "actions": [
@@ -10430,7 +10430,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qc,",
+                            "Qc",
                             "2d"
                         ]
                     },
@@ -10490,8 +10490,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "As,",
-                    "3h,",
+                    "As",
+                    "3h",
                     "8s"
                 ],
                 "actions": [
@@ -10548,18 +10548,18 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ac,",
+                            "Ac",
                             "Qh"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8d,",
+                            "8d",
                             "Th"
                         ]
                     }
@@ -10653,7 +10653,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ad,",
+                            "Ad",
                             "7h"
                         ]
                     },
@@ -10709,9 +10709,9 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ac,",
+                            "Ac",
                             "Ah"
                         ]
                     }
@@ -10804,7 +10804,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7s,",
+                            "7s",
                             "4h"
                         ]
                     },
@@ -10857,8 +10857,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9c,",
-                    "7h,",
+                    "9c",
+                    "7h",
                     "9d"
                 ],
                 "actions": [
@@ -10923,18 +10923,18 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3c,",
+                            "3c",
                             "6c"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "5s,",
+                            "5s",
                             "4s"
                         ]
                     }
@@ -11027,7 +11027,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5d,",
+                            "5d",
                             "7s"
                         ]
                     },
@@ -11080,8 +11080,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ts,",
-                    "7c,",
+                    "Ts",
+                    "7c",
                     "4h"
                 ],
                 "actions": [
@@ -11247,7 +11247,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Js,",
+                            "Js",
                             "9c"
                         ]
                     },
@@ -11304,8 +11304,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4h,",
-                    "Ts,",
+                    "4h",
+                    "Ts",
                     "Ks"
                 ],
                 "actions": [
@@ -11416,18 +11416,18 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kd,",
+                            "Kd",
                             "9d"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qs,",
+                            "Qs",
                             "Ad"
                         ]
                     }
@@ -11520,7 +11520,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8d,",
+                            "8d",
                             "3c"
                         ]
                     },
@@ -11567,9 +11567,9 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "5c,",
+                            "5c",
                             "Th"
                         ]
                     }
@@ -11662,7 +11662,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
+                            "Tc",
                             "Kc"
                         ]
                     },
@@ -11719,8 +11719,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9h,",
-                    "4h,",
+                    "9h",
+                    "4h",
                     "7s"
                 ],
                 "actions": [
@@ -11850,7 +11850,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7c,",
+                            "7c",
                             "2c"
                         ]
                     },
@@ -11903,8 +11903,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jh,",
-                    "Js,",
+                    "Jh",
+                    "Js",
                     "9d"
                 ],
                 "actions": [
@@ -11974,18 +11974,18 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Tc,",
+                            "Tc",
                             "Jc"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Jd,",
+                            "Jd",
                             "6h"
                         ]
                     }
@@ -12078,9 +12078,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9h,",
-                            "2s,",
-                            "6h,",
+                            "9h",
+                            "2s",
+                            "6h",
                             "7c"
                         ]
                     },
@@ -12144,8 +12144,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jd,",
-                    "8s,",
+                    "Jd",
+                    "8s",
                     "7d"
                 ],
                 "actions": [
@@ -12272,9 +12272,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "6s,",
-                            "4c,",
-                            "Tc,",
+                            "6s",
+                            "4c",
+                            "Tc",
                             "8d"
                         ]
                     },
@@ -12329,8 +12329,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3d,",
-                    "2s,",
+                    "3d",
+                    "2s",
                     "3c"
                 ],
                 "actions": [
@@ -12440,9 +12440,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8c,",
-                            "3s,",
-                            "8s,",
+                            "8c",
+                            "3s",
+                            "8s",
                             "9c"
                         ]
                     },
@@ -12497,8 +12497,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ac,",
-                    "Qd,",
+                    "Ac",
+                    "Qd",
                     "Ad"
                 ],
                 "actions": [
@@ -12573,33 +12573,33 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Tc,",
-                            "8h,",
-                            "Qc,",
+                            "Tc",
+                            "8h",
+                            "Qc",
                             "7c"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7d,",
-                            "7s,",
-                            "Js,",
+                            "7d",
+                            "7s",
+                            "Js",
                             "3d"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9s,",
-                            "2d,",
-                            "3c,",
+                            "9s",
+                            "2d",
+                            "3c",
                             "Kc"
                         ]
                     }
@@ -12699,9 +12699,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Js,",
-                            "2h,",
-                            "4s,",
+                            "Js",
+                            "2h",
+                            "4s",
                             "Qs"
                         ]
                     },
@@ -12767,8 +12767,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6c,",
-                    "Kh,",
+                    "6c",
+                    "Kh",
                     "4h"
                 ],
                 "actions": [
@@ -12886,22 +12886,22 @@
                     {
                         "action_number": 0,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6h,",
-                            "2c,",
-                            "6s,",
+                            "6h",
+                            "2c",
+                            "6s",
                             "3s"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ks,",
-                            "Jh,",
-                            "8h,",
+                            "Ks",
+                            "Jh",
+                            "8h",
                             "9d"
                         ]
                     }
@@ -13001,9 +13001,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8h,",
-                            "3d,",
-                            "4d,",
+                            "8h",
+                            "3d",
+                            "4d",
                             "6h"
                         ]
                     },
@@ -13070,8 +13070,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jh,",
-                    "6d,",
+                    "Jh",
+                    "6d",
                     "4c"
                 ],
                 "actions": [
@@ -13205,9 +13205,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ks,",
-                            "5c,",
-                            "6d,",
+                            "Ks",
+                            "5c",
+                            "6d",
                             "3c"
                         ]
                     },
@@ -13269,8 +13269,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8d,",
-                    "6s,",
+                    "8d",
+                    "6s",
                     "Ts"
                 ],
                 "actions": [
@@ -13459,9 +13459,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5d,",
-                            "8h,",
-                            "6c,",
+                            "5d",
+                            "8h",
+                            "6c",
                             "Jh"
                         ]
                     },
@@ -13519,8 +13519,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3c,",
-                    "9s,",
+                    "3c",
+                    "9s",
                     "Kd"
                 ],
                 "actions": [
@@ -13642,9 +13642,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2s,",
-                            "Qd,",
-                            "9c,",
+                            "2s",
+                            "Qd",
+                            "9c",
                             "Td"
                         ]
                     },
@@ -13706,8 +13706,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3c,",
-                    "Kh,",
+                    "3c",
+                    "Kh",
                     "8h"
                 ],
                 "actions": [
@@ -13749,11 +13749,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3d,",
-                            "4h,",
-                            "7c,",
+                            "3d",
+                            "4h",
+                            "7c",
                             "Kd"
                         ]
                     }
@@ -13853,9 +13853,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
-                            "4h,",
-                            "7d,",
+                            "Tc",
+                            "4h",
+                            "7d",
                             "8h"
                         ]
                     },
@@ -13919,8 +13919,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6s,",
-                    "2c,",
+                    "6s",
+                    "2c",
                     "3s"
                 ],
                 "actions": [
@@ -14047,9 +14047,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qh,",
-                            "4h,",
-                            "9d,",
+                            "Qh",
+                            "4h",
+                            "9d",
                             "Ac"
                         ]
                     },
@@ -14113,8 +14113,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4d,",
-                    "Kc,",
+                    "4d",
+                    "Kc",
                     "Th"
                 ],
                 "actions": [
@@ -14220,11 +14220,11 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Js,",
-                            "5s,",
-                            "8c,",
+                            "Js",
+                            "5s",
+                            "8c",
                             "Ks"
                         ]
                     }
@@ -14324,9 +14324,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7h,",
-                            "5h,",
-                            "3c,",
+                            "7h",
+                            "5h",
+                            "3c",
                             "Kh"
                         ]
                     },
@@ -14402,8 +14402,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9c,",
-                    "Kc,",
+                    "9c",
+                    "Kc",
                     "8c"
                 ],
                 "actions": [
@@ -14537,9 +14537,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9h,",
-                            "Jc,",
-                            "5d,",
+                            "9h",
+                            "Jc",
+                            "5d",
                             "4c"
                         ]
                     },
@@ -14636,8 +14636,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6s,",
-                    "4h,",
+                    "6s",
+                    "4h",
                     "Kh"
                 ],
                 "actions": [
@@ -14714,22 +14714,22 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "5h,",
-                            "Th,",
-                            "Td,",
+                            "5h",
+                            "Th",
+                            "Td",
                             "2h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kd,",
-                            "Kc,",
-                            "Tc,",
+                            "Kd",
+                            "Kc",
+                            "Tc",
                             "Ts"
                         ]
                     }
@@ -14837,9 +14837,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Td,",
-                            "9s,",
-                            "Ac,",
+                            "Td",
+                            "9s",
+                            "Ac",
                             "Jc"
                         ]
                     },
@@ -14911,8 +14911,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qc,",
-                    "8s,",
+                    "Qc",
+                    "8s",
                     "9h"
                 ],
                 "actions": [
@@ -14961,22 +14961,22 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Td,",
-                            "9s,",
-                            "Ac,",
+                            "Td",
+                            "9s",
+                            "Ac",
                             "Jc"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kc,",
-                            "7c,",
-                            "Ks,",
+                            "Kc",
+                            "7c",
+                            "Ks",
                             "Jd"
                         ]
                     }
@@ -15076,9 +15076,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3c,",
-                            "5s,",
-                            "4c,",
+                            "3c",
+                            "5s",
+                            "4c",
                             "9c"
                         ]
                     },
@@ -15143,8 +15143,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jh,",
-                    "Js,",
+                    "Jh",
+                    "Js",
                     "7h"
                 ],
                 "actions": [
@@ -15213,11 +15213,11 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qd,",
-                            "7c,",
-                            "2h,",
+                            "Qd",
+                            "7c",
+                            "2h",
                             "7s"
                         ]
                     }
@@ -15317,9 +15317,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2s,",
-                            "Jh,",
-                            "Ah,",
+                            "2s",
+                            "Jh",
+                            "Ah",
                             "4h"
                         ]
                     },
@@ -15381,8 +15381,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8s,",
-                    "4d,",
+                    "8s",
+                    "4d",
                     "Kd"
                 ],
                 "actions": [
@@ -15427,11 +15427,11 @@
                     {
                         "action_number": 0,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ks,",
-                            "Qc,",
-                            "Kc,",
+                            "Ks",
+                            "Qc",
+                            "Kc",
                             "5c"
                         ]
                     }
@@ -15531,9 +15531,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3c,",
-                            "9d,",
-                            "Qh,",
+                            "3c",
+                            "9d",
+                            "Qh",
                             "2c"
                         ]
                     },
@@ -15591,8 +15591,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qs,",
-                    "3d,",
+                    "Qs",
+                    "3d",
                     "Qc"
                 ],
                 "actions": [
@@ -15738,9 +15738,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
-                            "3c,",
-                            "5d,",
+                            "Tc",
+                            "3c",
+                            "5d",
                             "6c"
                         ]
                     },
@@ -15802,8 +15802,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ac,",
-                    "Qs,",
+                    "Ac",
+                    "Qs",
                     "5s"
                 ],
                 "actions": [
@@ -15935,7 +15935,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "Ac"
                         ]
                     },
@@ -15993,8 +15993,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6c,",
-                    "Qh,",
+                    "6c",
+                    "Qh",
                     "8s"
                 ],
                 "actions": [
@@ -16106,7 +16106,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9c,",
+                            "9c",
                             "5h"
                         ]
                     },
@@ -16162,8 +16162,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5c,",
-                    "2c,",
+                    "5c",
+                    "2c",
                     "Kc"
                 ],
                 "actions": [
@@ -16299,7 +16299,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
+                            "Tc",
                             "3s"
                         ]
                     },
@@ -16364,8 +16364,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ks,",
-                    "As,",
+                    "Ks",
+                    "As",
                     "8h"
                 ],
                 "actions": [
@@ -16505,7 +16505,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qc,",
+                            "Qc",
                             "Kh"
                         ]
                     },
@@ -16564,9 +16564,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6h,",
+                            "6h",
                             "Ks"
                         ]
                     }
@@ -16666,7 +16666,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Jh,",
+                            "Jh",
                             "Qc"
                         ]
                     },
@@ -16724,8 +16724,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qs,",
-                    "Jc,",
+                    "Qs",
+                    "Jc",
                     "5s"
                 ],
                 "actions": [
@@ -16842,7 +16842,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5c,",
+                            "5c",
                             "Js"
                         ]
                     },
@@ -16900,8 +16900,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kd,",
-                    "Ac,",
+                    "Kd",
+                    "Ac",
                     "4h"
                 ],
                 "actions": [
@@ -16980,27 +16980,27 @@
                     {
                         "action_number": 0,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ad,",
+                            "Ad",
                             "8h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4d,",
+                            "4d",
                             "2d"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4c,",
+                            "4c",
                             "Jh"
                         ]
                     }
@@ -17100,7 +17100,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "8c"
                         ]
                     },
@@ -17167,8 +17167,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4d,",
-                    "Qd,",
+                    "4d",
+                    "Qd",
                     "4c"
                 ],
                 "actions": [
@@ -17295,7 +17295,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Kc,",
+                            "Kc",
                             "4c"
                         ]
                     },
@@ -17353,8 +17353,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9s,",
-                    "9c,",
+                    "9s",
+                    "9c",
                     "7d"
                 ],
                 "actions": [
@@ -17457,27 +17457,27 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9d,",
+                            "9d",
                             "Td"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kc,",
+                            "Kc",
                             "4c"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "2d"
                         ]
                     }
@@ -17614,8 +17614,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Js,",
-                    "4s,",
+                    "Js",
+                    "4s",
                     "4d"
                 ],
                 "actions": [
@@ -17780,7 +17780,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8c,",
+                            "8c",
                             "2s"
                         ]
                     },
@@ -17926,7 +17926,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "Th"
                         ]
                     },
@@ -17995,8 +17995,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kh,",
-                    "6h,",
+                    "Kh",
+                    "6h",
                     "8c"
                 ],
                 "actions": [
@@ -18133,7 +18133,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "7s"
                         ]
                     },
@@ -18191,8 +18191,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Td,",
-                    "Tc,",
+                    "Td",
+                    "Tc",
                     "9s"
                 ],
                 "actions": [
@@ -18257,9 +18257,9 @@
                     {
                         "action_number": 0,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "Qs"
                         ]
                     }
@@ -18359,7 +18359,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "Jh"
                         ]
                     },
@@ -18421,8 +18421,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ac,",
-                    "Kh,",
+                    "Ac",
+                    "Kh",
                     "6h"
                 ],
                 "actions": [
@@ -18543,9 +18543,9 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7c,",
+                            "7c",
                             "Ah"
                         ]
                     }
@@ -18645,7 +18645,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "6d,",
+                            "6d",
                             "9s"
                         ]
                     },
@@ -18707,8 +18707,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5c,",
-                    "6c,",
+                    "5c",
+                    "6c",
                     "9h"
                 ],
                 "actions": [
@@ -18748,9 +18748,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "2s,",
+                            "2s",
                             "3s"
                         ]
                     }
@@ -18850,7 +18850,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3h,",
+                            "3h",
                             "6c"
                         ]
                     },
@@ -18908,8 +18908,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9c,",
-                    "Jd,",
+                    "9c",
+                    "Jd",
                     "9d"
                 ],
                 "actions": [
@@ -18934,9 +18934,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4d,",
+                            "4d",
                             "3s"
                         ]
                     }
@@ -19036,7 +19036,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8c,",
+                            "8c",
                             "Ac"
                         ]
                     },
@@ -19094,8 +19094,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ts,",
-                    "As,",
+                    "Ts",
+                    "As",
                     "Qh"
                 ],
                 "actions": [
@@ -19150,9 +19150,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "2s,",
+                            "2s",
                             "Qc"
                         ]
                     }
@@ -19252,7 +19252,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4d,",
+                            "4d",
                             "2h"
                         ]
                     },
@@ -19310,8 +19310,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9h,",
-                    "9d,",
+                    "9h",
+                    "9d",
                     "Qh"
                 ],
                 "actions": [
@@ -19428,7 +19428,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8h,",
+                            "8h",
                             "Qh"
                         ]
                     },
@@ -19488,8 +19488,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ad,",
-                    "8c,",
+                    "Ad",
+                    "8c",
                     "7h"
                 ],
                 "actions": [
@@ -19580,18 +19580,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6s,",
+                            "6s",
                             "6c"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8h,",
+                            "8h",
                             "Qh"
                         ]
                     }
@@ -19691,7 +19691,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7c,",
+                            "7c",
                             "5d"
                         ]
                     },
@@ -19756,8 +19756,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qh,",
-                    "7s,",
+                    "Qh",
+                    "7s",
                     "4h"
                 ],
                 "actions": [
@@ -19874,7 +19874,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7s,",
+                            "7s",
                             "Th"
                         ]
                     },
@@ -19934,8 +19934,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Td,",
-                    "4s,",
+                    "Td",
+                    "4s",
                     "9d"
                 ],
                 "actions": [
@@ -20062,7 +20062,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4s,",
+                            "4s",
                             "9c"
                         ]
                     },
@@ -20120,8 +20120,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3c,",
-                    "8d,",
+                    "3c",
+                    "8d",
                     "6s"
                 ],
                 "actions": [
@@ -20243,9 +20243,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
-                            "5s,",
-                            "Kh,",
+                            "Tc",
+                            "5s",
+                            "Kh",
                             "9d"
                         ]
                     },
@@ -20303,8 +20303,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8c,",
-                    "Kc,",
+                    "8c",
+                    "Kc",
                     "6c"
                 ],
                 "actions": [
@@ -20339,11 +20339,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3s,",
-                            "5d,",
-                            "Qh,",
+                            "3s",
+                            "5d",
+                            "Qh",
                             "6h"
                         ]
                     }
@@ -20443,9 +20443,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Kh,",
-                            "Qs,",
-                            "9d,",
+                            "Kh",
+                            "Qs",
+                            "9d",
                             "Tc"
                         ]
                     },
@@ -20510,8 +20510,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ks,",
-                    "6c,",
+                    "Ks",
+                    "6c",
                     "Td"
                 ],
                 "actions": [
@@ -20628,9 +20628,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5d,",
-                            "3d,",
-                            "6s,",
+                            "5d",
+                            "3d",
+                            "6s",
                             "7c"
                         ]
                     },
@@ -20692,8 +20692,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2d,",
-                    "3c,",
+                    "2d",
+                    "3c",
                     "5h"
                 ],
                 "actions": [
@@ -20818,9 +20818,9 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7d,",
-                            "Qh,",
-                            "7c,",
+                            "7d",
+                            "Qh",
+                            "7c",
                             "3s"
                         ]
                     },
@@ -20875,8 +20875,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kh,",
-                    "4h,",
+                    "Kh",
+                    "4h",
                     "8c"
                 ],
                 "actions": [
@@ -21048,9 +21048,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qh,",
-                            "4h,",
-                            "Ac,",
+                            "Qh",
+                            "4h",
+                            "Ac",
                             "5c"
                         ]
                     },
@@ -21112,8 +21112,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qd,",
-                    "Ts,",
+                    "Qd",
+                    "Ts",
                     "6c"
                 ],
                 "actions": [
@@ -21208,22 +21208,22 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qh,",
-                            "4h,",
-                            "Ac,",
+                            "Qh",
+                            "4h",
+                            "Ac",
                             "5c"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7c,",
-                            "9h,",
-                            "4s,",
+                            "7c",
+                            "9h",
+                            "4s",
                             "2h"
                         ]
                     }
@@ -21323,9 +21323,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9s,",
-                            "Jd,",
-                            "3h,",
+                            "9s",
+                            "Jd",
+                            "3h",
                             "Qc"
                         ]
                     },
@@ -21396,8 +21396,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8h,",
-                    "7d,",
+                    "8h",
+                    "7d",
                     "Th"
                 ],
                 "actions": [
@@ -21470,22 +21470,22 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9s,",
-                            "Jd,",
-                            "3h,",
+                            "9s",
+                            "Jd",
+                            "3h",
                             "Qc"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kh,",
-                            "4s,",
-                            "Js,",
+                            "Kh",
+                            "4s",
+                            "Js",
                             "Ts"
                         ]
                     }
@@ -21585,9 +21585,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5d,",
-                            "4h,",
-                            "7c,",
+                            "5d",
+                            "4h",
+                            "7c",
                             "6s"
                         ]
                     },
@@ -21647,8 +21647,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kd,",
-                    "Kh,",
+                    "Kd",
+                    "Kh",
                     "2d"
                 ],
                 "actions": [
@@ -21767,9 +21767,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3h,",
-                            "9c,",
-                            "3d,",
+                            "3h",
+                            "9c",
+                            "3d",
                             "Qc"
                         ]
                     },
@@ -21836,8 +21836,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8h,",
-                    "6d,",
+                    "8h",
+                    "6d",
                     "2h"
                 ],
                 "actions": [
@@ -21888,22 +21888,22 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kc,",
-                            "Kh,",
-                            "9h,",
+                            "Kc",
+                            "Kh",
+                            "9h",
                             "7c"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8c,",
-                            "Qd,",
-                            "Jh,",
+                            "8c",
+                            "Qd",
+                            "Jh",
                             "6h"
                         ]
                     }
@@ -22040,9 +22040,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7s,",
-                            "6d,",
-                            "Kh,",
+                            "7s",
+                            "6d",
+                            "Kh",
                             "5c"
                         ]
                     },
@@ -22106,8 +22106,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9c,",
-                    "Kd,",
+                    "9c",
+                    "Kd",
                     "Qh"
                 ],
                 "actions": [
@@ -22229,33 +22229,33 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Tc,",
-                            "Ad,",
-                            "Td,",
+                            "Tc",
+                            "Ad",
+                            "Td",
                             "6h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4h,",
-                            "3d,",
-                            "Kc,",
+                            "4h",
+                            "3d",
+                            "Kc",
                             "Jc"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4s,",
-                            "5d,",
-                            "2h,",
+                            "4s",
+                            "5d",
+                            "2h",
                             "9h"
                         ]
                     }
@@ -22355,9 +22355,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "6d,",
-                            "Js,",
-                            "Td,",
+                            "6d",
+                            "Js",
+                            "Td",
                             "8s"
                         ]
                     },
@@ -22435,8 +22435,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6s,",
-                    "6h,",
+                    "6s",
+                    "6h",
                     "Ts"
                 ],
                 "actions": [
@@ -22555,11 +22555,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7s,",
-                            "9s,",
-                            "2h,",
+                            "7s",
+                            "9s",
+                            "2h",
                             "4d"
                         ]
                     }
@@ -22659,9 +22659,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3c,",
-                            "6c,",
-                            "5s,",
+                            "3c",
+                            "6c",
+                            "5s",
                             "As"
                         ]
                     },
@@ -22727,8 +22727,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2c,",
-                    "4d,",
+                    "2c",
+                    "4d",
                     "7h"
                 ],
                 "actions": [
@@ -22831,33 +22831,33 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4s,",
-                            "9d,",
-                            "7d,",
+                            "4s",
+                            "9d",
+                            "7d",
                             "4h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "2d,",
-                            "2s,",
-                            "8h,",
+                            "2d",
+                            "2s",
+                            "8h",
                             "8s"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6d,",
-                            "5h,",
-                            "4c,",
+                            "6d",
+                            "5h",
+                            "4c",
                             "3h"
                         ]
                     }
@@ -22963,9 +22963,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3d,",
-                            "Qh,",
-                            "Js,",
+                            "3d",
+                            "Qh",
+                            "Js",
                             "Qs"
                         ]
                     },
@@ -23009,8 +23009,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ks,",
-                    "2d,",
+                    "Ks",
+                    "2d",
                     "Qc"
                 ],
                 "actions": [
@@ -23068,11 +23068,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6s,",
-                            "Ad,",
-                            "8d,",
+                            "6s",
+                            "Ad",
+                            "8d",
                             "As"
                         ]
                     }
@@ -23165,9 +23165,9 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3d,",
-                            "8c,",
-                            "Ad,",
+                            "3d",
+                            "8c",
+                            "Ad",
                             "3s"
                         ]
                     },
@@ -23220,8 +23220,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8s,",
-                    "Qh,",
+                    "8s",
+                    "Qh",
                     "8h"
                 ],
                 "actions": [
@@ -23305,11 +23305,11 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3d,",
-                            "8c,",
-                            "Ad,",
+                            "3d",
+                            "8c",
+                            "Ad",
                             "3s"
                         ]
                     }
@@ -23409,9 +23409,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7s,",
-                            "2s,",
-                            "3d,",
+                            "7s",
+                            "2s",
+                            "3d",
                             "3s"
                         ]
                     },
@@ -23471,8 +23471,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jd,",
-                    "8s,",
+                    "Jd",
+                    "8s",
                     "2c"
                 ],
                 "actions": [
@@ -23594,9 +23594,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9s,",
-                            "4c,",
-                            "Kh,",
+                            "9s",
+                            "4c",
+                            "Kh",
                             "Jd"
                         ]
                     },
@@ -23672,8 +23672,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4d,",
-                    "2h,",
+                    "4d",
+                    "2h",
                     "As"
                 ],
                 "actions": [
@@ -23824,9 +23824,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3d,",
-                            "Qh,",
-                            "5d,",
+                            "3d",
+                            "Qh",
+                            "5d",
                             "6c"
                         ]
                     },
@@ -23893,8 +23893,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qs,",
-                    "Ks,",
+                    "Qs",
+                    "Ks",
                     "Th"
                 ],
                 "actions": [
@@ -23959,11 +23959,11 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4s,",
-                            "9d,",
-                            "Ts,",
+                            "4s",
+                            "9d",
+                            "Ts",
                             "Jh"
                         ]
                     }
@@ -24063,7 +24063,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "Kh"
                         ]
                     },
@@ -24137,8 +24137,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3d,",
-                    "7d,",
+                    "3d",
+                    "7d",
                     "Qc"
                 ],
                 "actions": [
@@ -24208,9 +24208,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ah,",
+                            "Ah",
                             "Kc"
                         ]
                     }
@@ -24310,7 +24310,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qd,",
+                            "Qd",
                             "8d"
                         ]
                     },
@@ -24379,8 +24379,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "7d,",
-                    "5h,",
+                    "7d",
+                    "5h",
                     "Jd"
                 ],
                 "actions": [
@@ -24467,9 +24467,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7c,",
+                            "7c",
                             "7h"
                         ]
                     }
@@ -24569,7 +24569,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Jc,",
+                            "Jc",
                             "8c"
                         ]
                     },
@@ -24629,8 +24629,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3h,",
-                    "Ks,",
+                    "3h",
+                    "Ks",
                     "9c"
                 ],
                 "actions": [
@@ -24811,7 +24811,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "2c"
                         ]
                     },
@@ -24869,8 +24869,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5d,",
-                    "9c,",
+                    "5d",
+                    "9c",
                     "6c"
                 ],
                 "actions": [
@@ -24999,7 +24999,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "3h,",
+                            "3h",
                             "Qh"
                         ]
                     },
@@ -25061,8 +25061,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6c,",
-                    "Ts,",
+                    "6c",
+                    "Ts",
                     "2s"
                 ],
                 "actions": [
@@ -25199,7 +25199,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qc,",
+                            "Qc",
                             "4h"
                         ]
                     },
@@ -25264,8 +25264,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Js,",
-                    "6c,",
+                    "Js",
+                    "6c",
                     "Ts"
                 ],
                 "actions": [
@@ -25396,7 +25396,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "6d"
                         ]
                     },
@@ -25458,8 +25458,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3s,",
-                    "Th,",
+                    "3s",
+                    "Th",
                     "Js"
                 ],
                 "actions": [
@@ -25596,7 +25596,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Th,",
+                            "Th",
                             "Jd"
                         ]
                     },
@@ -25670,8 +25670,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4c,",
-                    "8d,",
+                    "4c",
+                    "8d",
                     "5s"
                 ],
                 "actions": [
@@ -25706,9 +25706,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3h,",
+                            "3h",
                             "6h"
                         ]
                     }
@@ -25808,7 +25808,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4c,",
+                            "4c",
                             "Th"
                         ]
                     },
@@ -25868,8 +25868,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jh,",
-                    "Qh,",
+                    "Jh",
+                    "Qh",
                     "7c"
                 ],
                 "actions": [
@@ -26026,7 +26026,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2h,",
+                            "2h",
                             "Td"
                         ]
                     },
@@ -26088,8 +26088,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6d,",
-                    "2s,",
+                    "6d",
+                    "2s",
                     "Tc"
                 ],
                 "actions": [
@@ -26221,7 +26221,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5c,",
+                            "5c",
                             "Th"
                         ]
                     },
@@ -26279,8 +26279,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "7d,",
-                    "5s,",
+                    "7d",
+                    "5s",
                     "6h"
                 ],
                 "actions": [
@@ -26359,18 +26359,18 @@
                     {
                         "action_number": 0,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "Kh"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6d,",
+                            "6d",
                             "8d"
                         ]
                     }
@@ -26470,7 +26470,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9c,",
+                            "9c",
                             "Kh"
                         ]
                     },
@@ -26530,8 +26530,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5h,",
-                    "Qh,",
+                    "5h",
+                    "Qh",
                     "Td"
                 ],
                 "actions": [
@@ -26639,18 +26639,18 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9d,",
+                            "9d",
                             "Th"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6s,",
+                            "6s",
                             "Qs"
                         ]
                     }
@@ -26750,7 +26750,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4d,",
+                            "4d",
                             "7d"
                         ]
                     },
@@ -26809,9 +26809,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "3d,",
+                            "3d",
                             "Kc"
                         ]
                     }
@@ -26911,7 +26911,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2h,",
+                            "2h",
                             "Ac"
                         ]
                     },
@@ -26969,8 +26969,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Js,",
-                    "6s,",
+                    "Js",
+                    "6s",
                     "8d"
                 ],
                 "actions": [
@@ -27000,9 +27000,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8s,",
+                            "8s",
                             "6d"
                         ]
                     }
@@ -27102,7 +27102,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2h,",
+                            "2h",
                             "3d"
                         ]
                     },
@@ -27158,8 +27158,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5c,",
-                    "3h,",
+                    "5c",
+                    "3h",
                     "2s"
                 ],
                 "actions": [
@@ -27230,9 +27230,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "Ah"
                         ]
                     }
@@ -27332,7 +27332,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9c,",
+                            "9c",
                             "5s"
                         ]
                     },
@@ -27390,8 +27390,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3d,",
-                    "7h,",
+                    "3d",
+                    "7h",
                     "Td"
                 ],
                 "actions": [
@@ -27456,18 +27456,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9d,",
+                            "9d",
                             "As"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8s,",
+                            "8s",
                             "Qh"
                         ]
                     }
@@ -27567,7 +27567,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qd,",
+                            "Qd",
                             "Td"
                         ]
                     },
@@ -27727,7 +27727,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8h,",
+                            "8h",
                             "4d"
                         ]
                     },
@@ -27787,8 +27787,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5h,",
-                    "As,",
+                    "5h",
+                    "As",
                     "Kc"
                 ],
                 "actions": [
@@ -27925,7 +27925,7 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2h,",
+                            "2h",
                             "7h"
                         ]
                     },
@@ -27983,8 +27983,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Tc,",
-                    "7s,",
+                    "Tc",
+                    "7s",
                     "6c"
                 ],
                 "actions": [
@@ -28060,27 +28060,27 @@
                     {
                         "action_number": 0,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "2h,",
+                            "2h",
                             "7h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9d,",
+                            "9d",
                             "6h"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qh,",
+                            "Qh",
                             "2d"
                         ]
                     }
@@ -28180,9 +28180,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8d,",
-                            "5d,",
-                            "9c,",
+                            "8d",
+                            "5d",
+                            "9c",
                             "As"
                         ]
                     },
@@ -28244,8 +28244,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3d,",
-                    "6h,",
+                    "3d",
+                    "6h",
                     "8c"
                 ],
                 "actions": [
@@ -28325,11 +28325,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kc,",
-                            "Qd,",
-                            "4d,",
+                            "Kc",
+                            "Qd",
+                            "4d",
                             "3c"
                         ]
                     }
@@ -28429,9 +28429,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5d,",
-                            "8d,",
-                            "6s,",
+                            "5d",
+                            "8d",
+                            "6s",
                             "Qh"
                         ]
                     },
@@ -28493,8 +28493,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Jh,",
-                    "3d,",
+                    "Jh",
+                    "3d",
                     "Qc"
                 ],
                 "actions": [
@@ -28581,11 +28581,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4s,",
-                            "4h,",
-                            "Qs,",
+                            "4s",
+                            "4h",
+                            "Qs",
                             "Ah"
                         ]
                     }
@@ -28724,8 +28724,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4d,",
-                    "7d,",
+                    "4d",
+                    "7d",
                     "Jc"
                 ],
                 "actions": [
@@ -28818,11 +28818,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
-                            "9d,",
-                            "Qd,",
+                            "As",
+                            "9d",
+                            "Qd",
                             "5h"
                         ]
                     }
@@ -28961,8 +28961,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4h,",
-                    "Ts,",
+                    "4h",
+                    "Ts",
                     "Kc"
                 ],
                 "actions": [
@@ -29065,22 +29065,22 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ah,",
-                            "3c,",
-                            "3s,",
+                            "Ah",
+                            "3c",
+                            "3s",
                             "Qd"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7c,",
-                            "Jd,",
-                            "6c,",
+                            "7c",
+                            "Jd",
+                            "6c",
                             "2h"
                         ]
                     }
@@ -29223,8 +29223,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4h,",
-                    "Ts,",
+                    "4h",
+                    "Ts",
                     "8c"
                 ],
                 "actions": [
@@ -29340,11 +29340,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6h,",
-                            "8s,",
-                            "7d,",
+                            "6h",
+                            "8s",
+                            "7d",
                             "Qc"
                         ]
                     }
@@ -29506,8 +29506,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6c,",
-                    "3s,",
+                    "6c",
+                    "3s",
                     "8d"
                 ],
                 "actions": [
@@ -29616,33 +29616,33 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
-                            "Qd,",
-                            "9s,",
+                            "As",
+                            "Qd",
+                            "9s",
                             "7h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ad,",
-                            "6h,",
-                            "6s,",
+                            "Ad",
+                            "6h",
+                            "6s",
                             "Ts"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Kd,",
-                            "9c,",
-                            "3c,",
+                            "Kd",
+                            "9c",
+                            "3c",
                             "Jc"
                         ]
                     }
@@ -29790,8 +29790,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Js,",
-                    "9s,",
+                    "Js",
+                    "9s",
                     "Qc"
                 ],
                 "actions": [
@@ -29842,22 +29842,22 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8c,",
-                            "Ad,",
-                            "3s,",
+                            "8c",
+                            "Ad",
+                            "3s",
                             "Tc"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ts,",
-                            "4s,",
-                            "Kh,",
+                            "Ts",
+                            "4s",
+                            "Kh",
                             "7s"
                         ]
                     }
@@ -29973,9 +29973,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "9d,",
-                            "7c,",
-                            "2h,",
+                            "9d",
+                            "7c",
+                            "2h",
                             "Kd"
                         ]
                     },
@@ -30054,8 +30054,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "7s,",
-                    "8c,",
+                    "7s",
+                    "8c",
                     "2s"
                 ],
                 "actions": [
@@ -30116,33 +30116,33 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Tc,",
-                            "Qd,",
-                            "Ah,",
+                            "Tc",
+                            "Qd",
+                            "Ah",
                             "7d"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "6c,",
-                            "3h,",
-                            "4c,",
+                            "6c",
+                            "3h",
+                            "4c",
                             "Ac"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4h,",
-                            "7h,",
-                            "8s,",
+                            "4h",
+                            "7h",
+                            "8s",
                             "Kc"
                         ]
                     }
@@ -30242,9 +30242,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4c,",
-                            "2c,",
-                            "Kc,",
+                            "4c",
+                            "2c",
+                            "Kc",
                             "Kd"
                         ]
                     },
@@ -30310,8 +30310,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8d,",
-                    "Ts,",
+                    "8d",
+                    "Ts",
                     "Kh"
                 ],
                 "actions": [
@@ -30394,22 +30394,22 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qc,",
-                            "Jd,",
-                            "Tc,",
+                            "Qc",
+                            "Jd",
+                            "Tc",
                             "8s"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 5,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "4c,",
-                            "2c,",
-                            "Kc,",
+                            "4c",
+                            "2c",
+                            "Kc",
                             "Kd"
                         ]
                     }
@@ -30525,9 +30525,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
-                            "9c,",
-                            "5c,",
+                            "Tc",
+                            "9c",
+                            "5c",
                             "4h"
                         ]
                     },
@@ -30608,8 +30608,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "6s,",
-                    "4s,",
+                    "6s",
+                    "4s",
                     "5d"
                 ],
                 "actions": [
@@ -30693,22 +30693,22 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "7c,",
-                            "Ks,",
-                            "Ad,",
+                            "7c",
+                            "Ks",
+                            "Ad",
                             "6h"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qd,",
-                            "9s,",
-                            "Jd,",
+                            "Qd",
+                            "9s",
+                            "Jd",
                             "Th"
                         ]
                     }
@@ -30808,9 +30808,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2c,",
-                            "Tc,",
-                            "Ks,",
+                            "2c",
+                            "Tc",
+                            "Ks",
                             "4d"
                         ]
                     },
@@ -30872,8 +30872,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "As,",
-                    "3c,",
+                    "As",
+                    "3c",
                     "Kc"
                 ],
                 "actions": [
@@ -30923,11 +30923,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "2s,",
-                            "Qd,",
-                            "Ah,",
+                            "2s",
+                            "Qd",
+                            "Ah",
                             "7s"
                         ]
                     }
@@ -31027,9 +31027,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Tc,",
-                            "8s,",
-                            "Js,",
+                            "Tc",
+                            "8s",
+                            "Js",
                             "Ac"
                         ]
                     },
@@ -31112,8 +31112,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qd,",
-                    "Td,",
+                    "Qd",
+                    "Td",
                     "8h"
                 ],
                 "actions": [
@@ -31200,11 +31200,11 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qh,",
-                            "Jd,",
-                            "7c,",
+                            "Qh",
+                            "Jd",
+                            "7c",
                             "5d"
                         ]
                     }
@@ -31304,9 +31304,9 @@
                         "player_id": 5,
                         "action": "Dealt Cards",
                         "cards": [
-                            "6h,",
-                            "2c,",
-                            "As,",
+                            "6h",
+                            "2c",
+                            "As",
                             "5d"
                         ]
                     },
@@ -31370,8 +31370,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "5s,",
-                    "9c,",
+                    "5s",
+                    "9c",
                     "Td"
                 ],
                 "actions": [
@@ -31542,7 +31542,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qs,",
+                            "Qs",
                             "Jh"
                         ]
                     },
@@ -31599,8 +31599,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3c,",
-                    "Jc,",
+                    "3c",
+                    "Jc",
                     "Ks"
                 ],
                 "actions": [
@@ -31685,18 +31685,18 @@
                     {
                         "action_number": 0,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Qs,",
+                            "Qs",
                             "Jh"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8d,",
+                            "8d",
                             "Js"
                         ]
                     }
@@ -31789,7 +31789,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "Jd"
                         ]
                     },
@@ -31844,8 +31844,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qh,",
-                    "Qs,",
+                    "Qh",
+                    "Qs",
                     "Js"
                 ],
                 "actions": [
@@ -31984,7 +31984,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Jc,",
+                            "Jc",
                             "5s"
                         ]
                     },
@@ -32048,8 +32048,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "3c,",
-                    "2d,",
+                    "3c",
+                    "2d",
                     "Qh"
                 ],
                 "actions": [
@@ -32204,7 +32204,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ah,",
+                            "Ah",
                             "2h"
                         ]
                     },
@@ -32257,8 +32257,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9s,",
-                    "6h,",
+                    "9s",
+                    "6h",
                     "Qd"
                 ],
                 "actions": [
@@ -32363,7 +32363,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "8c,",
+                            "8c",
                             "Qs"
                         ]
                     },
@@ -32416,8 +32416,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Ac,",
-                    "6d,",
+                    "Ac",
+                    "6d",
                     "4d"
                 ],
                 "actions": [
@@ -32568,7 +32568,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Kh,",
+                            "Kh",
                             "9s"
                         ]
                     },
@@ -32623,8 +32623,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "4c,",
-                    "3s,",
+                    "4c",
+                    "3s",
                     "2c"
                 ],
                 "actions": [
@@ -32763,7 +32763,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2d,",
+                            "2d",
                             "9c"
                         ]
                     },
@@ -32897,7 +32897,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4h,",
+                            "4h",
                             "Kd"
                         ]
                     },
@@ -32948,8 +32948,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2h,",
-                    "6h,",
+                    "2h",
+                    "6h",
                     "7d"
                 ],
                 "actions": [
@@ -33059,7 +33059,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Jc,",
+                            "Jc",
                             "Kc"
                         ]
                     },
@@ -33110,8 +33110,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2h,",
-                    "9h,",
+                    "2h",
+                    "9h",
                     "7d"
                 ],
                 "actions": [
@@ -33172,18 +33172,18 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "8s"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 4,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Jc,",
+                            "Jc",
                             "Kc"
                         ]
                     }
@@ -33276,7 +33276,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7c,",
+                            "7c",
                             "Th"
                         ]
                     },
@@ -33329,8 +33329,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Js,",
-                    "3d,",
+                    "Js",
+                    "3d",
                     "4d"
                 ],
                 "actions": [
@@ -33391,18 +33391,18 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "8c,",
+                            "8c",
                             "Ah"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Td,",
+                            "Td",
                             "Qs"
                         ]
                     }
@@ -33495,7 +33495,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "2s,",
+                            "2s",
                             "5c"
                         ]
                     },
@@ -33548,8 +33548,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Th,",
-                    "Kd,",
+                    "Th",
+                    "Kd",
                     "8d"
                 ],
                 "actions": [
@@ -33700,7 +33700,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4c,",
+                            "4c",
                             "7s"
                         ]
                     },
@@ -33753,8 +33753,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qh,",
-                    "3d,",
+                    "Qh",
+                    "3d",
                     "8h"
                 ],
                 "actions": [
@@ -33864,7 +33864,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Qh,",
+                            "Qh",
                             "9c"
                         ]
                     },
@@ -33931,8 +33931,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Td,",
-                    "8d,",
+                    "Td",
+                    "8d",
                     "4s"
                 ],
                 "actions": [
@@ -34042,7 +34042,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "Qc"
                         ]
                     },
@@ -34097,8 +34097,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Kd,",
-                    "6c,",
+                    "Kd",
+                    "6c",
                     "4d"
                 ],
                 "actions": [
@@ -34160,27 +34160,27 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ad,",
+                            "Ad",
                             "Ac"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ad,",
+                            "Ad",
                             "Ac"
                         ]
                     },
                     {
                         "action_number": 2,
                         "player_id": 3,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ks,",
+                            "Ks",
                             "Jd"
                         ]
                     }
@@ -34281,7 +34281,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Jh,",
+                            "Jh",
                             "8d"
                         ]
                     },
@@ -34334,8 +34334,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "9d,",
-                    "Ah,",
+                    "9d",
+                    "Ah",
                     "Th"
                 ],
                 "actions": [
@@ -34411,9 +34411,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "Tc"
                         ]
                     }
@@ -34506,7 +34506,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7h,",
+                            "7h",
                             "4h"
                         ]
                     },
@@ -34566,8 +34566,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2s,",
-                    "5c,",
+                    "2s",
+                    "5c",
                     "9c"
                 ],
                 "actions": [
@@ -34645,18 +34645,18 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Tc,",
+                            "Tc",
                             "Th"
                         ]
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "9h,",
+                            "9h",
                             "8c"
                         ]
                     }
@@ -34749,7 +34749,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5s,",
+                            "5s",
                             "9h"
                         ]
                     },
@@ -34800,8 +34800,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Qs,",
-                    "Ts,",
+                    "Qs",
+                    "Ts",
                     "9s"
                 ],
                 "actions": [
@@ -34929,7 +34929,7 @@
                         "player_id": 4,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "Qs"
                         ]
                     },
@@ -34984,8 +34984,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "8h,",
-                    "4s,",
+                    "8h",
+                    "4s",
                     "8c"
                 ],
                 "actions": [
@@ -35126,7 +35126,7 @@
                         "player_id": 3,
                         "action": "Dealt Cards",
                         "cards": [
-                            "6c,",
+                            "6c",
                             "Jd"
                         ]
                     },
@@ -35234,7 +35234,7 @@
                         "player_id": 2,
                         "action": "Dealt Cards",
                         "cards": [
-                            "4d,",
+                            "4d",
                             "8s"
                         ]
                     },
@@ -35330,7 +35330,7 @@
                         "player_id": 1,
                         "action": "Dealt Cards",
                         "cards": [
-                            "Ts,",
+                            "Ts",
                             "3c"
                         ]
                     },
@@ -35421,7 +35421,7 @@
                         "player_id": 1,
                         "action": "Dealt Cards",
                         "cards": [
-                            "7s,",
+                            "7s",
                             "Jd"
                         ]
                     },
@@ -35512,7 +35512,7 @@
                         "player_id": 1,
                         "action": "Dealt Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "2c"
                         ]
                     },
@@ -35557,8 +35557,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "Js,",
-                    "8c,",
+                    "Js",
+                    "8c",
                     "Ad"
                 ],
                 "actions": [
@@ -35628,9 +35628,9 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "As,",
+                            "As",
                             "2c"
                         ]
                     }
@@ -35702,7 +35702,7 @@
                         "player_id": 1,
                         "action": "Dealt Cards",
                         "cards": [
-                            "5d,",
+                            "5d",
                             "5h"
                         ]
                     },
@@ -35740,8 +35740,8 @@
                 "id": 1,
                 "street": "Flop",
                 "cards": [
-                    "2s,",
-                    "Ac,",
+                    "2s",
+                    "Ac",
                     "6h"
                 ],
                 "actions": [
@@ -35771,9 +35771,9 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Shows Hand",
+                        "action": "Shows Cards",
                         "cards": [
-                            "Ah,",
+                            "Ah",
                             "Th"
                         ]
                     }

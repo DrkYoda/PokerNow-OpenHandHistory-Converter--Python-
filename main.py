@@ -36,6 +36,8 @@ v 1.0.4
     - Fixed issue #8 Dummy ohh object with "game_number": "0"
 v 1.1.0
     - Fixed issue #13 and added the attribute "is_allin" to action objects that have an amount>0.00
+    - Fixed issue #14 At showdown the action value is now the valid value "Shows Cards"
+    - Fixed issue #15 removed the extra comma after cards in the text string
 
 ****************************************************************************************************
 """
@@ -626,7 +628,7 @@ for poker_now_file in csv_file_list:
                             round_commit[p] = 0
                         if cards_match is not None:
                             cards = cards_match.group("cards")
-                            for card in cards.split():
+                            for card in cards.split(", "):
                                 round_obj[CARDS].append(card)
                         else:
                             continue
@@ -648,9 +650,9 @@ for poker_now_file in csv_file_list:
                     action = {}
                     action[ACTION_NUMBER] = action_number
                     action[PLAYER_ID] = player_ids[player]
-                    action[ACTION] = "Shows Hand"
+                    action[ACTION] = "Shows Cards"
                     action[CARDS] = []
-                    for card in cards.split():
+                    for card in cards.split(", "):
                         action[CARDS].append(card)
                     round_obj[ACTIONS].append(action)
                     action_number += 1
@@ -681,7 +683,7 @@ for poker_now_file in csv_file_list:
                     action[PLAYER_ID] = ohh[HERO_PLAYER_ID]
                     action[ACTION] = "Dealt Cards"
                     action[CARDS] = []
-                    for card in cards.split():
+                    for card in cards.split(", "):
                         action[CARDS].append(card)
                     round_obj[ACTIONS].append(action)
                     action_number += 1
