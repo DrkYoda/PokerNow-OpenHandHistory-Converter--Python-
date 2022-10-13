@@ -36,6 +36,7 @@ v 1.0.4
     - Fixed issue #8 Dummy ohh object with "game_number": "0"
 v 1.1.0
     - Fixed issue #13 and added the attribute "is_allin" to action objects that have an amount>0.00
+    - Fixed issue #14 At showdown the action value is now the valid value "Shows Cards"
 
 ****************************************************************************************************
 """
@@ -644,7 +645,7 @@ for poker_now_file in csv_file_list:
                     action = {}
                     action[ACTION_NUMBER] = action_number
                     action[PLAYER_ID] = player_ids[player]
-                    action[ACTION] = "Shows Hand"
+                    action[ACTION] = "Shows Cards"
                     action[CARDS] = []
                     for card in cards.split():
                         action[CARDS].append(card)
