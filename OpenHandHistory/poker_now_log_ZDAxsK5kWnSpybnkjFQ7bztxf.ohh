@@ -4,7 +4,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "1",
+        "game_number": "1640664271402",
         "start_date_utc": "2021-12-28T04:04:31Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -52,7 +52,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8h,",
                             "5h"
@@ -82,8 +81,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -106,14 +104,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -134,8 +130,7 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -163,7 +158,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "2",
+        "game_number": "1640664319188",
         "start_date_utc": "2021-12-28T04:05:19Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -211,7 +206,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2h,",
                             "Jh"
@@ -234,14 +228,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -269,7 +261,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "3",
+        "game_number": "1640664334450",
         "start_date_utc": "2021-12-28T04:05:34Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -317,7 +309,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jd,",
                             "2c"
@@ -340,14 +331,12 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -375,7 +364,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "4",
+        "game_number": "1640664348982",
         "start_date_utc": "2021-12-28T04:05:48Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -423,7 +412,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jc,",
                             "Th"
@@ -453,8 +441,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -477,14 +464,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -505,8 +490,7 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -534,7 +518,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "5",
+        "game_number": "1640664406678",
         "start_date_utc": "2021-12-28T04:06:46Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -582,7 +566,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8s,",
                             "Jd"
@@ -605,8 +588,7 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -618,8 +600,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -647,7 +628,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "6",
+        "game_number": "1640664421696",
         "start_date_utc": "2021-12-28T04:07:01Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -695,7 +676,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Ts,",
                             "Kh"
@@ -732,14 +712,12 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -767,7 +745,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "7",
+        "game_number": "1640664446913",
         "start_date_utc": "2021-12-28T04:07:26Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -815,7 +793,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2s,",
                             "6s"
@@ -852,8 +829,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -865,8 +841,7 @@
                     {
                         "action_number": 7,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -894,7 +869,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "8",
+        "game_number": "1640664478259",
         "start_date_utc": "2021-12-28T04:07:58Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -942,7 +917,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "4s,",
                             "Qs"
@@ -965,14 +939,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1000,7 +972,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "9",
+        "game_number": "1640664493981",
         "start_date_utc": "2021-12-28T04:08:13Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1048,7 +1020,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2h,",
                             "Jc"
@@ -1071,14 +1042,12 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1106,7 +1075,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "10",
+        "game_number": "1640664506790",
         "start_date_utc": "2021-12-28T04:08:26Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1154,7 +1123,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Kc,",
                             "Ah"
@@ -1177,14 +1145,12 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -1227,7 +1193,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "11",
+        "game_number": "1640664515202",
         "start_date_utc": "2021-12-28T04:08:35Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1275,7 +1241,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8c,",
                             "Th"
@@ -1305,8 +1270,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -1329,8 +1293,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -1342,8 +1305,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1371,7 +1333,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "12",
+        "game_number": "1640664543672",
         "start_date_utc": "2021-12-28T04:09:03Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1419,7 +1381,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6h,",
                             "2h"
@@ -1442,8 +1403,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -1455,8 +1415,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1484,7 +1443,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "13",
+        "game_number": "1640664562687",
         "start_date_utc": "2021-12-28T04:09:22Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1532,7 +1491,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "7d,",
                             "5c"
@@ -1562,14 +1520,12 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1597,7 +1553,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "14",
+        "game_number": "1640664586471",
         "start_date_utc": "2021-12-28T04:09:46Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1645,7 +1601,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "3h,",
                             "2c"
@@ -1668,14 +1623,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1703,7 +1656,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "15",
+        "game_number": "1640664601091",
         "start_date_utc": "2021-12-28T04:10:01Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1751,7 +1704,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "3d,",
                             "2h"
@@ -1774,8 +1726,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -1812,8 +1763,7 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -1841,7 +1791,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "16",
+        "game_number": "1640664638512",
         "start_date_utc": "2021-12-28T04:10:38Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -1889,7 +1839,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9h,",
                             "Ah"
@@ -1919,8 +1868,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -1943,14 +1891,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -1971,8 +1917,7 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -2000,7 +1945,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "17",
+        "game_number": "1640664738729",
         "start_date_utc": "2021-12-28T04:12:18Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2048,7 +1993,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Th,",
                             "Ah"
@@ -2085,8 +2029,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -2109,8 +2052,7 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -2153,7 +2095,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "18",
+        "game_number": "1640664776571",
         "start_date_utc": "2021-12-28T04:12:56Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2201,7 +2143,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Qc,",
                             "5h"
@@ -2224,14 +2165,12 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -2259,7 +2198,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "19",
+        "game_number": "1640664788380",
         "start_date_utc": "2021-12-28T04:13:08Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2307,7 +2246,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "As,",
                             "4s"
@@ -2344,8 +2282,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -2391,14 +2328,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -2412,14 +2347,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -2471,7 +2404,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "20",
+        "game_number": "1640664871164",
         "start_date_utc": "2021-12-28T04:14:31Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2519,7 +2452,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2c,",
                             "7h"
@@ -2549,8 +2481,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -2573,14 +2504,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -2601,8 +2530,7 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -2630,7 +2558,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "21",
+        "game_number": "1640664939363",
         "start_date_utc": "2021-12-28T04:15:39Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2678,7 +2606,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "3h,",
                             "9d"
@@ -2701,8 +2628,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -2739,14 +2665,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -2760,14 +2684,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -2781,14 +2703,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -2840,7 +2760,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "22",
+        "game_number": "1640665018584",
         "start_date_utc": "2021-12-28T04:16:58Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2888,7 +2808,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6h,",
                             "Tc"
@@ -2911,14 +2830,12 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -2946,7 +2863,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "23",
+        "game_number": "1640665027499",
         "start_date_utc": "2021-12-28T04:17:07Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -2994,7 +2911,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2c,",
                             "9s"
@@ -3024,14 +2940,12 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -3059,7 +2973,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "24",
+        "game_number": "1640665045577",
         "start_date_utc": "2021-12-28T04:17:25Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -3107,7 +3021,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Tc,",
                             "3d"
@@ -3130,8 +3043,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -3143,8 +3055,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -3172,7 +3083,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "25",
+        "game_number": "1640665058380",
         "start_date_utc": "2021-12-28T04:17:38Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -3220,7 +3131,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Kh,",
                             "As"
@@ -3243,8 +3153,7 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -3263,8 +3172,7 @@
                     {
                         "action_number": 6,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -3292,7 +3200,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "26",
+        "game_number": "1640665108857",
         "start_date_utc": "2021-12-28T04:18:28Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -3340,7 +3248,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6h,",
                             "Ts"
@@ -3370,8 +3277,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -3394,14 +3300,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -3415,14 +3319,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -3436,14 +3338,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -3495,7 +3395,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "27",
+        "game_number": "1640665145682",
         "start_date_utc": "2021-12-28T04:19:05Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -3543,7 +3443,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Ad,",
                             "Jd"
@@ -3573,8 +3472,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -3620,14 +3518,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -3641,8 +3537,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -3708,7 +3603,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "28",
+        "game_number": "1640665212337",
         "start_date_utc": "2021-12-28T04:20:12Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -3756,7 +3651,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Ts,",
                             "Qc"
@@ -3793,14 +3687,12 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -3828,7 +3720,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "29",
+        "game_number": "1640665252170",
         "start_date_utc": "2021-12-28T04:20:52Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -3876,7 +3768,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "7c,",
                             "Qs"
@@ -3899,8 +3790,7 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -3960,8 +3850,7 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -3989,7 +3878,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "30",
+        "game_number": "1640665294278",
         "start_date_utc": "2021-12-28T04:21:34Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4037,7 +3926,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Ah,",
                             "3d"
@@ -4092,14 +3980,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -4111,8 +3997,7 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -4133,14 +4018,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -4215,7 +4098,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "31",
+        "game_number": "1640665413485",
         "start_date_utc": "2021-12-28T04:23:33Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4263,7 +4146,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jh,",
                             "Js"
@@ -4286,8 +4168,7 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -4306,8 +4187,7 @@
                     {
                         "action_number": 6,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -4335,7 +4215,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "32",
+        "game_number": "1640665464766",
         "start_date_utc": "2021-12-28T04:24:24Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4383,7 +4263,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6c,",
                             "2c"
@@ -4413,14 +4292,12 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -4448,7 +4325,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "33",
+        "game_number": "1640665485179",
         "start_date_utc": "2021-12-28T04:24:45Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4496,7 +4373,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9s,",
                             "6s"
@@ -4519,8 +4395,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -4532,8 +4407,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -4561,7 +4435,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "34",
+        "game_number": "1640665519998",
         "start_date_utc": "2021-12-28T04:25:19Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4609,7 +4483,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6c,",
                             "Jd"
@@ -4632,8 +4505,7 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -4645,8 +4517,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -4674,7 +4545,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "35",
+        "game_number": "1640665545564",
         "start_date_utc": "2021-12-28T04:25:45Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4722,7 +4593,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2c,",
                             "4s"
@@ -4752,8 +4622,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -4776,8 +4645,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -4805,14 +4673,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -4826,8 +4692,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -4884,7 +4749,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "36",
+        "game_number": "1640665636452",
         "start_date_utc": "2021-12-28T04:27:16Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -4932,7 +4797,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Th,",
                             "6s"
@@ -4955,14 +4819,12 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -5005,7 +4867,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "37",
+        "game_number": "1640665647854",
         "start_date_utc": "2021-12-28T04:27:27Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5053,7 +4915,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9c,",
                             "Qc"
@@ -5083,8 +4944,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -5107,8 +4967,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -5120,8 +4979,7 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5149,7 +5007,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "38",
+        "game_number": "1640665689750",
         "start_date_utc": "2021-12-28T04:28:09Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5197,7 +5055,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Ks,",
                             "Kd"
@@ -5220,8 +5077,7 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -5247,8 +5103,7 @@
                     {
                         "action_number": 7,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5276,7 +5131,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "39",
+        "game_number": "1640665723497",
         "start_date_utc": "2021-12-28T04:28:43Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5324,7 +5179,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8c,",
                             "Ts"
@@ -5347,14 +5201,12 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5382,7 +5234,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "40",
+        "game_number": "1640665735721",
         "start_date_utc": "2021-12-28T04:28:55Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5430,7 +5282,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jh,",
                             "9s"
@@ -5485,14 +5336,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -5504,14 +5353,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5539,7 +5386,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "41",
+        "game_number": "1640665779986",
         "start_date_utc": "2021-12-28T04:29:39Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5587,7 +5434,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Kh,",
                             "6h"
@@ -5610,8 +5456,7 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -5623,8 +5468,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5652,7 +5496,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "42",
+        "game_number": "1640665799394",
         "start_date_utc": "2021-12-28T04:29:59Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5700,7 +5544,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9c,",
                             "Tc"
@@ -5737,8 +5580,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -5754,8 +5596,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -5783,14 +5624,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -5818,8 +5657,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5847,7 +5685,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "43",
+        "game_number": "1640665877273",
         "start_date_utc": "2021-12-28T04:31:17Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -5895,7 +5733,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "As,",
                             "9d"
@@ -5932,14 +5769,12 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -5967,7 +5802,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "44",
+        "game_number": "1640665906305",
         "start_date_utc": "2021-12-28T04:31:46Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6015,7 +5850,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jc,",
                             "5d"
@@ -6045,14 +5879,12 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -6080,7 +5912,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "45",
+        "game_number": "1640665928180",
         "start_date_utc": "2021-12-28T04:32:08Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6128,7 +5960,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9d,",
                             "Ad"
@@ -6183,14 +6014,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -6202,8 +6031,7 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -6224,14 +6052,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -6245,14 +6071,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -6304,7 +6128,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "46",
+        "game_number": "1640666003078",
         "start_date_utc": "2021-12-28T04:33:23Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6352,7 +6176,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8s,",
                             "Td"
@@ -6382,14 +6205,12 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -6417,7 +6238,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "47",
+        "game_number": "1640666031699",
         "start_date_utc": "2021-12-28T04:33:51Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6465,7 +6286,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9s,",
                             "3s"
@@ -6488,14 +6308,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -6523,7 +6341,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "48",
+        "game_number": "1640666052066",
         "start_date_utc": "2021-12-28T04:34:12Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6571,7 +6389,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5h,",
                             "8d"
@@ -6594,8 +6411,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -6632,14 +6448,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -6653,14 +6467,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -6674,8 +6486,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -6687,8 +6498,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -6716,7 +6526,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "49",
+        "game_number": "1640666111769",
         "start_date_utc": "2021-12-28T04:35:11Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6764,7 +6574,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Kc,",
                             "3d"
@@ -6819,14 +6628,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -6838,14 +6645,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -6873,7 +6678,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "50",
+        "game_number": "1640666180779",
         "start_date_utc": "2021-12-28T04:36:20Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -6921,7 +6726,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2s,",
                             "7s"
@@ -6944,14 +6748,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -6979,7 +6781,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "51",
+        "game_number": "1640666198203",
         "start_date_utc": "2021-12-28T04:36:38Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -7027,7 +6829,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jc,",
                             "9c"
@@ -7057,8 +6858,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -7070,8 +6870,7 @@
                     {
                         "action_number": 6,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -7099,7 +6898,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "52",
+        "game_number": "1640666247099",
         "start_date_utc": "2021-12-28T04:37:27Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -7147,7 +6946,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jd,",
                             "As"
@@ -7191,8 +6989,7 @@
                     {
                         "action_number": 6,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -7215,8 +7012,7 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -7244,7 +7040,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "53",
+        "game_number": "1640666311989",
         "start_date_utc": "2021-12-28T04:38:31Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -7292,7 +7088,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Js,",
                             "5d"
@@ -7315,14 +7110,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -7350,7 +7143,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "54",
+        "game_number": "1640666323394",
         "start_date_utc": "2021-12-28T04:38:43Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Holdem",
@@ -7398,7 +7191,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Jh,",
                             "7h"
@@ -7435,8 +7227,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -7452,14 +7243,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -7496,8 +7285,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -7509,8 +7297,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -7538,7 +7325,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "55",
+        "game_number": "1640666377554",
         "start_date_utc": "2021-12-28T04:39:37Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -7586,7 +7373,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "3c,",
                             "5h,",
@@ -7643,14 +7429,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -7662,14 +7446,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -7714,7 +7496,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "56",
+        "game_number": "1640666413793",
         "start_date_utc": "2021-12-28T04:40:13Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -7762,7 +7544,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Ts,",
                             "7c,",
@@ -7819,8 +7600,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -7832,14 +7612,12 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -7867,7 +7645,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "57",
+        "game_number": "1640666479997",
         "start_date_utc": "2021-12-28T04:41:19Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -7915,7 +7693,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5d,",
                             "4c,",
@@ -7972,8 +7749,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -7985,14 +7761,12 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -8048,7 +7822,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "58",
+        "game_number": "1640666524472",
         "start_date_utc": "2021-12-28T04:42:04Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -8096,7 +7870,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "4c,",
                             "Ks,",
@@ -8128,8 +7901,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -8152,8 +7924,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -8181,14 +7952,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -8202,14 +7971,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -8254,7 +8021,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "59",
+        "game_number": "1640666565612",
         "start_date_utc": "2021-12-28T04:42:45Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -8302,7 +8069,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6c,",
                             "4c,",
@@ -8327,14 +8093,12 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -8379,7 +8143,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "60",
+        "game_number": "1640666579076",
         "start_date_utc": "2021-12-28T04:42:59Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -8427,7 +8191,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "7h,",
                             "Ah,",
@@ -8466,8 +8229,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -8578,7 +8340,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "61",
+        "game_number": "1640666644504",
         "start_date_utc": "2021-12-28T04:44:04Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -8619,7 +8381,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6c,",
                             "9d,",
@@ -8669,8 +8430,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -8682,8 +8442,7 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -8711,7 +8470,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "62",
+        "game_number": "1640666733322",
         "start_date_utc": "2021-12-28T04:45:33Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -8759,7 +8518,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5s,",
                             "Kc,",
@@ -8784,14 +8542,12 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -8836,7 +8592,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "63",
+        "game_number": "1640666744163",
         "start_date_utc": "2021-12-28T04:45:44Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -8884,7 +8640,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "7s,",
                             "4d,",
@@ -8923,8 +8678,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -8961,8 +8715,7 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -9007,7 +8760,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "64",
+        "game_number": "1640666795858",
         "start_date_utc": "2021-12-28T04:46:35Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -9055,7 +8808,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "7h,",
                             "5h,",
@@ -9094,8 +8846,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -9111,8 +8862,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -9124,8 +8874,7 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -9153,7 +8902,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "65",
+        "game_number": "1640666857161",
         "start_date_utc": "2021-12-28T04:47:37Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -9201,7 +8950,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9d,",
                             "Jh,",
@@ -9258,20 +9006,17 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -9285,8 +9030,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -9298,14 +9042,12 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -9350,7 +9092,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "66",
+        "game_number": "1640666912795",
         "start_date_utc": "2021-12-28T04:48:32Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -9398,7 +9140,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8h,",
                             "Qh,",
@@ -9455,20 +9196,17 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -9482,20 +9220,17 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -9509,20 +9244,17 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -9567,7 +9299,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "67",
+        "game_number": "1640667031592",
         "start_date_utc": "2021-12-28T04:50:31Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -9615,7 +9347,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6h,",
                             "Jh,",
@@ -9672,20 +9403,17 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -9699,8 +9427,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -9719,8 +9446,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -9734,8 +9460,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -9816,7 +9541,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "68",
+        "game_number": "1640667113097",
         "start_date_utc": "2021-12-28T04:51:53Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -9864,7 +9589,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Tc,",
                             "Ac,",
@@ -9896,8 +9620,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -9920,8 +9643,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -9949,14 +9671,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -9970,14 +9690,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -10033,7 +9751,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "69",
+        "game_number": "1640667191267",
         "start_date_utc": "2021-12-28T04:53:11Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10081,7 +9799,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2h,",
                             "9d,",
@@ -10106,8 +9823,7 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -10119,8 +9835,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -10148,7 +9863,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "70",
+        "game_number": "1640667212005",
         "start_date_utc": "2021-12-28T04:53:32Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10196,7 +9911,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Qh,",
                             "2s,",
@@ -10228,14 +9942,12 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -10263,7 +9975,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "71",
+        "game_number": "1640667235789",
         "start_date_utc": "2021-12-28T04:53:55Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10311,7 +10023,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Qd,",
                             "3s,",
@@ -10343,8 +10054,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -10367,14 +10077,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -10388,14 +10096,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -10409,8 +10115,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -10422,8 +10127,7 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -10451,7 +10155,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "72",
+        "game_number": "1640667303080",
         "start_date_utc": "2021-12-28T04:55:03Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10499,7 +10203,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5c,",
                             "Jh,",
@@ -10538,14 +10241,12 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -10573,7 +10274,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "73",
+        "game_number": "1640667330787",
         "start_date_utc": "2021-12-28T04:55:30Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10621,7 +10322,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9c,",
                             "6h,",
@@ -10653,8 +10353,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -10707,8 +10406,7 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -10736,7 +10434,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "74",
+        "game_number": "1640667374280",
         "start_date_utc": "2021-12-28T04:56:14Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10784,7 +10482,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2d,",
                             "9c,",
@@ -10809,8 +10506,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -10940,7 +10636,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "75",
+        "game_number": "1640667434366",
         "start_date_utc": "2021-12-28T04:57:14Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -10988,7 +10684,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5s,",
                             "Js,",
@@ -11027,8 +10722,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -11051,14 +10745,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -11072,14 +10764,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -11093,14 +10783,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -11145,7 +10833,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "76",
+        "game_number": "1640667503548",
         "start_date_utc": "2021-12-28T04:58:23Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "Omaha",
@@ -11193,7 +10881,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "4d,",
                             "6d,",
@@ -11250,8 +10937,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -11286,14 +10972,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -11312,8 +10996,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -11391,7 +11074,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "77",
+        "game_number": "1640667591596",
         "start_date_utc": "2021-12-28T04:59:51Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -11439,7 +11122,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2d,",
                             "Jh,",
@@ -11464,8 +11146,7 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -11495,8 +11176,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -11508,8 +11188,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -11537,7 +11216,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "78",
+        "game_number": "1640667654295",
         "start_date_utc": "2021-12-28T05:00:54Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -11585,7 +11264,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9d,",
                             "4s,",
@@ -11642,8 +11320,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -11655,14 +11332,12 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -11690,7 +11365,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "79",
+        "game_number": "1640667693756",
         "start_date_utc": "2021-12-28T05:01:33Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -11738,7 +11413,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5s,",
                             "5d,",
@@ -11770,8 +11444,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -11801,8 +11474,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -11814,8 +11486,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -11871,7 +11542,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "80",
+        "game_number": "1640667736680",
         "start_date_utc": "2021-12-28T05:02:16Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -11919,7 +11590,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "2d,",
                             "Ac,",
@@ -11976,8 +11646,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -12012,14 +11681,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -12054,14 +11721,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -12128,7 +11793,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "81",
+        "game_number": "1640667943362",
         "start_date_utc": "2021-12-28T05:05:43Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -12176,7 +11841,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8d,",
                             "5d,",
@@ -12215,8 +11879,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -12339,7 +12002,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "82",
+        "game_number": "1640668007872",
         "start_date_utc": "2021-12-28T05:06:47Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -12387,7 +12050,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "8s,",
                             "9d,",
@@ -12419,8 +12081,7 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -12489,14 +12150,12 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -12541,7 +12200,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "83",
+        "game_number": "1640668075062",
         "start_date_utc": "2021-12-28T05:07:55Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -12589,7 +12248,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Kd,",
                             "2h,",
@@ -12628,8 +12286,7 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -12793,7 +12450,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "84",
+        "game_number": "1640668149779",
         "start_date_utc": "2021-12-28T05:09:09Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -12841,7 +12498,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "6c,",
                             "Qd,",
@@ -12873,14 +12529,12 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -12908,7 +12562,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "85",
+        "game_number": "1640668170587",
         "start_date_utc": "2021-12-28T05:09:30Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -12956,7 +12610,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "3s,",
                             "Ac,",
@@ -12995,8 +12648,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,
@@ -13019,14 +12671,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -13040,14 +12690,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -13061,8 +12709,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -13074,8 +12721,7 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -13103,7 +12749,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "86",
+        "game_number": "1640668231221",
         "start_date_utc": "2021-12-28T05:10:31Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -13151,7 +12797,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9h,",
                             "Kc,",
@@ -13229,8 +12874,7 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -13348,7 +12992,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "87",
+        "game_number": "1640668336194",
         "start_date_utc": "2021-12-28T05:12:16Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -13396,7 +13040,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9c,",
                             "Tc,",
@@ -13467,8 +13110,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -13482,14 +13124,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -13503,8 +13143,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -13516,8 +13155,7 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -13545,7 +13183,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "88",
+        "game_number": "1640668466373",
         "start_date_utc": "2021-12-28T05:14:26Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -13593,7 +13231,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Qs,",
                             "5h,",
@@ -13650,20 +13287,17 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -13677,20 +13311,17 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -13704,20 +13335,17 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -13784,7 +13412,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "89",
+        "game_number": "1640668579271",
         "start_date_utc": "2021-12-28T05:16:19Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -13832,7 +13460,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "9s,",
                             "Ac,",
@@ -13864,8 +13491,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 5,
@@ -13941,8 +13567,7 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -13970,7 +13595,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "90",
+        "game_number": "1640668664898",
         "start_date_utc": "2021-12-28T05:17:44Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -14018,7 +13643,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5d,",
                             "5h,",
@@ -14057,8 +13681,7 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -14074,8 +13697,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -14103,8 +13725,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -14132,8 +13753,7 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -14145,8 +13765,7 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -14174,7 +13793,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "91",
+        "game_number": "1640668813166",
         "start_date_utc": "2021-12-28T05:20:13Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -14222,7 +13841,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Th,",
                             "Jc,",
@@ -14261,8 +13879,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             },
@@ -14278,8 +13895,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -14307,8 +13923,7 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -14336,14 +13951,12 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     }
                 ]
             },
@@ -14404,7 +14017,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "92",
+        "game_number": "1640668881685",
         "start_date_utc": "2021-12-28T05:21:21Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -14452,7 +14065,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "5d,",
                             "2h,",
@@ -14498,8 +14110,7 @@
                     {
                         "action_number": 6,
                         "player_id": 0,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 7,
@@ -14522,8 +14133,7 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
@@ -14535,8 +14145,7 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     }
                 ]
             }
@@ -14564,7 +14173,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "93",
+        "game_number": "1640668939000",
         "start_date_utc": "2021-12-28T05:22:19Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -14612,7 +14221,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Th,",
                             "Ac,",
@@ -14669,14 +14277,12 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check",
-                        "is_allin": false
+                        "action": "Check"
                     },
                     {
                         "action_number": 2,
@@ -14688,8 +14294,7 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 4,
@@ -14787,7 +14392,7 @@
         "site_name": "PokerStars",
         "network_name": "PokerStars",
         "internal_version": "1.2.2",
-        "game_number": "94",
+        "game_number": "1640669050539",
         "start_date_utc": "2021-12-28T05:24:10Z",
         "table_name": "ZDAxsK5kWnSpybnkjFQ7bztxf",
         "game_type": "OmahaHiLo",
@@ -14835,7 +14440,6 @@
                         "action_number": 0,
                         "player_id": 0,
                         "action": "Dealt Cards",
-                        "is_allin": false,
                         "cards": [
                             "Kd,",
                             "Kc,",
@@ -14874,8 +14478,7 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold",
-                        "is_allin": false
+                        "action": "Fold"
                     },
                     {
                         "action_number": 6,

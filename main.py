@@ -291,9 +291,10 @@ blind_regex = re.compile(
     r"(?P<amount>\d+\.\d{2}|\d+)\."
 )
 start_regex = re.compile(
-    r"-- starting hand #(?P<game_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
+    r"-- starting hand #(?P<hand_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
     r" \((dealer: \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\"|dead button)\) --"
 )
+game_number_regex = re.compile(r"(?P<game_number>\d{13})")
 hand_time_regex = re.compile(r"(?P<start_date_utc>.+:\d+)")
 seats_regex = re.compile(
     r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>\d+\.\d{2})\)"
@@ -346,7 +347,7 @@ for poker_now_file in csv_file_list:
     ante: float = 0.00
     dealer_name: str = ""
     table_name: str = ""
-    hand_number: str = "0"
+    game_number: str = "0"
     hands = {}
     lines_ignored: int = 0
     lines_parsed: int = 0
@@ -368,7 +369,7 @@ for poker_now_file in csv_file_list:
         for i, line in enumerate(lines):
             if i == len(lines) - 1:
                 break
-            entry = line[0]
+            entry: str = line[0]
             if table_name not in tables:
                 tables[table_name] = {COUNT: 0, LATEST: "", OHH: []}
             # The text match to look for what the blinds are set at
@@ -391,7 +392,10 @@ for poker_now_file in csv_file_list:
             # "--- end hand #X ---" and the "--- stating hand #X+1 ---" lines
             hand_start_match = re.match(start_regex, entry)
             if hand_start_match is not None:
-                hand_number = hand_start_match.group("game_number")
+                game_number_match = re.match(game_number_regex, line[2])
+                # hand_number = hand_start_match.group("hand_number")
+                if game_number_match is not None:
+                    game_number = game_number_match.group("game_number")
                 bet_type = hand_start_match.group("bet_type")
                 game_type = hand_start_match.group("game_type")
                 # If the button is dead, keep the dealer the same as the previous hand. Technically
@@ -406,7 +410,7 @@ for poker_now_file in csv_file_list:
                     hand_time = hand_time_match.group("start_date_utc") + "Z"
                     # Add the information extracted from the start of the hand to the hands
                     # dictionary
-                    hands[hand_number] = {
+                    hands[game_number] = {
                         DATETIME: hand_time,
                         BET_TYPE: bet_type,
                         GAME_TYPE: game_type,
@@ -418,8 +422,8 @@ for poker_now_file in csv_file_list:
                         TEXT: "",
                     }
                     # Translate values from lookup tables
-                    hands[hand_number][BET_TYPE] = structures[bet_type]
-                    hands[hand_number][GAME_TYPE] = games[game_type]
+                    hands[game_number][BET_TYPE] = structures[bet_type]
+                    hands[game_number][GAME_TYPE] = games[game_type]
                     lines_parsed += 1
                     hand_count += 1
             # Lines containing these strings will be ignored
@@ -448,7 +452,7 @@ for poker_now_file in csv_file_list:
             # Any line that has made it this far without being processed will be added to text
             # in the hands dictionary and be proccesed later
             else:
-                hands[hand_number][TEXT] = hands[hand_number][TEXT] + "\n" + entry
+                hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
                 lines_saved += 1
         logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
         logging.info(f"[{table_name}] {lines_parsed} lines were parsed.")
@@ -472,18 +476,18 @@ for poker_now_file in csv_file_list:
         # Now that we have all hands from all the files, use the hand number of the imported hands
         # to process them in sequential order. This is the place for processing the text of each
         # hand and look for player actions
-        for hand_number, hand in hands.items():
+        for game_number, hand in hands.items():
             hand_time = hand[DATETIME]
             tables[table_name][COUNT] += 1
             tables[table_name][LATEST] = hand_time
-            tables[table_name][LAST] = hand_number
+            tables[table_name][LAST] = game_number
             # initialize the OHH JSON populating as many fields as possible and initializing arrays.
             ohh = {
                 SPEC_VERSION: spec_version,
                 SITE_NAME: site_name,
                 NETWORK_NAME: network_name,
                 INTERNAL_VERSION: internal_version,
-                GAME_NUMBER: hand_number,
+                GAME_NUMBER: game_number,
                 START_DATE_UTC: hand[DATETIME],
                 TABLE_NAME: hand[TABLE],
                 GAME_TYPE: hand[GAME_TYPE],
@@ -751,7 +755,7 @@ for poker_now_file in csv_file_list:
                     continue
                 unprocessed_count += 1
                 logging.debug(
-                    f"[{table_name}][{hand_number}] '{line}' was not processed."
+                    f"[{table_name}][{game_number}] '{line}' was not processed."
                 )
 
             for pot_number, pot in pot_obj.items():
@@ -769,7 +773,7 @@ for poker_now_file in csv_file_list:
                     potObj[PLAYER_WINS].append(player_win_obj)
                 if round(pot[AMOUNT], 2) != round(total_pot, 2):
                     logging.debug(
-                        f"[{table_name}][{hand_number}] Calculated pot ({round(total_pot, 2)})"
+                        f"[{table_name}][{game_number}] Calculated pot ({round(total_pot, 2)})"
                         f"does not equal collected pot ({round(pot[AMOUNT], 2)})"
                     )
 
