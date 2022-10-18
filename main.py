@@ -38,6 +38,7 @@ v 1.1.0
     - Fixed issue #13 and added the attribute "is_allin" to action objects that have an amount>0.00
     - Fixed issue #14 At showdown the action value is now the valid value "Shows Cards"
     - Fixed issue #15 removed the extra comma after cards in the text string
+    - Fixed issue #19 game_number attribute is now a unique identifier for a hand.
 
 ****************************************************************************************************
 """
@@ -654,6 +655,7 @@ for poker_now_file in csv_file_list:
                     action[CARDS] = []
                     for card in cards.split(", "):
                         action[CARDS].append(card)
+                    action[IS_ALL_IN] = False
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     round_commit = {}
@@ -685,6 +687,7 @@ for poker_now_file in csv_file_list:
                     action[CARDS] = []
                     for card in cards.split(", "):
                         action[CARDS].append(card)
+                    action[IS_ALL_IN] = False
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     continue
@@ -696,6 +699,7 @@ for poker_now_file in csv_file_list:
                     action[ACTION_NUMBER] = action_number
                     action[PLAYER_ID] = player_ids[player]
                     action[ACTION] = verb_to_action[does]
+                    action[IS_ALL_IN] = False
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     continue

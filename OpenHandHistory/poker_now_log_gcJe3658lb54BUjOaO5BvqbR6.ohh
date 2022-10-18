@@ -65,7 +65,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -172,7 +173,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -184,7 +186,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -266,7 +269,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -373,12 +377,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -392,12 +398,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -411,7 +419,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -423,7 +432,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -537,7 +547,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -619,7 +630,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -701,7 +713,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -716,7 +729,8 @@
                         "cards": [
                             "Kh",
                             "Ad"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -823,7 +837,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -835,7 +850,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -931,7 +947,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1013,7 +1030,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1120,12 +1138,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -1139,7 +1159,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -1151,7 +1172,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1240,7 +1262,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1322,7 +1345,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1404,7 +1428,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1511,12 +1536,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -1537,7 +1564,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1644,12 +1672,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -1670,7 +1700,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1752,7 +1783,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -1834,7 +1866,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -1849,7 +1882,8 @@
                         "cards": [
                             "7s",
                             "2d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -1931,7 +1965,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -2038,7 +2073,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -2073,12 +2109,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -2116,7 +2154,8 @@
                         "cards": [
                             "5d",
                             "7h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -2198,7 +2237,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -2305,12 +2345,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -2324,12 +2366,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -2343,7 +2387,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -2372,7 +2417,8 @@
                         "cards": [
                             "5h",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -2381,7 +2427,8 @@
                         "cards": [
                             "4c",
                             "5c"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -2468,7 +2515,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -2575,12 +2623,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -2617,7 +2667,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -2646,7 +2697,8 @@
                         "cards": [
                             "3c",
                             "As"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -2655,7 +2707,8 @@
                         "cards": [
                             "Qs",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -2751,7 +2804,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -2833,7 +2887,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -2915,7 +2970,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -2997,7 +3053,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -3093,7 +3150,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -3108,7 +3166,8 @@
                         "cards": [
                             "Ad",
                             "Ac"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -3190,7 +3249,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -3272,7 +3332,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -3354,7 +3415,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -3443,7 +3505,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -3525,7 +3588,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -3632,12 +3696,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -3674,12 +3740,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -3694,7 +3762,8 @@
                         "cards": [
                             "9s",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -3703,7 +3772,8 @@
                         "cards": [
                             "7d",
                             "9d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -3831,7 +3901,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -3846,7 +3917,8 @@
                         "cards": [
                             "Ts",
                             "Jd"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -3953,12 +4025,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -3986,7 +4060,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -4075,7 +4150,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -4182,7 +4258,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4210,7 +4287,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4238,12 +4316,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -4258,7 +4338,8 @@
                         "cards": [
                             "7d",
                             "5d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4267,7 +4348,8 @@
                         "cards": [
                             "6c",
                             "4h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -4349,7 +4431,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -4431,7 +4514,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -4513,7 +4597,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -4620,7 +4705,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4632,7 +4718,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -4739,7 +4826,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4767,7 +4855,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4786,7 +4875,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -4801,7 +4891,8 @@
                         "cards": [
                             "Ts",
                             "Ac"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -4908,12 +4999,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -4927,7 +5020,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -4939,7 +5033,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -5028,7 +5123,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -5135,12 +5231,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5154,12 +5252,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5197,7 +5297,8 @@
                         "cards": [
                             "9c",
                             "8c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -5206,7 +5307,8 @@
                         "cards": [
                             "Qc",
                             "Td"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -5288,7 +5390,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -5384,7 +5487,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -5473,7 +5577,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5489,7 +5594,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -5517,7 +5623,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -5545,12 +5652,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5565,7 +5674,8 @@
                         "cards": [
                             "6c",
                             "Qh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -5574,7 +5684,8 @@
                         "cards": [
                             "Kd",
                             "5c"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -5686,7 +5797,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -5714,7 +5826,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -5726,7 +5839,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5741,7 +5855,8 @@
                         "cards": [
                             "Th",
                             "Qs"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -5855,12 +5970,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5874,12 +5991,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5893,12 +6012,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -5913,7 +6034,8 @@
                         "cards": [
                             "5c",
                             "Kc"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -6002,7 +6124,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -6109,12 +6232,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -6128,7 +6253,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -6140,7 +6266,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -6247,12 +6374,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -6289,12 +6418,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -6309,7 +6440,8 @@
                         "cards": [
                             "5c",
                             "Ah"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -6318,7 +6450,8 @@
                         "cards": [
                             "Kd",
                             "7h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -6425,12 +6558,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -6444,7 +6579,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -6472,12 +6608,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -6492,7 +6630,8 @@
                         "cards": [
                             "8c",
                             "Qd"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -6501,7 +6640,8 @@
                         "cards": [
                             "9s",
                             "6s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -6597,7 +6737,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -6718,7 +6859,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -6838,7 +6980,8 @@
                         "cards": [
                             "8c",
                             "8h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -6847,7 +6990,8 @@
                         "cards": [
                             "Ad",
                             "2s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             },
@@ -7010,7 +7154,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -7022,7 +7167,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -7037,7 +7183,8 @@
                         "cards": [
                             "4d",
                             "2d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -7126,7 +7273,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7208,7 +7356,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7315,12 +7464,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -7334,7 +7485,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -7346,7 +7498,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7453,7 +7606,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -7465,7 +7619,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7554,7 +7709,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7636,7 +7792,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7725,7 +7882,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7832,12 +7990,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -7858,7 +8018,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -7979,7 +8140,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -8068,7 +8230,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -8157,7 +8320,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -8264,12 +8428,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -8283,12 +8449,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -8309,7 +8477,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -8324,7 +8493,8 @@
                         "cards": [
                             "Tc",
                             "Ad"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -8413,7 +8583,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -8590,7 +8761,8 @@
                         "cards": [
                             "5s",
                             "9s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -8599,7 +8771,8 @@
                         "cards": [
                             "Ac",
                             "9h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -8688,7 +8861,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -8795,7 +8969,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -8823,12 +8998,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -8842,7 +9019,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -8854,7 +9032,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -8961,12 +9140,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9010,7 +9191,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9025,7 +9207,8 @@
                         "cards": [
                             "Js",
                             "8c"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -9132,12 +9315,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9151,12 +9336,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9170,12 +9357,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9190,7 +9379,8 @@
                         "cards": [
                             "Th",
                             "Kd"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -9199,7 +9389,8 @@
                         "cards": [
                             "8c",
                             "Ks"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -9306,12 +9497,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9325,12 +9518,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9368,7 +9563,8 @@
                         "cards": [
                             "Td",
                             "5c"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -9475,12 +9671,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -9501,7 +9699,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -9608,7 +9807,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -9636,7 +9836,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -9702,7 +9903,8 @@
                         "cards": [
                             "Jc",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -9711,7 +9913,8 @@
                         "cards": [
                             "Tc",
                             "Js"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -9798,7 +10001,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -9880,7 +10084,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -10017,7 +10222,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10032,7 +10238,8 @@
                         "cards": [
                             "7c",
                             "Ts"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -10139,12 +10346,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10158,12 +10367,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10177,12 +10388,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10197,7 +10410,8 @@
                         "cards": [
                             "Ah",
                             "9s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -10206,7 +10420,8 @@
                         "cards": [
                             "As",
                             "9h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -10293,7 +10508,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10308,7 +10524,8 @@
                         "cards": [
                             "Qs",
                             "Qc"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -10429,7 +10646,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -10511,7 +10729,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -10593,7 +10812,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -10700,12 +10920,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10719,12 +10941,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10738,12 +10962,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10758,7 +10984,8 @@
                         "cards": [
                             "Kh",
                             "8d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -10767,7 +10994,8 @@
                         "cards": [
                             "Kc",
                             "9s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -10909,7 +11137,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -10924,7 +11153,8 @@
                         "cards": [
                             "3s",
                             "4h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -11003,7 +11233,8 @@
                         "cards": [
                             "5h",
                             "9h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11054,17 +11285,20 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -11078,17 +11312,20 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -11102,12 +11339,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
@@ -11119,12 +11358,14 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -11203,7 +11444,8 @@
                         "cards": [
                             "Jh",
                             "6s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11222,7 +11464,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -11234,7 +11477,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -11296,12 +11540,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -11316,7 +11562,8 @@
                         "cards": [
                             "Qc",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -11395,7 +11642,8 @@
                         "cards": [
                             "5d",
                             "7s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11414,7 +11662,8 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -11444,7 +11693,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11456,7 +11706,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -11535,7 +11786,8 @@
                         "cards": [
                             "5c",
                             "2s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11554,12 +11806,14 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -11638,7 +11892,8 @@
                         "cards": [
                             "5c",
                             "2c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11671,12 +11926,14 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 6,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -11755,7 +12012,8 @@
                         "cards": [
                             "6c",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11774,12 +12032,14 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -11858,7 +12118,8 @@
                         "cards": [
                             "Th",
                             "5c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -11884,7 +12145,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -11907,12 +12169,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -11933,7 +12197,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -12012,7 +12277,8 @@
                         "cards": [
                             "Td",
                             "Th"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12038,7 +12304,8 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -12061,7 +12328,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12089,7 +12357,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12101,7 +12370,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -12180,7 +12450,8 @@
                         "cards": [
                             "Tc",
                             "Th"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12206,7 +12477,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -12236,12 +12508,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12255,7 +12529,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12283,12 +12558,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12303,7 +12580,8 @@
                         "cards": [
                             "Ad",
                             "Jc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12312,7 +12590,8 @@
                         "cards": [
                             "Tc",
                             "Th"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -12391,7 +12670,8 @@
                         "cards": [
                             "Jd",
                             "4h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12417,7 +12697,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -12440,12 +12721,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12459,12 +12742,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12478,7 +12763,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12490,7 +12776,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12505,7 +12792,8 @@
                         "cards": [
                             "Kc",
                             "2h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -12584,7 +12872,8 @@
                         "cards": [
                             "Qh",
                             "4c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12610,12 +12899,14 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -12694,7 +12985,8 @@
                         "cards": [
                             "7h",
                             "Jh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12720,7 +13012,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -12743,7 +13036,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12771,7 +13065,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12806,7 +13101,8 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -12885,7 +13181,8 @@
                         "cards": [
                             "Qc",
                             "Jc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -12904,7 +13201,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -12934,12 +13232,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12953,12 +13253,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12972,12 +13274,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -12992,7 +13296,8 @@
                         "cards": [
                             "Qc",
                             "Jc"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -13071,7 +13376,8 @@
                         "cards": [
                             "As",
                             "Kd"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13104,7 +13410,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -13120,12 +13427,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -13169,7 +13478,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -13248,7 +13558,8 @@
                         "cards": [
                             "2d",
                             "5h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13274,12 +13585,14 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -13358,7 +13671,8 @@
                         "cards": [
                             "2c",
                             "Jh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13384,7 +13698,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -13407,7 +13722,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13419,7 +13735,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -13498,7 +13815,8 @@
                         "cards": [
                             "Ks",
                             "7h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13531,7 +13849,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -13547,7 +13866,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13575,7 +13895,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13603,7 +13924,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13615,7 +13937,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -13694,7 +14017,8 @@
                         "cards": [
                             "5d",
                             "8s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13713,7 +14037,8 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -13750,7 +14075,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -13765,7 +14091,8 @@
                         "cards": [
                             "Qh",
                             "Qc"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -13844,7 +14171,8 @@
                         "cards": [
                             "7d",
                             "8s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13895,7 +14223,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -13914,7 +14243,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -13935,7 +14265,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -13950,7 +14281,8 @@
                         "cards": [
                             "Td",
                             "Ad"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -14029,7 +14361,8 @@
                         "cards": [
                             "4h",
                             "8c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14048,7 +14381,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -14060,7 +14394,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -14076,12 +14411,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -14102,7 +14439,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -14181,7 +14519,8 @@
                         "cards": [
                             "Ad",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14232,12 +14571,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
@@ -14249,12 +14590,14 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -14333,7 +14676,8 @@
                         "cards": [
                             "Qh",
                             "3d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14359,7 +14703,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -14382,7 +14727,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14394,7 +14740,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -14473,7 +14820,8 @@
                         "cards": [
                             "Qh",
                             "3c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14492,7 +14840,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -14545,12 +14894,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -14571,7 +14922,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -14650,7 +15002,8 @@
                         "cards": [
                             "Jd",
                             "3d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14676,7 +15029,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -14699,7 +15053,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14711,7 +15066,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -14790,7 +15146,8 @@
                         "cards": [
                             "Tc",
                             "4c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14823,7 +15180,8 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -14839,7 +15197,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14867,7 +15226,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14895,7 +15255,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -14907,7 +15268,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -14986,7 +15348,8 @@
                         "cards": [
                             "Qd",
                             "8h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15044,12 +15407,14 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -15128,7 +15493,8 @@
                         "cards": [
                             "Ah",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15186,12 +15552,14 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -15270,7 +15638,8 @@
                         "cards": [
                             "Ah",
                             "Kc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15289,7 +15658,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -15319,7 +15689,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15347,7 +15718,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15375,7 +15747,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15404,7 +15777,8 @@
                         "cards": [
                             "Ah",
                             "Kc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15413,7 +15787,8 @@
                         "cards": [
                             "Td",
                             "Jd"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -15492,7 +15867,8 @@
                         "cards": [
                             "6d",
                             "Kd"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15543,17 +15919,20 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -15574,12 +15953,14 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -15658,7 +16039,8 @@
                         "cards": [
                             "Qc",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15709,12 +16091,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
@@ -15726,7 +16110,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -15747,7 +16132,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15783,7 +16169,8 @@
                         "cards": [
                             "Qc",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15792,7 +16179,8 @@
                         "cards": [
                             "As",
                             "Kc"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             },
@@ -15879,7 +16267,8 @@
                         "cards": [
                             "3c",
                             "Ts"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -15898,12 +16287,14 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -15918,7 +16309,8 @@
                         "cards": [
                             "Qc",
                             "Kd"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -15997,7 +16389,8 @@
                         "cards": [
                             "Qh",
                             "6d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16030,7 +16423,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16046,12 +16440,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16088,7 +16484,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16100,7 +16497,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -16179,7 +16577,8 @@
                         "cards": [
                             "2d",
                             "Jc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16212,7 +16611,8 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 6,
@@ -16235,12 +16635,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16284,7 +16686,8 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -16363,7 +16766,8 @@
                         "cards": [
                             "Kd",
                             "Td"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16414,12 +16818,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
@@ -16438,7 +16844,8 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16452,12 +16859,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16495,7 +16904,8 @@
                         "cards": [
                             "Kd",
                             "Td"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -16574,7 +16984,8 @@
                         "cards": [
                             "Ks",
                             "4c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16593,7 +17004,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -16623,7 +17035,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16651,12 +17064,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16670,12 +17085,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16690,7 +17107,8 @@
                         "cards": [
                             "9d",
                             "Ah"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16699,7 +17117,8 @@
                         "cards": [
                             "Jc",
                             "8c"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -16778,7 +17197,8 @@
                         "cards": [
                             "8c",
                             "3c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16804,12 +17224,14 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -16888,7 +17310,8 @@
                         "cards": [
                             "6d",
                             "Jh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16914,7 +17337,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -16937,7 +17361,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -16965,12 +17390,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -16984,12 +17411,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -17004,7 +17433,8 @@
                         "cards": [
                             "5c",
                             "5s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17013,7 +17443,8 @@
                         "cards": [
                             "Ad",
                             "8s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -17092,7 +17523,8 @@
                         "cards": [
                             "Qc",
                             "5s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17125,7 +17557,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -17141,12 +17574,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -17167,7 +17602,8 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -17246,7 +17682,8 @@
                         "cards": [
                             "6s",
                             "6d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17272,7 +17709,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -17295,7 +17733,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17307,7 +17746,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -17386,7 +17826,8 @@
                         "cards": [
                             "2d",
                             "4c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17405,12 +17846,14 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -17425,7 +17868,8 @@
                         "cards": [
                             "5h",
                             "5s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -17504,7 +17948,8 @@
                         "cards": [
                             "9c",
                             "9d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17530,7 +17975,8 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -17553,12 +17999,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -17595,12 +18043,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -17615,7 +18065,8 @@
                         "cards": [
                             "Js",
                             "7d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17624,7 +18075,8 @@
                         "cards": [
                             "9c",
                             "9d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -17703,7 +18155,8 @@
                         "cards": [
                             "8s",
                             "8c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17729,7 +18182,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -17759,7 +18213,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17771,7 +18226,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -17850,7 +18306,8 @@
                         "cards": [
                             "4d",
                             "7h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -17869,12 +18326,14 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -17953,7 +18412,8 @@
                         "cards": [
                             "9d",
                             "Kc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18011,12 +18471,14 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -18095,7 +18557,8 @@
                         "cards": [
                             "Ts",
                             "3c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18128,7 +18591,8 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 6,
@@ -18158,7 +18622,8 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -18237,7 +18702,8 @@
                         "cards": [
                             "9h",
                             "9c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18256,7 +18722,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -18286,7 +18753,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18314,7 +18782,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18326,7 +18795,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -18405,7 +18875,8 @@
                         "cards": [
                             "Qd",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18431,12 +18902,14 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -18451,7 +18924,8 @@
                         "cards": [
                             "Qd",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -18530,7 +19004,8 @@
                         "cards": [
                             "Td",
                             "4d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18549,12 +19024,14 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -18633,7 +19110,8 @@
                         "cards": [
                             "Qd",
                             "6s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18652,7 +19130,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -18682,7 +19161,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18694,7 +19174,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -18773,7 +19254,8 @@
                         "cards": [
                             "Qh",
                             "8d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18824,7 +19306,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18836,7 +19319,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 3,
@@ -18857,7 +19341,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18869,7 +19354,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -18948,7 +19434,8 @@
                         "cards": [
                             "7s",
                             "5s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -18981,7 +19468,8 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 6,
@@ -19004,7 +19492,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19016,7 +19505,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -19095,7 +19585,8 @@
                         "cards": [
                             "3h",
                             "Tc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19121,7 +19612,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -19167,12 +19659,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -19186,7 +19680,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19198,7 +19693,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -19277,7 +19773,8 @@
                         "cards": [
                             "9c",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19296,7 +19793,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -19308,7 +19806,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -19387,7 +19886,8 @@
                         "cards": [
                             "Qs",
                             "Kh"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19445,17 +19945,20 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -19476,12 +19979,14 @@
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -19496,7 +20001,8 @@
                         "cards": [
                             "8s",
                             "8d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -19575,7 +20081,8 @@
                         "cards": [
                             "6s",
                             "Ks"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19594,7 +20101,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -19606,7 +20114,8 @@
                     {
                         "action_number": 5,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -19685,7 +20194,8 @@
                         "cards": [
                             "4s",
                             "Jc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19704,7 +20214,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -19716,7 +20227,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -19762,7 +20274,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -19841,7 +20354,8 @@
                         "cards": [
                             "Ah",
                             "9c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19874,7 +20388,8 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 6,
@@ -19897,7 +20412,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19925,12 +20441,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -19944,7 +20462,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -19956,7 +20475,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -20035,7 +20555,8 @@
                         "cards": [
                             "Kh",
                             "2s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20054,7 +20575,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -20091,7 +20613,8 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -20170,7 +20693,8 @@
                         "cards": [
                             "9c",
                             "2d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20189,7 +20713,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -20226,7 +20751,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -20305,7 +20831,8 @@
                         "cards": [
                             "Qd",
                             "Ac"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20324,7 +20851,8 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -20377,7 +20905,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20405,7 +20934,8 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20417,7 +20947,8 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -20496,7 +21027,8 @@
                         "cards": [
                             "Ah",
                             "Th"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20547,17 +21079,20 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -20571,7 +21106,8 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20583,12 +21119,14 @@
                     {
                         "action_number": 2,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -20667,7 +21205,8 @@
                         "cards": [
                             "4c",
                             "2h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20686,7 +21225,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -20698,7 +21238,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -20714,12 +21255,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -20756,12 +21299,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -20776,7 +21321,8 @@
                         "cards": [
                             "Qc",
                             "8d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20785,7 +21331,8 @@
                         "cards": [
                             "4d",
                             "7h"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -20864,7 +21411,8 @@
                         "cards": [
                             "5h",
                             "Th"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -20890,7 +21438,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -20913,12 +21462,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -20946,7 +21497,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -21025,7 +21577,8 @@
                         "cards": [
                             "8d",
                             "4c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21051,7 +21604,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -21074,12 +21628,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21093,12 +21649,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21112,7 +21670,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21124,7 +21683,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21139,7 +21699,8 @@
                         "cards": [
                             "Ah",
                             "6s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -21218,7 +21779,8 @@
                         "cards": [
                             "Ts",
                             "Qc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21244,12 +21806,14 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -21328,7 +21892,8 @@
                         "cards": [
                             "9d",
                             "Tc"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21354,7 +21919,8 @@
                     {
                         "action_number": 4,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -21384,7 +21950,8 @@
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -21463,7 +22030,8 @@
                         "cards": [
                             "7s",
                             "4c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21482,12 +22050,14 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -21566,7 +22136,8 @@
                         "cards": [
                             "Ks",
                             "3c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21617,17 +22188,20 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21641,7 +22215,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21653,7 +22228,8 @@
                     {
                         "action_number": 2,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 3,
@@ -21674,12 +22250,14 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21694,7 +22272,8 @@
                         "cards": [
                             "Qh",
                             "9c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21703,7 +22282,8 @@
                         "cards": [
                             "Jc",
                             "8s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -21782,7 +22362,8 @@
                         "cards": [
                             "Kh",
                             "9d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21801,7 +22382,8 @@
                     {
                         "action_number": 3,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -21831,12 +22413,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21850,12 +22434,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21869,12 +22455,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -21889,7 +22477,8 @@
                         "cards": [
                             "Kc",
                             "Qd"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21898,7 +22487,8 @@
                         "cards": [
                             "Kh",
                             "9d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -21977,7 +22567,8 @@
                         "cards": [
                             "9c",
                             "7d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -21996,7 +22587,8 @@
                     {
                         "action_number": 3,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -22026,12 +22618,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -22045,12 +22639,14 @@
                     {
                         "action_number": 0,
                         "player_id": 1,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -22088,7 +22684,8 @@
                         "cards": [
                             "9c",
                             "7d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -22167,7 +22764,8 @@
                         "cards": [
                             "7d",
                             "3s"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -22186,7 +22784,8 @@
                     {
                         "action_number": 3,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 4,
@@ -22198,7 +22797,8 @@
                     {
                         "action_number": 5,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -22221,7 +22821,8 @@
                     {
                         "action_number": 1,
                         "player_id": 0,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             }
@@ -22300,7 +22901,8 @@
                         "cards": [
                             "9s",
                             "7c"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -22333,7 +22935,8 @@
                     {
                         "action_number": 5,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 6,
@@ -22379,12 +22982,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -22398,12 +23003,14 @@
                     {
                         "action_number": 0,
                         "player_id": 0,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     }
                 ]
             },
@@ -22418,7 +23025,8 @@
                         "cards": [
                             "7s",
                             "7d"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -22427,7 +23035,8 @@
                         "cards": [
                             "6s",
                             "8d"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
@@ -22506,7 +23115,8 @@
                         "cards": [
                             "Jd",
                             "5h"
-                        ]
+                        ],
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -22532,7 +23142,8 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     },
                     {
                         "action_number": 5,
@@ -22555,7 +23166,8 @@
                     {
                         "action_number": 0,
                         "player_id": 2,
-                        "action": "Check"
+                        "action": "Check",
+                        "is_allin": false
                     },
                     {
                         "action_number": 1,
@@ -22567,7 +23179,8 @@
                     {
                         "action_number": 2,
                         "player_id": 2,
-                        "action": "Fold"
+                        "action": "Fold",
+                        "is_allin": false
                     }
                 ]
             },
@@ -22582,7 +23195,8 @@
                         "cards": [
                             "8s",
                             "7s"
-                        ]
+                        ],
+                        "is_allin": false
                     }
                 ]
             }
