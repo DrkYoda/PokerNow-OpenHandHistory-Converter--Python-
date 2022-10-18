@@ -39,6 +39,8 @@ v 1.1.0
     - Fixed issue #14 At showdown the action value is now the valid value "Shows Cards"
     - Fixed issue #15 removed the extra comma after cards in the text string
     - Fixed issue #19 game_number attribute is now a unique identifier for a hand.
+v 1.1.1
+    - Fixed issue #23 Unicode characters will be removed from names.
 
 ****************************************************************************************************
 """
@@ -234,6 +236,7 @@ def csv_reader(file_obj, rows: list):
     for row in reader:
         subs_regex = re.compile("|".join(subs_dict.keys()))
         row = [subs_regex.sub(lambda match: subs_dict[match.group(0)], i) for i in row]
+        row[0] = row[0].encode("ascii", "ignore").decode()
         rows.append(row)
     return rows.reverse()
 
