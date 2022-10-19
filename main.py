@@ -574,12 +574,6 @@ for poker_now_file in csv_file_list:
                     action[ACTION_NUMBER] = action_number
                     action[PLAYER_ID] = player_ids[player]
                     action[ACTION] = post_types[post_type]
-                    action[AMOUNT] = amount
-                    if all_in is not None:
-                        action[IS_ALL_IN] = True
-                    else:
-                        action[IS_ALL_IN] = False
-                    round_obj[ACTIONS].append(action)
                     # Poker now records the amounts associated with actions such as bets, raises,
                     # calls, and posting blinds as the the sum total of the current and all previous
                     # actions of the player during the round. However, the OHH standard requires the
@@ -597,6 +591,12 @@ for poker_now_file in csv_file_list:
                     if action[ACTION] != "Post Dead":
                         amount = round(amount - round_commit[player], 2)
                         round_commit[player] += amount
+                    action[AMOUNT] = amount
+                    if all_in is not None:
+                        action[IS_ALL_IN] = True
+                    else:
+                        action[IS_ALL_IN] = False
+                    round_obj[ACTIONS].append(action)
                     total_pot += amount
                     action_number += 1
                     continue
