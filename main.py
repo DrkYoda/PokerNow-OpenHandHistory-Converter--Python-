@@ -41,6 +41,11 @@ v 1.1.0
     - Fixed issue #19 game_number attribute is now a unique identifier for a hand.
 v 1.1.1
     - Fixed issue #23 Unicode characters will be removed from names.
+    - Fixed issue #25 Pots are now calculated correctly when the SB posts a missed BB
+v 1.1.2
+    - Fixed issue #26 The blind structure will initially be determined from the amounts posted in
+      first hand, but if the blind structure is changed after the first hand the structure will be
+      determined from the metadata after the first hand.
 
 ****************************************************************************************************
 """
@@ -348,12 +353,13 @@ for poker_now_file in csv_file_list:
     proc_start_1 = process_time()
     # Initialize variables to their default starting values
     lines = [[]]
-    big_blind: float = 0.20
-    small_blind: float = 0.10
+    big_blind: float = 20.00
+    small_blind: float = 10.00
     ante: float = 0.00
     dealer_name: str = ""
     table_name: str = ""
     game_number: str = "0"
+    hand_number: str = "0"
     hands = {}
     lines_ignored: int = 0
     lines_parsed: int = 0
@@ -399,7 +405,7 @@ for poker_now_file in csv_file_list:
             hand_start_match = re.match(start_regex, entry)
             if hand_start_match is not None:
                 game_number_match = re.match(game_number_regex, line[2])
-                # hand_number = hand_start_match.group("hand_number")
+                hand_number = hand_start_match.group("hand_number")
                 if game_number_match is not None:
                     game_number = game_number_match.group("game_number")
                 bet_type = hand_start_match.group("bet_type")
@@ -455,9 +461,22 @@ for poker_now_file in csv_file_list:
                 ]
             ):
                 lines_ignored += 1
-            # Any line that has made it this far without being processed will be added to text
-            # in the hands dictionary and be proccesed later
             else:
+                if hand_number == "1":
+                    post = re.match(post_regex, entry)
+                    if post is not None:
+                        post_type = post.group("type")
+                        if post_type == "posts a small blind":
+                            small_blind = float(post.group("amount"))
+                            hands[game_number][SMALL_BLIND_AMOUNT] = small_blind
+                        elif post_type == "posts a big blind":
+                            big_blind = float(post.group("amount"))
+                            hands[game_number][BIG_BLIND_AMOUNT] = big_blind
+                        elif post_type == "posts an ante":
+                            ante = float(post.group("amount"))
+                            hands[game_number][ANTE_AMOUNT] = ante
+                # Any line that has made it this far without being processed will be added to text
+                # in the hands dictionary and be proccesed later
                 hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
                 lines_saved += 1
         logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
