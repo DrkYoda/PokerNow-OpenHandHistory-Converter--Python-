@@ -46,6 +46,9 @@ v 1.1.2
     - Fixed issue #26 The blind structure will initially be determined from the amounts posted in
       first hand, but if the blind structure is changed after the first hand the structure will be
       determined from the metadata after the first hand.
+v 1.1.3
+    - Fixed issue #30 If the information in the last hand is incomplete then it will not be parsed
+      an converted into the OHH standard.
 
 ****************************************************************************************************
 """
@@ -207,7 +210,7 @@ post_types = {
     "posts a small blind": "Post SB",
     "posts a straddle": "Straddle",
     "posts a missing small blind": "Post Dead",
-    "posts a missed big blind": "Post BB",
+    "posts a missed big blind": "Post Extra Blind",
 }
 
 verb_to_action = {
@@ -305,6 +308,7 @@ start_regex = re.compile(
     r"-- starting hand #(?P<hand_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
     r" \((dealer: \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\"|dead button)\) --"
 )
+end_regex = re.compile(r"-- ending hand #(?P<hand_number>\d+) --")
 game_number_regex = re.compile(r"(?P<game_number>\d{13})")
 hand_time_regex = re.compile(r"(?P<start_date_utc>.+:\d+)")
 seats_regex = re.compile(
@@ -360,6 +364,7 @@ for poker_now_file in csv_file_list:
     table_name: str = ""
     game_number: str = "0"
     hand_number: str = "0"
+    end_hand_number: str = "0"
     hands = {}
     lines_ignored: int = 0
     lines_parsed: int = 0
@@ -380,6 +385,8 @@ for poker_now_file in csv_file_list:
         # blind, small blind, and ante. Everything else goes into TEXT.
         for i, line in enumerate(lines):
             if i == len(lines) - 1:
+                if hand_number != end_hand_number:
+                    hands.pop(game_number)
                 break
             entry: str = line[0]
             if table_name not in tables:
@@ -403,6 +410,7 @@ for poker_now_file in csv_file_list:
             # player voluntarily showing their cards at the end of the hand are reported between the
             # "--- end hand #X ---" and the "--- stating hand #X+1 ---" lines
             hand_start_match = re.match(start_regex, entry)
+            hand_end_match = re.match(end_regex, entry)
             if hand_start_match is not None:
                 game_number_match = re.match(game_number_regex, line[2])
                 hand_number = hand_start_match.group("hand_number")
@@ -438,6 +446,8 @@ for poker_now_file in csv_file_list:
                     hands[game_number][GAME_TYPE] = games[game_type]
                     lines_parsed += 1
                     hand_count += 1
+            elif hand_end_match is not None:
+                end_hand_number = hand_end_match.group("hand_number")
             # Lines containing these strings will be ignored
             elif any(
                 i in entry
@@ -445,7 +455,6 @@ for poker_now_file in csv_file_list:
                     "The admin",
                     "joined",
                     "requested",
-                    "-- ending hand",
                     "canceled the seat",
                     "authenticated",
                     "quits",

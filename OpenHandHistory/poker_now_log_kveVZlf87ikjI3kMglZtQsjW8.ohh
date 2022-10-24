@@ -5788,7 +5788,7 @@
                     {
                         "action_number": 4,
                         "player_id": 2,
-                        "action": "Post BB",
+                        "action": "Post Extra Blind",
                         "amount": 0.5,
                         "is_allin": false
                     },
@@ -11731,7 +11731,7 @@
                     {
                         "action_number": 4,
                         "player_id": 6,
-                        "action": "Post BB",
+                        "action": "Post Extra Blind",
                         "amount": 0.5,
                         "is_allin": false
                     },
@@ -28892,7 +28892,7 @@
                     {
                         "action_number": 4,
                         "player_id": 1,
-                        "action": "Post BB",
+                        "action": "Post Extra Blind",
                         "amount": 0.5,
                         "is_allin": false
                     },
@@ -39407,7 +39407,7 @@
                     {
                         "action_number": 4,
                         "player_id": 4,
-                        "action": "Post BB",
+                        "action": "Post Extra Blind",
                         "amount": 0.5,
                         "is_allin": false
                     },
@@ -71728,100 +71728,6 @@
                 ]
             }
         ]
-    }
-}
-
-{
-    "ohh": {
-        "spec_version": "1.2.2",
-        "site_name": "PokerStars",
-        "network_name": "PokerStars",
-        "internal_version": "1.2.2",
-        "game_number": "1622276438729",
-        "start_date_utc": "2021-05-29T08:20:38Z",
-        "table_name": "kveVZlf87ikjI3kMglZtQsjW8",
-        "game_type": "Holdem",
-        "bet_limit": {
-            "bet_type": "NL"
-        },
-        "table_size": 10,
-        "currency": "USD",
-        "dealer_seat": 1,
-        "small_blind_amount": 0.25,
-        "big_blind_amount": 0.5,
-        "ante_amount": 0.0,
-        "hero_player_id": 1,
-        "flags": [],
-        "players": [
-            {
-                "id": 0,
-                "seat": 1,
-                "name": "HoffmanM",
-                "display": "Malarkey",
-                "starting_stack": 202.32
-            },
-            {
-                "id": 1,
-                "seat": 2,
-                "name": "SudduthM",
-                "display": "K. Godel",
-                "starting_stack": 61.05
-            },
-            {
-                "id": 2,
-                "seat": 3,
-                "name": "BaxterJ",
-                "display": "Baxter",
-                "starting_stack": 216.57
-            },
-            {
-                "id": 3,
-                "seat": 9,
-                "name": "DeckerM",
-                "display": "Deckhole",
-                "starting_stack": 477.45
-            }
-        ],
-        "rounds": [
-            {
-                "id": 0,
-                "street": "Preflop",
-                "cards": [],
-                "actions": [
-                    {
-                        "action_number": 0,
-                        "player_id": 1,
-                        "action": "Dealt Cards",
-                        "cards": [
-                            "3h",
-                            "6s"
-                        ],
-                        "is_allin": false
-                    },
-                    {
-                        "action_number": 1,
-                        "player_id": 1,
-                        "action": "Post SB",
-                        "amount": 0.25,
-                        "is_allin": false
-                    },
-                    {
-                        "action_number": 2,
-                        "player_id": 2,
-                        "action": "Post BB",
-                        "amount": 0.5,
-                        "is_allin": false
-                    },
-                    {
-                        "action_number": 3,
-                        "player_id": 3,
-                        "action": "Fold",
-                        "is_allin": false
-                    }
-                ]
-            }
-        ],
-        "pots": []
     }
 }
 
