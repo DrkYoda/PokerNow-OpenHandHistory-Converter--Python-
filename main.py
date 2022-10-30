@@ -53,6 +53,7 @@ v 1.2.0
     - Fixed issue #10 The name-map data model is now handled programmatically so when an aliase or
       device ID is not in the data model the program will require input from the user and update the
       data model before continuing.
+    - Fixed issue #31 If the hero is not dealt into the hand will have the flags value "Observed"
 
 ****************************************************************************************************
 """
@@ -967,6 +968,8 @@ for poker_now_file in csv_file_list:
                     )
 
                 ohh[POTS].append(potObj)
+            if hero_playing is False:
+                ohh[FLAGS].append("Observed")
             ohh[PLAYERS] = players
             ohh[ROUNDS].append(round_obj)
             table.append(ohh)
