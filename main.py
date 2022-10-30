@@ -49,6 +49,10 @@ v 1.1.2
 v 1.1.3
     - Fixed issue #30 If the information in the last hand is incomplete then it will not be parsed
       an converted into the OHH standard.
+v 1.2.0
+    - Fixed issue #10 The name-map data model is now handled programmatically so when an aliase or
+      device ID is not in the data model the program will require input from the user and update the
+      data model before continuing.
 
 ****************************************************************************************************
 """
@@ -61,6 +65,7 @@ import logging
 from pathlib import Path
 import re
 from time import perf_counter, process_time
+from rich.console import Console
 
 # END MODULES
 # **************************************************************************************************
@@ -137,7 +142,7 @@ DEFAULT_CONFIG = {
     SITE_NAME: "PokerStars",
     CURRENCY: "USD",
     PREFIX: "HHC",
-    HERO_NAME: "hero",
+    HERO_NAME: "",
 }
 """
 these are constants that are meant to be configurable - they could be edited here,
@@ -249,21 +254,83 @@ def csv_reader(file_obj, rows: list):
     return rows.reverse()
 
 
+def load_name_map(file: Path):
+    """_summary_
+        Open aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
+        then create a json file.
+    Args:
+        file (Path): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    # name_map: dict[str, dict[str, list[str]]] = {}
+    try:
+        with open(file, mode="r", encoding="utf-8") as map_file:
+            return json.load(map_file)
+    except FileNotFoundError:
+        with open(file, mode="a+", encoding="utf-8") as map_file:
+            init_name_map: dict[str, dict[str, list[str]]] = {}
+            save_name_map(file, init_name_map)
+            return json.load(map_file)
+
+
+def save_name_map(file: Path, name_map: dict[str, dict[str, list[str]]]):
+    """_summary_
+
+    Args:
+        file (Path): _description_
+        name_map (_type_): _description_
+    """
+    try:
+        with open(file, mode="w", encoding="utf-8") as map_file:
+            json.dump(name_map, map_file, indent=4)
+    except FileNotFoundError:
+        with open(file, mode="a+", encoding="utf-8") as map_file:
+            json.dump(name_map, map_file, indent=4)
+
+
+def switch_key_and_values(name_map: dict[str, dict[str, list[str]]], key_txt: str):
+    """
+    _summary_
+        Players can choose a different alias every time they sit at the table; therefore, it is
+        necissary to map the players real name to the aliases they have chosen. The information
+        needed to create the aliase->name map is recorded in the file aliase-name_map.json where
+        each player name has an array of aliases. The data will be parsed into a dictionary of lists
+        where the keys are the names and the values are lists of aliases. The aliase->name map is
+        created by flattening the aliase lists and switching the keys (names) and values (aliases)
+    Args:
+        name_map (dict[str, dict[str, list[str]]]): _description_
+        key_txt (str): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    names: dict[str, str] = {}
+    for key, values in name_map.items():
+        for value in values[key_txt]:
+            names[value] = key
+    return names
+
+
 # END OF FUNCTIONS
 # **************************************************************************************************
 
 
 # **************************************************************************************************
 # CODE
-
+config_path = Path("Config")
+config_file_path = config_path / CONFIG_FILE
+name_map_path = config_path / "name-map.json"
 # look for configuration file and read it into the config parser.  If the configuation file is not
 # found then create a config file and write the default values to the file.
+console = Console()
 config = ConfigParser()
 try:
-    with open(CONFIG_FILE, encoding="utf-8") as config_file:
+    with open(config_file_path, mode="r", encoding="utf-8") as config_file:
         config.read_file(config_file)
 except FileNotFoundError:
-    with open(CONFIG_FILE, mode="x", encoding="utf-8") as config_file:
+    with open(config_file_path, mode="a+", encoding="utf-8") as config_file:
         config["OHH Constants"] = DEFAULT_CONFIG
         config.write(config_file)
         config.read_file(config_file)
@@ -275,28 +342,14 @@ site_name = ohh_constants[SITE_NAME]
 currency = ohh_constants[CURRENCY]
 hero_name = ohh_constants[HERO_NAME]
 
+
 csv_dir = Path("PokerNowHandHistory")
 csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == ".csv"]
 
-# look for aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
-# then create a json file.
-try:
-    with open("name-map.json", encoding="utf-8") as name_map:
-        name_map = json.load(name_map)
-except FileNotFoundError:
-    with open("name-map.json", mode="x", encoding="utf-8") as name_map:
-        name_map = json.load(name_map)
+players_map = load_name_map(name_map_path)
+aliases_names = switch_key_and_values(players_map, "nicknames")
+device_ids = switch_key_and_values(players_map, "devices")
 
-# Players can choose a different alias every time they sit at the table; therefore, it is necissary
-# to map the players real name to the aliases they have chosen. The information needed to
-# create the aliase->name map is recorded in the file aliase-name_map.json where each player name
-# has an array of aliases. The data will be parsed into a dictionary of lists where the keys are
-# the names and the values are lists of aliases. The aliase->name map is created by flattening the
-# aliase lists and switching the keys (names) and values (aliases)
-names = {}
-for key, values in name_map.items():
-    for value in values:
-        names[value] = key
 
 # Compile regular expressions for matching to identifiable strings in the hand history
 table_regex = re.compile(r"^.*poker_now_log_(?P<table_name>.*).csv$")
@@ -351,6 +404,7 @@ logging.basicConfig(
     format="[%(asctime)s][%(created)f][%(levelname)s]:%(message)s",
     level=logging.DEBUG,
 )
+
 # Process each file in the Poker Now hand history folder
 for poker_now_file in csv_file_list:
     perf_start_1 = perf_counter()
@@ -562,23 +616,121 @@ for poker_now_file in csv_file_list:
                     for player in seats:
                         seat_number = int(player.group("seat"))
                         player_display: str = player.group("player")
+                        device_id: str = player.group("device_id")
                         player_stack = float(player.group("amount"))
-                        players.append(
-                            {
-                                ID: player_id,
-                                SEAT: seat_number,
-                                NAME: names[player_display],
-                                DISPLAY: player_display,
-                                STARTING_STACK: player_stack,
-                            }
-                        )
+                        try:
+                            name = aliases_names[player_display]
+                            players.append(
+                                {
+                                    ID: player_id,
+                                    SEAT: seat_number,
+                                    NAME: name,
+                                    DISPLAY: player_display,
+                                    STARTING_STACK: player_stack,
+                                }
+                            )
+                            if device_id not in device_ids:
+                                console.print(
+                                    f"- The aliase [green]{player_display}[/green] is associated "
+                                    f"with [blue]{name}[/blue] but the device "
+                                    f"[magenta]{device_id}[/magenta] is not in the data model "
+                                    f"for this player. Adding [magenta]{device_id}[/magenta] to the"
+                                    f" data model for [blue]{name}[/blue]>>>"
+                                )
+                                players_map[name]["devices"].append(device_id)
+                                device_ids = switch_key_and_values(
+                                    players_map, "devices"
+                                )
+                                save_name_map(name_map_path, players_map)
+                        except KeyError:
+                            if device_id not in device_ids:
+                                name_input = console.input(
+                                    f"\n- The alias [green]{player_display}[/green] and device "
+                                    f"[magenta]{device_id}[/magenta] is not in the data model. Type"
+                                    f" the name to associate with [green]{player_display}[/green] "
+                                    f"in the data model and press ENTER>>>"
+                                )
+                                try:
+                                    players_map[name_input]["nicknames"].append(
+                                        player_display
+                                    )
+                                    players_map[name_input]["devices"].append(device_id)
+                                    device_ids = switch_key_and_values(
+                                        players_map, "devices"
+                                    )
+                                    aliases_names = switch_key_and_values(
+                                        players_map, "nicknames"
+                                    )
+                                except KeyError:
+                                    players_map.update(
+                                        {
+                                            name_input: {
+                                                "nicknames": [player_display],
+                                                "devices": [device_id],
+                                            }
+                                        }
+                                    )
+                                    device_ids = switch_key_and_values(
+                                        players_map, "devices"
+                                    )
+                                    aliases_names = switch_key_and_values(
+                                        players_map, "nicknames"
+                                    )
+                            else:
+                                name = device_ids[device_id]
+                                bool_input = console.input(
+                                    f"\n- The alias [green]{player_display}[/green] is not in "
+                                    f"data model but the device [magenta]{device_id}[/magenta] has "
+                                    f"been used by [blue]{name}[/blue]. If "
+                                    f"[green]{player_display}[/green] is [blue]{name}[/blue] type "
+                                    f"'Y', if this is not [blue]{name}[/blue] type 'N' and press "
+                                    f"ENTER>>>"
+                                )
+                                if bool_input == "Y":
+                                    players_map[name]["nicknames"].append(
+                                        player_display
+                                    )
+                                    aliases_names = switch_key_and_values(
+                                        players_map, "nicknames"
+                                    )
+                                elif bool_input == "N":
+                                    name_input = console.input(
+                                        f"\n[red]IMPORTANT:[/red] If different players are playing "
+                                        f"from the same device then there is the potential for "
+                                        f"cheating. Please type the name to associate alias "
+                                        f"[green]{player_display}[/green] and press ENTER>>>"
+                                    )
+                                    try:
+                                        players_map[name_input]["nicknames"].append(
+                                            player_display
+                                        )
+                                        players_map[name_input]["devices"].append(
+                                            device_id
+                                        )
+                                        device_ids = switch_key_and_values(
+                                            players_map, "devices"
+                                        )
+                                        aliases_names = switch_key_and_values(
+                                            players_map, "nicknames"
+                                        )
+                                    except KeyError:
+                                        players_map.update(
+                                            {
+                                                name_input: {
+                                                    "nicknames": [player_display],
+                                                    "devices": [device_id],
+                                                }
+                                            }
+                                        )
+                            save_name_map(name_map_path, players_map)
+                        name = aliases_names[player_display]
                         # If the player is the dealer, set the value of the dealers seat number in
                         # the ohh dictionary
                         if hand[DEALER_NAME] == player_display:
                             ohh[DEALER_SEAT] = seat_number
                         # If the player is the hero, set the value of players ID in the ohh
                         # dictionary.
-                        if names[player_display] == hero_name:
+                        if name == hero_name:
                             ohh[HERO_PLAYER_ID] = player_id
                             hero_playing: bool = True
                         # The OHH standard has a unique identifier for every player within the hand.
