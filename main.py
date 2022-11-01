@@ -558,7 +558,7 @@ for poker_now_file in csv_file_list:
         )
         logging.info(
             f"[{table_name}][{perf_counter() - perf_start_1}] Performance counter for hand"
-            f"seperation."
+            "seperation."
         )
         logging.info(
             f"[{table_name}][{process_time() - proc_start_1}] Process time for hand seperation."
@@ -644,7 +644,7 @@ for poker_now_file in csv_file_list:
                                     f"\n- The alias [green]{player_display}[/green] and device "
                                     f"[magenta]{device_id}[/magenta] is not in the data model. Type"
                                     f" the name to associate with [green]{player_display}[/green] "
-                                    f"in the data model and press ENTER>>>"
+                                    "in the data model and press ENTER>>>"
                                 )
                                 try:
                                     players_map[name_input]["nicknames"].append(
@@ -680,7 +680,7 @@ for poker_now_file in csv_file_list:
                                     f"been used by [blue]{name}[/blue]. If "
                                     f"[green]{player_display}[/green] is [blue]{name}[/blue] type "
                                     f"[yellow]'Y'[/yellow], if this is not [blue]{name}[/blue] "
-                                    f"[yellow]'N'[/yellow] and press ENTER>>>"
+                                    "[yellow]'N'[/yellow] and press ENTER>>>"
                                 )
                                 if bool_input == "Y":
                                     players_map[name]["nicknames"].append(
@@ -691,9 +691,9 @@ for poker_now_file in csv_file_list:
                                     )
                                 elif bool_input == "N":
                                     name_input = console.input(
-                                        f"\n[red]IMPORTANT:[/red] If different players are playing "
-                                        f"from the same device then there is the potential for "
-                                        f"cheating. Please type the name to associate alias "
+                                        "\n[red]IMPORTANT:[/red] If different players are playing "
+                                        "from the same device then there is the potential for "
+                                        "cheating. Please type the name to associate alias "
                                         f"[green]{player_display}[/green] and press ENTER>>>"
                                     )
                                     try:
@@ -997,11 +997,13 @@ for poker_now_file in csv_file_list:
         logging.info(
             f"[{table_name}][{process_time() - proc_start_2}] Process time for hand parsing."
         )
-
+        percent_complete = round(
+            ((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list)) * 100, 2
+        )
         console.print(
-            f"Completed processing [magenta]{csv_file_list.index(poker_now_file) + 1}[/magenta] out of "
-            f"[magenta]{len(csv_file_list)}[/magenta] files, "
-            f"[cyan]{round(((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list))*100, 2)}%[/cyan] "
+            f"Completed processing [magenta]{csv_file_list.index(poker_now_file) + 1}[/magenta] "
+            f"of [magenta]{len(csv_file_list)}[/magenta] files, "
+            f"[cyan]{percent_complete}%[/cyan] "
             f"complete. Time to process table [green]{table_name}[/green]"
         )
         console.print(
@@ -1014,7 +1016,8 @@ logging.info(
 )
 logging.info(f"[ALL][{process_time() - timer_proc_start}] Process time for all hands.")
 console.print(
-    f"[cyan]{round(perf_counter() - timer_perf_start, 2)} sec[/cyan] Performance counter for all hands."
+    f"[cyan]{round(perf_counter() - timer_perf_start, 2)} sec[/cyan] Performance counter for all "
+    "hands."
 )
 console.print(
     f"[cyan]{process_time() - timer_proc_start} sec[/cyan] Process time for all hands."
