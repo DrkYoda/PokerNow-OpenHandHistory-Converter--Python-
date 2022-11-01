@@ -680,7 +680,7 @@ for poker_now_file in csv_file_list:
                                     f"been used by [blue]{name}[/blue]. If "
                                     f"[green]{player_display}[/green] is [blue]{name}[/blue] type "
                                     f"[yellow]'Y'[/yellow], if this is not [blue]{name}[/blue] "
-                                    f"[yellow]'N'[/yellow] and press ENTER>>>"
+                                    "[yellow]'N'[/yellow] and press ENTER>>>"
                                 )
                                 if bool_input == "Y":
                                     players_map[name]["nicknames"].append(
