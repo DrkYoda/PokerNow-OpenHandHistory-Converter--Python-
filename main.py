@@ -54,7 +54,9 @@ v 1.2.0
       device ID is not in the data model the program will require input from the user and update the
       data model before continuing.
     - Fixed issue #31 If the hero is not dealt into the hand will have the flags value "Observed"
-
+v 1.2.1
+    - Fixed issue #32 After a Poker Now csv file is parsed the file is moved to an archive folder
+    - Improved how the name-map data model is handled programmatically.
 ****************************************************************************************************
 """
 # MODULES
@@ -65,7 +67,9 @@ import json
 import logging
 from pathlib import Path
 import re
+from shutil import move
 from time import perf_counter, process_time
+from typing import List
 from rich.console import Console
 
 # END MODULES
@@ -260,7 +264,7 @@ def load_name_map(file: Path):
         Open aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
         then create a json file.
     Args:
-        file (Path): _description_
+        file (Path): Path to the input file to be parsed
 
     Returns:
         _type_: _description_
@@ -285,7 +289,7 @@ def save_name_map(file: Path, name_map: dict[str, dict[str, list[str]]]):
     """
     try:
         with open(file, mode="w", encoding="utf-8") as map_file:
-            json.dump(name_map, map_file, indent=4)
+            json.dump(dict(sorted(name_map.items())), map_file, indent=4)
     except FileNotFoundError:
         with open(file, mode="a+", encoding="utf-8") as map_file:
             json.dump(name_map, map_file, indent=4)
@@ -299,7 +303,7 @@ def switch_key_and_values(name_map: dict[str, dict[str, list[str]]], key_txt: st
         needed to create the aliase->name map is recorded in the file aliase-name_map.json where
         each player name has an array of aliases. The data will be parsed into a dictionary of lists
         where the keys are the names and the values are lists of aliases. The aliase->name map is
-        created by flattening the aliase lists and switching the keys (names) and values (aliases)
+        created by flattening the alias lists and switching the keys (names) and values (aliases)
     Args:
         name_map (dict[str, dict[str, list[str]]]): _description_
         key_txt (str): _description_
@@ -346,7 +350,7 @@ hero_name = ohh_constants[HERO_NAME]
 
 csv_dir = Path("PokerNowHandHistory")
 csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == ".csv"]
-
+csv_archive_dir = csv_dir / "Archive"
 players_map = load_name_map(name_map_path)
 aliases_names = switch_key_and_values(players_map, "nicknames")
 device_ids = switch_key_and_values(players_map, "devices")
@@ -411,7 +415,7 @@ for poker_now_file in csv_file_list:
     perf_start_1 = perf_counter()
     proc_start_1 = process_time()
     # Initialize variables to their default starting values
-    lines = [[]]
+    lines: List[List[str]] = [[]]
     big_blind: float = 20.00
     small_blind: float = 10.00
     ante: float = 0.00
@@ -543,6 +547,7 @@ for poker_now_file in csv_file_list:
                 # in the hands dictionary and be proccesed later
                 hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
                 lines_saved += 1
+        move(poker_now_file, csv_archive_dir)
         logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
         logging.info(f"[{table_name}] {lines_parsed} lines were parsed.")
         logging.info(f"[{table_name}] {lines_ignored} lines were ignored.")
@@ -621,15 +626,6 @@ for poker_now_file in csv_file_list:
                         player_stack = float(player.group("amount"))
                         try:
                             name = aliases_names[player_display]
-                            players.append(
-                                {
-                                    ID: player_id,
-                                    SEAT: seat_number,
-                                    NAME: name,
-                                    DISPLAY: player_display,
-                                    STARTING_STACK: player_stack,
-                                }
-                            )
                             if device_id not in device_ids:
                                 console.print(
                                     f"- The aliase [green]{player_display}[/green] is associated "
@@ -642,7 +638,6 @@ for poker_now_file in csv_file_list:
                                 device_ids = switch_key_and_values(
                                     players_map, "devices"
                                 )
-                                save_name_map(name_map_path, players_map)
                         except KeyError:
                             if device_id not in device_ids:
                                 name_input = console.input(
@@ -684,8 +679,8 @@ for poker_now_file in csv_file_list:
                                     f"data model but the device [magenta]{device_id}[/magenta] has "
                                     f"been used by [blue]{name}[/blue]. If "
                                     f"[green]{player_display}[/green] is [blue]{name}[/blue] type "
-                                    f"'Y', if this is not [blue]{name}[/blue] type 'N' and press "
-                                    f"ENTER>>>"
+                                    f"[yellow]'Y'[/yellow], if this is not [blue]{name}[/blue] "
+                                    f"[yellow]'N'[/yellow] and press ENTER>>>"
                                 )
                                 if bool_input == "Y":
                                     players_map[name]["nicknames"].append(
@@ -723,7 +718,16 @@ for poker_now_file in csv_file_list:
                                                 }
                                             }
                                         )
-                            save_name_map(name_map_path, players_map)
+                            name = aliases_names[player_display]
+                        players.append(
+                            {
+                                ID: player_id,
+                                SEAT: seat_number,
+                                NAME: name,
+                                DISPLAY: player_display,
+                                STARTING_STACK: player_stack,
+                            }
+                        )
                         name = aliases_names[player_display]
                         # If the player is the dealer, set the value of the dealers seat number in
                         # the ohh dictionary
@@ -994,19 +998,26 @@ for poker_now_file in csv_file_list:
             f"[{table_name}][{process_time() - proc_start_2}] Process time for hand parsing."
         )
 
-        print(
-            f"Completed processing {csv_file_list.index(poker_now_file) + 1} out of "
-            f"{len(csv_file_list)} files "
-            f"{round(((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list))*100, 2)}% "
-            f"complete. Time to process table {table_name}"
+        console.print(
+            f"Completed processing [magenta]{csv_file_list.index(poker_now_file) + 1}[/magenta] out of "
+            f"[magenta]{len(csv_file_list)}[/magenta] files, "
+            f"[cyan]{round(((csv_file_list.index(poker_now_file) + 1) / len(csv_file_list))*100, 2)}%[/cyan] "
+            f"complete. Time to process table [green]{table_name}[/green]"
         )
-        print(f"{perf_counter() - perf_start_2} Performance counter for hand parsing.")
-        print(f"{process_time() - proc_start_2} Process time for hand parsing.")
+        console.print(
+            f"[blue]{round(perf_counter() - perf_start_2, 6)} sec[/blue] Performance counter."
+        )
+        console.print(f"[blue]{process_time() - proc_start_2} sec[/blue] Process time.")
+save_name_map(name_map_path, players_map)
 logging.info(
     f"[ALL][{perf_counter() - timer_perf_start}] Performance counter for all hands."
 )
 logging.info(f"[ALL][{process_time() - timer_proc_start}] Process time for all hands.")
-print(f"{perf_counter() - timer_perf_start} Performance counter for all hands.")
-print(f"{process_time() - timer_proc_start} Process time for all hands.")
+console.print(
+    f"[cyan]{round(perf_counter() - timer_perf_start, 2)} sec[/cyan] Performance counter for all hands."
+)
+console.print(
+    f"[cyan]{process_time() - timer_proc_start} sec[/cyan] Process time for all hands."
+)
 # end of code
 # *************************************************************************************************
