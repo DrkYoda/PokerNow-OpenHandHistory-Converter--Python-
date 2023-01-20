@@ -60,7 +60,7 @@ v 1.2.1
 v 1.2.2
     - Fixed issue #38 If the hero name is an empty screen, the user will be propted to enter a name 
 v 1.2.2
-    - Fixed issue #38
+    - Fixed issue #43
 ****************************************************************************************************
 """
 # MODULES
@@ -615,7 +615,7 @@ for poker_now_file in csv_file_list:
                 # in the hands dictionary and be proccesed later
                 hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
                 lines_saved += 1
-        # move(poker_now_file, csv_archive_dir)
+        move(poker_now_file, csv_archive_dir)
         logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
         logging.info(f"[{table_name}] {lines_parsed} lines were parsed.")
         logging.info(f"[{table_name}] {lines_ignored} lines were ignored.")
