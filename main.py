@@ -59,7 +59,8 @@ v 1.2.1
     - Improved how the name-map data model is handled programmatically.
 v 1.2.2
     - Fixed issue #38 If the hero name is an empty screen, the user will be propted to enter a name 
-      to use for the hero. The name given will be saved in the .ini file for future use.
+v 1.2.2
+    - Fixed issue #38
 ****************************************************************************************************
 """
 # MODULES
@@ -313,16 +314,17 @@ def update_setting(path: Path, section: str, setting: str, value: str) -> None:
         config.write(config_file)
 
 
-def csv_reader(file_obj: Path, subs: dict):
+def csv_reader(file_obj: Path, subs: dict[str, str]) -> list[List[str]]:
     """Read a CSV file and make substitutions according to the subs dictionary.
 
     Args:
         file_obj (Path): Path to the CSV file to be read.
+        subs (dict): Dictionary containg strings to substitute or replace in the data.
 
     Returns:
         List[List[str]]: The rows of data in the CSV file in reverse order.
     """
-    rows: List[List[str]] = [[]]
+    rows: list[List[str]] = [[]]
     subs_regex = re.compile("|".join(subs.keys()))
     with file_obj.open(mode="r", encoding="UTF-8") as csv_file:
         reader = csv.reader(csv_file)
@@ -431,7 +433,7 @@ blind_regex = re.compile(
     r"(?P<amount>\d+\.\d{2}|\d+)\."
 )
 start_regex = re.compile(
-    r"-- starting hand #(?P<hand_number>\d+)  \((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
+    r"-- starting hand #(?P<hand_number>\d+).+\((?P<bet_type>\w*\s*Limit) (?P<game_type>.+)\)"
     r" \((dealer: \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\"|dead button)\) --"
 )
 end_regex = re.compile(r"-- ending hand #(?P<hand_number>\d+) --")
