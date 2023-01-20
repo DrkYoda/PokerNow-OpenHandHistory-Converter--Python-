@@ -57,6 +57,9 @@ v 1.2.0
 v 1.2.1
     - Fixed issue #32 After a Poker Now csv file is parsed the file is moved to an archive folder
     - Improved how the name-map data model is handled programmatically.
+v 1.2.2
+    - Fixed issue #38 If the hero name is an empty screen, the user will be propted to enter a name 
+      to use for the hero. The name given will be saved in the .ini file for future use.
 ****************************************************************************************************
 """
 # MODULES
@@ -140,14 +143,22 @@ PREFIX = "output_prefix"
 # END SCRIPT LEVEL CONSTANTS
 
 # CONFIGURABLE CONSTANTS
+OHH_CONSTANTS = "OHH Constants"
+DIRECTORIES = "Directories"
+CONFIG_DIR = "config_dir"
+LOG_DIR = "log_dir"
+
 DEFAULT_CONFIG = {
-    SPEC_VERSION: "1.2.2",
-    INTERNAL_VERSION: "1.2.2",
-    NETWORK_NAME: "PokerStars",
-    SITE_NAME: "PokerStars",
-    CURRENCY: "USD",
-    PREFIX: "HHC",
-    HERO_NAME: "",
+    OHH_CONSTANTS: {
+        SPEC_VERSION: "1.2.2",
+        INTERNAL_VERSION: "1.2.2",
+        NETWORK_NAME: "PokerStars",
+        SITE_NAME: "PokerStars",
+        CURRENCY: "USD",
+        PREFIX: "HHC",
+        HERO_NAME: "",
+    },
+    DIRECTORIES: {CONFIG_DIR: "/Config", LOG_DIR: "/Logs"},
 }
 """
 these are constants that are meant to be configurable - they could be edited here,
@@ -230,46 +241,110 @@ verb_to_action = {
     "folds": "Fold",
     "checks": "Check",
 }
+
+subs_suits = {
+    "10♥": "Th",
+    "10♠": "Ts",
+    "10♦": "Td",
+    "10♣": "Tc",
+    "♥": "h",
+    "♠": "s",
+    "♦": "d",
+    "♣": "c",
+}
 # END LOOKUP TABLES
 # **************************************************************************************************
 
 # **************************************************************************************************
 # FUNCTIONS
-def csv_reader(file_obj, rows: list):
+def create_config(path: Path) -> None:
+    """Create a config file with default configuation. If the parent path does not exist then
+    create it.
+
+    Args:
+        path (Path): Path to the file to be created.
+
+    Returns:
+        None
     """
-    Read a CSV file
+    if not path.parent.exists():
+        path.parent.mkdir()
+    config = ConfigParser()
+    config.read_dict(DEFAULT_CONFIG)
+
+    with path.open(mode="w", encoding="UTF-8") as config_file:
+        config.write(config_file)
+
+
+def get_config(path: Path) -> ConfigParser:
+    """Get the config object from the .ini file at path. If the .ini file does not exist then create
+    it.
+
+    Args:
+        path (Path): Path to the config file.
+
+    Returns:
+        ConfigParser: The main configuration parser, responsible for managing the parsed database.
     """
-    reader = csv.reader(file_obj)
-    next(reader)
-    subs_dict = {
-        "10♥": "Th",
-        "10♠": "Ts",
-        "10♦": "Td",
-        "10♣": "Tc",
-        "♥": "h",
-        "♠": "s",
-        "♦": "d",
-        "♣": "c",
-    }
-    for row in reader:
-        subs_regex = re.compile("|".join(subs_dict.keys()))
-        row = [subs_regex.sub(lambda match: subs_dict[match.group(0)], i) for i in row]
-        row[0] = row[0].encode("ascii", "ignore").decode()
-        rows.append(row)
-    return rows.reverse()
+    if not path.exists():
+        create_config(path)
+
+    config = ConfigParser()
+    config.read(path)
+    return config
+
+
+def update_setting(path: Path, section: str, setting: str, value: str) -> None:
+    """Update a setting.
+
+    Args:
+        path (Path): Path to the file to be updated.
+        section (str): Section where the setting to be updated is located.
+        setting (str): Name of the setting to be updated.
+        value (str): Value of the setting to be updated.
+
+    Returns:
+        None
+
+    """
+    config = get_config(path)
+    config.set(section, setting, value)
+    with path.open(mode="w", encoding="UTF-8") as config_file:
+        config.write(config_file)
+
+
+def csv_reader(file_obj: Path, subs: dict):
+    """Read a CSV file and make substitutions according to the subs dictionary.
+
+    Args:
+        file_obj (Path): Path to the CSV file to be read.
+
+    Returns:
+        List[List[str]]: The rows of data in the CSV file in reverse order.
+    """
+    rows: List[List[str]] = [[]]
+    subs_regex = re.compile("|".join(subs.keys()))
+    with file_obj.open(mode="r", encoding="UTF-8") as csv_file:
+        reader = csv.reader(csv_file)
+        next(reader)
+        for row in reader:
+            row = [subs_regex.sub(lambda match: subs[match.group(0)], i) for i in row]
+            row[0] = row[0].encode("ascii", "ignore").decode()
+            rows.append(row)
+    rows.reverse()
+    return rows
 
 
 def load_name_map(file: Path):
-    """_summary_
-        Open aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
+    """Open aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
         then create a json file.
+
     Args:
         file (Path): Path to the input file to be parsed
 
     Returns:
         _type_: _description_
     """
-    # name_map: dict[str, dict[str, list[str]]] = {}
     try:
         with open(file, mode="r", encoding="utf-8") as map_file:
             return json.load(map_file)
@@ -284,8 +359,8 @@ def save_name_map(file: Path, name_map: dict[str, dict[str, list[str]]]):
     """_summary_
 
     Args:
-        file (Path): _description_
-        name_map (_type_): _description_
+        file (Path): Path to the input file to be parsed
+        name_map (dict[str, dict[str, list[str]]]): _description_
     """
     try:
         with open(file, mode="w", encoding="utf-8") as map_file:
@@ -296,20 +371,19 @@ def save_name_map(file: Path, name_map: dict[str, dict[str, list[str]]]):
 
 
 def switch_key_and_values(name_map: dict[str, dict[str, list[str]]], key_txt: str):
-    """
-    _summary_
-        Players can choose a different alias every time they sit at the table; therefore, it is
-        necissary to map the players real name to the aliases they have chosen. The information
-        needed to create the aliase->name map is recorded in the file aliase-name_map.json where
-        each player name has an array of aliases. The data will be parsed into a dictionary of lists
-        where the keys are the names and the values are lists of aliases. The aliase->name map is
-        created by flattening the alias lists and switching the keys (names) and values (aliases)
+    """Players can choose a different alias every time they sit at the table; therefore, it is
+    necissary to map the players real name to the aliases they have chosen. The information
+    needed to create the aliase->name map is recorded in the file aliase-name_map.json where
+    each player name has an array of aliases. The data will be parsed into a dictionary of lists
+    where the keys are the names and the values are lists of aliases. The aliase->name map is
+    created by flattening the alias lists and switching the keys (names) and values (aliases)
+
     Args:
         name_map (dict[str, dict[str, list[str]]]): _description_
         key_txt (str): _description_
 
     Returns:
-        _type_: _description_
+        dict[str, str]: _description_
     """
     names: dict[str, str] = {}
     for key, values in name_map.items():
@@ -324,21 +398,10 @@ def switch_key_and_values(name_map: dict[str, dict[str, list[str]]], key_txt: st
 
 # **************************************************************************************************
 # CODE
-config_path = Path("Config")
-config_file_path = config_path / CONFIG_FILE
-name_map_path = config_path / "name-map.json"
-# look for configuration file and read it into the config parser.  If the configuation file is not
-# found then create a config file and write the default values to the file.
+name_map_path = Path("Config/name-map.json")
 console = Console()
-config = ConfigParser()
-try:
-    with open(config_file_path, mode="r", encoding="utf-8") as config_file:
-        config.read_file(config_file)
-except FileNotFoundError:
-    with open(config_file_path, mode="a+", encoding="utf-8") as config_file:
-        config["OHH Constants"] = DEFAULT_CONFIG
-        config.write(config_file)
-        config.read_file(config_file)
+config_path = Path("Config/config.ini")
+config = get_config(config_path)
 ohh_constants = config["OHH Constants"]
 spec_version = ohh_constants[SPEC_VERSION]
 internal_version = ohh_constants[INTERNAL_VERSION]
@@ -346,7 +409,12 @@ network_name = ohh_constants[NETWORK_NAME]
 site_name = ohh_constants[SITE_NAME]
 currency = ohh_constants[CURRENCY]
 hero_name = ohh_constants[HERO_NAME]
-
+# Check if hero_name is an empty string, if True then prompt the user to input a name for the hero
+# and save the name to config.ini
+if not hero_name.strip():
+    hero_name = console.input("Type in a name for the hero and press <ENTER>")
+    ohh_constants[HERO_NAME] = hero_name
+    update_setting(config_path, "OHH Constants", HERO_NAME, hero_name)
 
 csv_dir = Path("PokerNowHandHistory")
 csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == ".csv"]
@@ -415,7 +483,6 @@ for poker_now_file in csv_file_list:
     perf_start_1 = perf_counter()
     proc_start_1 = process_time()
     # Initialize variables to their default starting values
-    lines: List[List[str]] = [[]]
     big_blind: float = 20.00
     small_blind: float = 10.00
     ante: float = 0.00
@@ -435,8 +502,7 @@ for poker_now_file in csv_file_list:
     if table_name_match is not None:
         table_name = table_name_match.group("table_name")
         # Open and parse the hand history with csv reader
-        with open(poker_now_file, encoding="UTF-8") as f:
-            csv_reader(f, lines)
+        lines = csv_reader(poker_now_file, subs_suits)
         logging.info(f"[{table_name}] ***STARTING HAND SEPERATION***")
         logging.info(f"[{table_name}] has {len(lines)} lines to parse.")
         # Parse and get each hand separated, and get basic hand info into the hands dictionary basic
@@ -592,7 +658,7 @@ for poker_now_file in csv_file_list:
                 SMALL_BLIND_AMOUNT: hand[SMALL_BLIND_AMOUNT],
                 BIG_BLIND_AMOUNT: hand[BIG_BLIND_AMOUNT],
                 ANTE_AMOUNT: hand[ANTE_AMOUNT],
-                HERO_PLAYER_ID: 0,
+                HERO_PLAYER_ID: None,
                 FLAGS: [],
                 PLAYERS: [],
                 ROUNDS: [],
