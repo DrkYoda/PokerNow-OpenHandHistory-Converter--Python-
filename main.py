@@ -59,8 +59,10 @@ v 1.2.1
     - Improved how the name-map data model is handled programmatically.
 v 1.2.2
     - Fixed issue #38 If the hero name is an empty screen, the user will be propted to enter a name 
-v 1.2.2
+v 1.2.3
     - Fixed issue #43
+v 1.2.4
+    - Fixed issue #45
 ****************************************************************************************************
 """
 # MODULES
@@ -255,6 +257,7 @@ subs_suits = {
 }
 # END LOOKUP TABLES
 # **************************************************************************************************
+
 
 # **************************************************************************************************
 # FUNCTIONS
@@ -955,6 +958,7 @@ for poker_now_file in csv_file_list:
                     action[ACTION_NUMBER] = action_number
                     action[PLAYER_ID] = player_ids[player]
                     action[ACTION] = verb_to_action[does]
+                    action[AMOUNT] = 0.00
                     action[IS_ALL_IN] = False
                     round_obj[ACTIONS].append(action)
                     action_number += 1
