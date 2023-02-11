@@ -63,6 +63,11 @@ v 1.2.3
     - Fixed issue #43
 v 1.2.4
     - Fixed issue #45
+v 1.3.0
+    - Fixed issue #39
+        - Changes the regex object usage from using them as the first argument in re module funtions
+          to invoking a method directly on the regex object. 
+
 ****************************************************************************************************
 """
 # MODULES
@@ -503,7 +508,7 @@ for poker_now_file in csv_file_list:
     hand_count: int = 0
     table = []
     # The text match to look for table name.
-    table_name_match = re.match(table_regex, poker_now_file.name)
+    table_name_match = table_regex.match(poker_now_file.name)
     if table_name_match is not None:
         table_name = table_name_match.group("table_name")
         # Open and parse the hand history with csv reader
@@ -522,7 +527,7 @@ for poker_now_file in csv_file_list:
             if table_name not in tables:
                 tables[table_name] = {COUNT: 0, LATEST: "", OHH: []}
             # The text match to look for what the blinds are set at
-            blinds_match = re.match(blind_regex, entry)
+            blinds_match = blind_regex.match(entry)
             if blinds_match is not None:
                 blind_type = blinds_match.group("blind_type")
                 blind_amount = float(blinds_match.group("amount"))
@@ -539,10 +544,10 @@ for poker_now_file in csv_file_list:
             # observed (or the end of the file is reached). This is because some actions such as a
             # player voluntarily showing their cards at the end of the hand are reported between the
             # "--- end hand #X ---" and the "--- stating hand #X+1 ---" lines
-            hand_start_match = re.match(start_regex, entry)
-            hand_end_match = re.match(end_regex, entry)
+            hand_start_match = start_regex.match(entry)
+            hand_end_match = end_regex.match(entry)
             if hand_start_match is not None:
-                game_number_match = re.match(game_number_regex, line[2])
+                game_number_match = game_number_regex.match(line[2])
                 hand_number = hand_start_match.group("hand_number")
                 if game_number_match is not None:
                     game_number = game_number_match.group("game_number")
@@ -555,7 +560,7 @@ for poker_now_file in csv_file_list:
                 if "dead button" not in entry:
                     dealer_name = hand_start_match.group("player")
                 # the text match to look for the time the hand started
-                hand_time_match = re.match(hand_time_regex, line[1])
+                hand_time_match = hand_time_regex.match(line[1])
                 if hand_time_match is not None:
                     hand_time = hand_time_match.group("start_date_utc") + "Z"
                     # Add the information extracted from the start of the hand to the hands
@@ -602,7 +607,7 @@ for poker_now_file in csv_file_list:
                 lines_ignored += 1
             else:
                 if hand_number == "1":
-                    post = re.match(post_regex, entry)
+                    post = post_regex.match(entry)
                     if post is not None:
                         post_type = post.group("type")
                         if post_type == "posts a small blind":
@@ -687,7 +692,7 @@ for poker_now_file in csv_file_list:
             # to parse.
             for line in hand_text.strip().splitlines(False):
                 # The text match to look for a seated player and see their starting chip amount.
-                seats = re.finditer(seats_regex, line)
+                seats = seats_regex.finditer(line)
                 if seats is not None:
                     player_id: int = 0
                     for player in seats:
@@ -818,7 +823,7 @@ for poker_now_file in csv_file_list:
                         continue
                 # the text to match for a post this also indicates that the dealing is happening and
                 # we should move to the phase of assembling rounds of actions.
-                post = re.match(post_regex, line)
+                post = post_regex.match(line)
                 if post is not None:
                     player = post.group("player")
                     post_type = post.group("type")
@@ -858,8 +863,8 @@ for poker_now_file in csv_file_list:
                     continue
                 # look for round markers note that cards dealt are melded together with opening
                 # round and do not necessarily mark a new round
-                round_marker = re.match(round_regex, line)
-                cards_match = re.search(cards_regex, line)
+                round_marker = round_regex.match(line)
+                cards_match = cards_regex.search(line)
                 if round_marker is not None:
                     label = round_marker.group("street")
                     if label == PLAYER_STACKS:
@@ -893,7 +898,7 @@ for poker_now_file in csv_file_list:
                         else:
                             continue
                     continue
-                show_hand = re.search(show_regex, line)
+                show_hand = show_regex.search(line)
                 if show_hand is not None:
                     player = show_hand.group("player")
                     does = show_hand.group("player_action")
@@ -922,7 +927,7 @@ for poker_now_file in csv_file_list:
                         round_commit[p] = 0
                     continue
                 # the text to match for an add on
-                add_on = re.match(addon_regex, line)
+                add_on = addon_regex.match(line)
                 if add_on is not None:
                     player = add_on.group("player")
                     additional = float(add_on.group("amount"))
@@ -936,7 +941,7 @@ for poker_now_file in csv_file_list:
                         action_number += 1
                     continue
                 # the text to match for cards dealt
-                hero_hand = re.match(hero_hand_regex, line)
+                hero_hand = hero_hand_regex.match(line)
                 if hero_hand is not None:
                     cards = hero_hand.group("cards")
                     action = {}
@@ -950,7 +955,7 @@ for poker_now_file in csv_file_list:
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     continue
-                non_bet_action = re.match(non_bet_action_regex, line)
+                non_bet_action = non_bet_action_regex.match(line)
                 if non_bet_action is not None:
                     player = non_bet_action.group("player")
                     does = non_bet_action.group("player_action")
@@ -963,7 +968,7 @@ for poker_now_file in csv_file_list:
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     continue
-                bet_action = re.match(bet_action_regex, line)
+                bet_action = bet_action_regex.match(line)
                 if bet_action is not None:
                     player = bet_action.group("player")
                     does = bet_action.group("player_action")
@@ -985,12 +990,12 @@ for poker_now_file in csv_file_list:
                     round_obj[ACTIONS].append(action)
                     action_number += 1
                     continue
-                uncalled_bet_match = re.match(uncalled_regex, line)
+                uncalled_bet_match = uncalled_regex.match(line)
                 if uncalled_bet_match is not None:
                     amount = round(float(uncalled_bet_match.group("amount")), 2)
                     total_pot -= amount
                     continue
-                winner = re.match(winner_regex, line)
+                winner = winner_regex.match(line)
                 if winner is not None:
                     player = winner.group("player")
                     does = winner.group("player_action")
