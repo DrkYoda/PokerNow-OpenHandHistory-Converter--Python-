@@ -2,5 +2,14 @@
     "python.linting.enabled": true,
     "python.formatting.provider": "black",
     "python.linting.pylintEnabled": true,
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.wordBasedSuggestions": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true,
+    }
 }

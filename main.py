@@ -1053,16 +1053,11 @@ for poker_now_file in csv_file_list:
         logging.info(f"[{table_name}] {unprocessed_count} lines were not parsed.")
         ohh_directory = Path("OpenHandHistory")
         with open(
-            ohh_directory / poker_now_file.with_suffix(".ohh").name,
+            ohh_directory / poker_now_file.with_suffix(".json").name,
             "w",
             encoding="utf-8",
         ) as f:
-            for ohh in table:
-                wrapped_ohh = {}
-                wrapped_ohh[OHH] = ohh
-                f.write(json.dumps(wrapped_ohh, indent=4))
-                f.write("\n")
-                f.write("\n")
+            json.dump(table, f, separators=(",", ":"))
         logging.info(
             f"[{table_name}][{perf_counter() - perf_start_2}] Performance counter for hand parsing."
         )
