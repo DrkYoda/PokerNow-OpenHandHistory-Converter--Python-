@@ -128,7 +128,8 @@ subs_suits = {
 
 
 csv_dir = Path("PokerNowHandHistory")
-csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == ".csv"]
+csv_file_list = [child for child in csv_dir.iterdir()
+                 if child.suffix == ".csv"]
 console = Console()
 
 table_regex = re.compile(r"^.*poker_now_log_(?P<table_name>.*).csv$")
@@ -178,11 +179,7 @@ winner_regex = re.compile(
 
 @define
 class Game:
-    # hh_log: list[Tuple[str, str, str]] = Factory(list)
     hands: list[Ohh] = Factory(list)
-    # currency: str = ""
-    # file_name: Path = Path()
-    # subs: dict[str, str] = Factory(dict)
 
     def parse_hands(self, file_name: Path) -> list[Ohh]:
         round_commit: dict[str, float] = {}
@@ -211,8 +208,10 @@ class Game:
             table_name = str(table_name_match.group("table_name"))
             # Open and parse the hand history with csv reader
             lines = self.parse_file(file_name, subs_suits)
-            logging.info(f"[{hand_obj.table_name}] ***STARTING HAND SEPERATION***")
-            logging.info(f"[{hand_obj.table_name}] has {len(lines)} lines to parse.")
+            logging.info(
+                f"[{hand_obj.table_name}] ***STARTING HAND SEPERATION***")
+            logging.info(
+                f"[{hand_obj.table_name}] has {len(lines)} lines to parse.")
             # Parse and get each hand separated, and get basic hand info into the hands dictionary basic
             # hand info is hand number, hand time, bet type, game type, dealer name, table name, big
             # blind, small blind, and ante. Everything else goes into TEXT.
@@ -244,11 +243,13 @@ class Game:
                     game_number_match = game_number_regex.match(line[2])
                     hand_number = hand_start_match.group("hand_number")
                     if game_number_match is not None:
-                        hand_obj.game_number = game_number_match.group("game_number")
+                        hand_obj.game_number = game_number_match.group(
+                            "game_number")
                     hand_obj.bet_limit.bet_type = structures[
                         hand_start_match.group("bet_type")
                     ]
-                    hand_obj.game_type = games[hand_start_match.group("game_type")]
+                    hand_obj.game_type = games[hand_start_match.group(
+                        "game_type")]
                     # If the button is dead, keep the dealer the same as the previous hand. Technically
                     # this is incorrect because a dead button is located at an empty seat, but
                     # effectively it is the same because the player who had the button previously will
@@ -277,12 +278,12 @@ class Game:
                             elif post_type == "posts an ante":
                                 ante = float(post_match.group("amount"))
                                 Ohh(ante_amount=ante)
-                    # # Any line that has made it this far without being processed will be added to text
-                    # # in the hands dictionary and be proccesed later
-                    # hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
-                    # lines_saved += 1
+                # # Any line that has made it this far without being processed will be added to text
+                # # in the hands dictionary and be proccesed later
+                # hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
+                # lines_saved += 1
                 hand_obj.parse_players(
-                    seats_regex, player_ids, dealer_name, player_obj, entry, hero_name
+                    seats_regex, player_ids, dealer_name, entry, hero_name
                 )
                 # the text to match for a post this also indicates that the dealing is happening and
                 # we should move to the phase of assembling rounds of actions.
@@ -438,7 +439,8 @@ class Game:
                     continue
                 uncalled_bet_match = uncalled_regex.match(entry)
                 if uncalled_bet_match is not None:
-                    amount = round(float(uncalled_bet_match.group("amount")), 2)
+                    amount = round(
+                        float(uncalled_bet_match.group("amount")), 2)
                     total_pot -= amount
                     continue
                 winner = winner_regex.match(entry)

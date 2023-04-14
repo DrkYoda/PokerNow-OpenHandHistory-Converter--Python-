@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 from pathlib import Path
 from re import Pattern
-from typing import Any, Optional
+from typing import Any, Optional, Tuple
 from attr import Factory
 from attrs import define, Factory
 
@@ -157,9 +157,8 @@ class Ohh:
         regex: Pattern[str],
         player_ids: dict[str, int],
         dealer_name: str,
-        player_obj: Player,
         entry: str,
-        hero_name: str,
+        hero_name: str = hero_name,
     ):
         seats_match = regex.finditer(entry)
         if seats_match is not None:
@@ -208,3 +207,9 @@ class Ohh:
                 return True
         else:
             return False
+
+
+x = Ohh(big_blind_amount=0.25).from_config()
+print(x.__class__)
+y = Ohh()
+print(y)
