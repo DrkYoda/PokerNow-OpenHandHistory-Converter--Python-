@@ -193,20 +193,9 @@ class Ohh:
                 continue
 
     def parse_blinds(self, regex: Pattern[str], entry: str):
-        blinds_match = regex.match(entry)
-        if blinds_match is not None:
-            blind_type, blind_amount = blinds_match.group("blind_type", "amount")
-            if blind_type == "big blind":
-                self.big_blind_amount = float(blind_amount)
-                return True
-            elif blind_type == "small blind":
-                self.small_blind_amount = float(blind_amount)
-                return True
-            elif blind_type == "ante":
-                self.ante_amount = float(blind_amount)
-                return True
-        else:
-            return False
+        blind_match = regex.match(entry)
+        if blind_match:
+            return blind_match.groupdict()
 
 
 x = Ohh(big_blind_amount=0.25).from_config()

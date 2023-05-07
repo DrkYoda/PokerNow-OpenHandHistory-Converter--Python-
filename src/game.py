@@ -3,7 +3,7 @@ import json
 import logging
 from pathlib import Path
 import re
-from typing import List, Tuple, Type
+from typing import List, Tuple
 from attrs import define, asdict, field, Factory
 from action import Action
 from ohh import Ohh, Player, hero_name
@@ -69,64 +69,6 @@ subs_suits = {
     "♣": "c",
 }
 
-
-# def load_name_map(file: Path) -> dict[str, dict[str, list[str]]]:
-#     """Open aliase->name map file (aliase-name_map.json) and parse it.  If the file is not found
-#         then create a json file.
-
-#     Args:
-#         file (Path): Path to the input file to be parsed
-
-#     Returns:
-#         dict[str, dict[str, list[str]]]: _description_
-#     """
-#     try:
-#         with file.open(mode="r", encoding="utf-8") as map_file:
-#             return json.load(map_file)
-#     except FileNotFoundError:
-#         with file.open(mode="a+", encoding="utf-8") as map_file:
-#             init_name_map: dict[str, dict[str, list[str]]] = {}
-#             save_name_map(file, init_name_map)
-#             return json.load(map_file)
-
-
-# def save_name_map(file: Path, name_map: dict[str, dict[str, list[str]]]):
-#     """_summary_
-
-#     Args:
-#         file (Path): Path to the input file to be parsed
-#         name_map (dict[str, dict[str, list[str]]]): _description_
-#     """
-#     try:
-#         with file.open(mode="w", encoding="utf-8") as map_file:
-#             json.dump(dict(sorted(name_map.items())), map_file, indent=4)
-#     except FileNotFoundError:
-#         with file.open(mode="a+", encoding="utf-8") as map_file:
-#             json.dump(name_map, map_file, indent=4)
-
-
-# def switch_key_and_values(name_map: dict[str, dict[str, list[str]]], key_txt: str):
-#     """Players can choose a different alias every time they sit at the table; therefore, it is
-#     necissary to map the players real name to the aliases they have chosen. The information
-#     needed to create the aliase->name map is recorded in the file aliase-name_map.json where
-#     each player name has an array of aliases. The data will be parsed into a dictionary of lists
-#     where the keys are the names and the values are lists of aliases. The aliase->name map is
-#     created by flattening the alias lists and switching the keys (names) and values (aliases)
-
-#     Args:
-#         name_map (dict[str, dict[str, list[str]]]): _description_
-#         key_txt (str): _description_
-
-#     Returns:
-#         dict[str, str]: _description_
-#     """
-#     names: dict[str, str] = {}
-#     for key, values in name_map.items():
-#         for value in values[key_txt]:
-#             names[value] = key
-#     return names
-
-
 csv_dir = Path("PokerNowHandHistory")
 csv_file_list = [child for child in csv_dir.iterdir()
                  if child.suffix == ".csv"]
@@ -175,6 +117,10 @@ winner_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) "
     r"(?P<amount>\d+\.\d{2}).+"
 )
+regex_list = [table_regex, blind_regex, start_regex, end_regex, game_number_regex,
+              hand_time_regex, post_regex, seats_regex, round_regex, cards_regex,
+              addon_regex, hero_hand_regex, non_bet_action_regex, bet_action_regex,
+              uncalled_regex, show_regex, winner_regex]
 
 
 @define
@@ -216,20 +162,23 @@ class Game:
             # hand info is hand number, hand time, bet type, game type, dealer name, table name, big
             # blind, small blind, and ante. Everything else goes into TEXT.
             for i, line in enumerate(lines):
+                entry = line[0]
+                hand_end_match = end_regex.match(entry)
                 if i == len(lines) - 1:
                     if hand_number != end_hand_number:
                         self.hands.pop()
                     break
-                entry = line[0]
+                elif hand_end_match is not None:
+                    end_hand_number = hand_end_match.group("hand_number")
                 # The text match to look for what the blinds are set at
-                hand_obj.parse_blinds(blind_regex, entry)
+                if hand_obj.parse_blinds(blind_regex, entry) is not None:
+                    continue
                 # The hand "begins" when the "--- starting hand #X ---" log line is read, however the
                 # hand does not "end" until the following "--- starting hand #X+1 ---" log line is
                 # observed (or the end of the file is reached). This is because some actions such as a
                 # player voluntarily showing their cards at the end of the hand are reported between the
                 # "--- end hand #X ---" and the "--- stating hand #X+1 ---" lines
                 hand_start_match = start_regex.match(entry)
-                hand_end_match = end_regex.match(entry)
                 if hand_start_match is not None:
                     self.hands.append(hand_obj)
                     hand_obj = Ohh().from_config()
@@ -262,22 +211,19 @@ class Game:
                         hand_obj.start_date_utc = (
                             hand_time_match.group("start_date_utc") + "Z"
                         )
-                elif hand_end_match is not None:
-                    end_hand_number = hand_end_match.group("hand_number")
-                else:
-                    if hand_number == "1":
-                        post_match = post_regex.match(entry)
-                        if post_match is not None:
-                            post_type = post_match.group("type")
-                            if post_type == "posts a small blind":
-                                small_blind = float(post_match.group("amount"))
-                                Ohh(small_blind_amount=small_blind)
-                            elif post_type == "posts a big blind":
-                                big_blind = float(post_match.group("amount"))
-                                Ohh(big_blind_amount=big_blind)
-                            elif post_type == "posts an ante":
-                                ante = float(post_match.group("amount"))
-                                Ohh(ante_amount=ante)
+                elif hand_number == "1":
+                    post_match = post_regex.match(entry)
+                    if post_match is not None:
+                        post_type = post_match.group("type")
+                        if post_type == "posts a small blind":
+                            small_blind = float(post_match.group("amount"))
+                            Ohh(small_blind_amount=small_blind)
+                        elif post_type == "posts a big blind":
+                            big_blind = float(post_match.group("amount"))
+                            Ohh(big_blind_amount=big_blind)
+                        elif post_type == "posts an ante":
+                            ante = float(post_match.group("amount"))
+                            Ohh(ante_amount=ante)
                 # # Any line that has made it this far without being processed will be added to text
                 # # in the hands dictionary and be proccesed later
                 # hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
