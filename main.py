@@ -80,6 +80,8 @@ v 1.3.0
           in re module funtions to invoking a method directly on the regex
           object.
 """
+from __future__ import annotations
+
 # MODULES
 import csv
 import json
@@ -90,14 +92,13 @@ from datetime import datetime
 from pathlib import Path
 from shutil import move
 from time import perf_counter, process_time
-from typing import Callable, List
 
 from rich.console import Console
 
 # END MODULES
-# **************************************************************************************************
+# *****************************************************************************
 
-# **************************************************************************************************
+# *****************************************************************************
 timer_perf_start = perf_counter()
 timer_proc_start = process_time()
 # CONSTANTS
@@ -179,15 +180,15 @@ DEFAULT_CONFIG = {
     },
     DIRECTORIES: {CONFIG_DIR: '/Config', LOG_DIR: '/Logs'},
 }
-"""
+'''
 these are constants that are meant to be configurable - they could be edited
-here, or specified in a configuration file that is external to this script and 
+here, or specified in a configuration file that is external to this script and
 checked for at run time
-"""
+'''
 # END CONSTANTS
-# **************************************************************************************************
+# *****************************************************************************
 
-# **************************************************************************************************
+# *****************************************************************************
 
 # DATA STRUCTURES
 hands = {}
@@ -216,7 +217,7 @@ the tables dictionary
                              this table
         - LAST: string - hand number for the latest hand processed for this
                          table
-            - LAST and LATEST are used to mark the "end" activity of players 
+            - LAST and LATEST are used to mark the "end" activity of players
               standing up they represent the last seen hand at the table from
               the processed logs
         - OHH: list - list of hand histories, each in JSON following the OHH
@@ -278,10 +279,10 @@ subs_suits = {
     '♣': 'c',
 }
 # END LOOKUP TABLES
-# **************************************************************************************************
+# *****************************************************************************
 
 
-# **************************************************************************************************
+# *****************************************************************************
 # FUNCTIONS
 def create_config(path: Path) -> None:
     """Create a config file with default configuation.
@@ -289,6 +290,7 @@ def create_config(path: Path) -> None:
     If the parent path does not exist then create it.
 
     Args:
+    ----
         path (Path): Path to the file to be created.
     """
     if not path.parent.exists():
@@ -306,9 +308,11 @@ def get_config(path: Path) -> ConfigParser:
     If the .ini file does not exist then create it.
 
     Args:
+    ----
         path (Path): Path to the config file.
 
     Returns:
+    -------
         ConfigParser: The main configuration parser, responsible for managing
         the parsed database.
     """
@@ -324,6 +328,7 @@ def update_setting(path: Path, section: str, setting: str, value: str) -> None:
     """Update a setting.
 
     Args:
+    ----
         path (Path): Path to the file to be updated.
         section (str): Section where the setting to be updated is located.
         setting (str): Name of the setting to be updated.
@@ -335,18 +340,20 @@ def update_setting(path: Path, section: str, setting: str, value: str) -> None:
         config.write(config_file)
 
 
-def csv_reader(file_obj: Path, subs: dict[str, str]) -> list[List[str]]:
+def csv_reader(file_obj: Path, subs: dict[str, str]) -> list[list[str]]:
     """Read a CSV file and make substitutions according to the subs dictionary.
 
     Args:
+    ----
         file_obj (Path): Path to the CSV file to be read.
         subs (dict[str, str]): Dictionary containg strings to substitute or
         replace in the data.
 
     Returns:
+    -------
         List[List[str]]: The rows of data in the CSV file in reverse order.
     """
-    rows: list[List[str]] = [[]]
+    rows: list[list[str]] = [[]]
     subs_regex = re.compile('|'.join(subs.keys()))
     with file_obj.open(mode='r', encoding='UTF-8') as csv_file:
         reader = csv.reader(csv_file)
@@ -366,13 +373,15 @@ def load_name_map(file: Path):
     If the file is not found then create a json file.
 
     Args:
+    ----
         file (Path): Path to the input file to be parsed
 
     Returns:
+    -------
         _type_: _description_
     """
     try:
-        with open(file, mode='r', encoding='utf-8') as map_file:
+        with open(file, encoding='utf-8') as map_file:
             return json.load(map_file)
     except FileNotFoundError:
         with open(file, mode='a+', encoding='utf-8') as map_file:
@@ -410,6 +419,7 @@ def switch_key_and_values(
     the keys (names) and values (aliases)
 
     Args:
+    ----
         name_map (dict[str, dict[str, list[str]]]): _description_
         key_txt (str): _description_
 
@@ -501,8 +511,7 @@ show_regex = re.compile(
 )
 winner_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) "
-    r'(?P<amount>\d+\.\d{2}).+'
-)
+    r'(?P<amount>\d+\.\d{2}).+')
 log_dir = Path('./Logs')
 log_dir.mkdir(exist_ok=True)
 log_file = Path('log_' + datetime.now().strftime('%Y%m%d-%H%M%S')
@@ -749,8 +758,7 @@ for poker_now_file in csv_file_list:
                                     'in the data model and press ENTER>>>')
                                 try:
                                     players_map[name_input]['nicknames'].append(
-                                        player_display
-                                    )
+                                        player_display)
                                     players_map[name_input]['devices'].append(
                                         device_id)
                                     device_ids = switch_key_and_values(
@@ -1127,4 +1135,4 @@ console.print(
     f'[cyan]{process_time() - timer_proc_start} sec[/cyan] Process time for all hands.'
 )
 # end of code
-# *************************************************************************************************
+# *****************************************************************************

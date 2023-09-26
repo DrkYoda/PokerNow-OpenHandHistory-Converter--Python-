@@ -1,6 +1,6 @@
 Logs/
 Config/
-Sand Box/
+Sand_Box/
 HandErrors.json
 poker-now-hands-mtt-0128-9pm-et-tourney-jgmz1CnwEJ.json
 .gitignore
@@ -23,3 +23,16 @@ src/tests.py
 src/sandbox.py
 src/__pycache__/timer.cpython-310.pyc
 .vscode/settings.json
+src/_sandbox.py
+src/game.py
+src/gui/app.py
+src/gui/main_window.ui
+src/gui/MainWindow.py
+src/gui/__pycache__/MainWindow.cpython-310.pyc
+src/_sandbox.py
+src/game.py
+data.db
+__pycache__/employee_dlg.cpython-310.pyc
+.vscode/extensions.json
+src/_sandbox.py
+src/game.py
