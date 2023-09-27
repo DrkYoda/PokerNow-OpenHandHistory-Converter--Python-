@@ -1,6 +1,12 @@
 {
-    "python.linting.enabled": true,
-    "python.formatting.provider": "black",
-    "python.linting.pylintEnabled": true,
-    "python.analysis.typeCheckingMode": "basic"
+  "python.linting.enabled": true,
+  "python.formatting.provider": "none",
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": ["!Module"],
+    "editor.wordBasedSuggestions": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.linting.pylintEnabled": false,
+  "python.analysis.typeCheckingMode": "basic"
 }
