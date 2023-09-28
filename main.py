@@ -333,7 +333,8 @@ def csv_reader(file_obj: Path, subs: dict[str, str]) -> list[List[str]]:
         reader = csv.reader(csv_file)
         next(reader)
         for row in reader:
-            row = [subs_regex.sub(lambda match: subs[match.group(0)], i) for i in row]
+            row = [subs_regex.sub(
+                lambda match: subs[match.group(0)], i) for i in row]
             row[0] = row[0].encode("ascii", "ignore").decode()
             rows.append(row)
     rows.reverse()
@@ -421,9 +422,9 @@ if not hero_name.strip():
     ohh_constants[HERO_NAME] = hero_name
     update_setting(config_path, "OHH Constants", HERO_NAME, hero_name)
 
-csv_dir = Path("PokerNowHandHistory")
-csv_file_list = [child for child in csv_dir.iterdir() if child.suffix == ".csv"]
-csv_archive_dir = csv_dir / "Archive"
+csv_dir = Path('PokerNowHandHistory')
+csv_file_list: list[Path] = list(csv_dir.glob('*.csv'))
+csv_archive_dir: Path = csv_dir.joinpath('Archive')
 players_map = load_name_map(name_map_path)
 aliases_names = switch_key_and_values(players_map, "nicknames")
 device_ids = switch_key_and_values(players_map, "devices")
@@ -475,7 +476,8 @@ winner_regex = re.compile(
 )
 log_dir = Path("./Logs")
 log_dir.mkdir(exist_ok=True)
-log_file = Path("log_" + datetime.now().strftime("%Y%m%d-%H%M%S")).with_suffix(".log")
+log_file = Path("log_" + datetime.now().strftime("%Y%m%d-%H%M%S")
+                ).with_suffix(".log")
 log_path = log_dir / log_file
 logging.basicConfig(
     filename=log_path,
@@ -618,7 +620,9 @@ for poker_now_file in csv_file_list:
                 # in the hands dictionary and be proccesed later
                 hands[game_number][TEXT] = hands[game_number][TEXT] + "\n" + entry
                 lines_saved += 1
-        move(poker_now_file, csv_archive_dir)
+
+        poker_now_file.replace(csv_archive_dir.joinpath(poker_now_file.name))
+
         logging.info(f"[{table_name}] ***FINISHED HAND SEPERATION***")
         logging.info(f"[{table_name}] {lines_parsed} lines were parsed.")
         logging.info(f"[{table_name}] {lines_ignored} lines were ignored.")
@@ -709,6 +713,7 @@ for poker_now_file in csv_file_list:
                                 device_ids = switch_key_and_values(
                                     players_map, "devices"
                                 )
+                                save_name_map(name_map_path, players_map)
                         except KeyError:
                             if device_id not in device_ids:
                                 name_input = console.input(
@@ -721,13 +726,15 @@ for poker_now_file in csv_file_list:
                                     players_map[name_input]["nicknames"].append(
                                         player_display
                                     )
-                                    players_map[name_input]["devices"].append(device_id)
+                                    players_map[name_input]["devices"].append(
+                                        device_id)
                                     device_ids = switch_key_and_values(
                                         players_map, "devices"
                                     )
                                     aliases_names = switch_key_and_values(
                                         players_map, "nicknames"
                                     )
+                                    save_name_map(name_map_path, players_map)
                                 except KeyError:
                                     players_map.update(
                                         {
@@ -743,6 +750,7 @@ for poker_now_file in csv_file_list:
                                     aliases_names = switch_key_and_values(
                                         players_map, "nicknames"
                                     )
+                                    save_name_map(name_map_path, players_map)
                             else:
                                 name = device_ids[device_id]
                                 bool_input = console.input(
@@ -760,6 +768,7 @@ for poker_now_file in csv_file_list:
                                     aliases_names = switch_key_and_values(
                                         players_map, "nicknames"
                                     )
+                                    save_name_map(name_map_path, players_map)
                                 elif bool_input == "N":
                                     name_input = console.input(
                                         "\n[red]IMPORTANT:[/red] If different players are playing "
@@ -987,7 +996,8 @@ for poker_now_file in csv_file_list:
                     continue
                 uncalled_bet_match = re.match(uncalled_regex, line)
                 if uncalled_bet_match is not None:
-                    amount = round(float(uncalled_bet_match.group("amount")), 2)
+                    amount = round(
+                        float(uncalled_bet_match.group("amount")), 2)
                     total_pot -= amount
                     continue
                 winner = re.match(winner_regex, line)
@@ -1027,9 +1037,11 @@ for poker_now_file in csv_file_list:
             for pot_number, pot in pot_obj.items():
                 amt = round(pot[AMOUNT], 2)
                 rake = pot[RAKE]
-                potObj = {NUMBER: pot_number, AMOUNT: amt, RAKE: rake, PLAYER_WINS: []}
+                potObj = {NUMBER: pot_number, AMOUNT: amt,
+                          RAKE: rake, PLAYER_WINS: []}
                 for player_id in pot[PLAYER_WINS]:
-                    win_amount = round(pot[PLAYER_WINS][player_id][WIN_AMOUNT], 2)
+                    win_amount = round(
+                        pot[PLAYER_WINS][player_id][WIN_AMOUNT], 2)
                     rake_contribution = pot[PLAYER_WINS][player_id][CONTRIBUTED_RAKE]
                     player_win_obj = {
                         PLAYER_ID: player_id,
@@ -1050,7 +1062,8 @@ for poker_now_file in csv_file_list:
             ohh[ROUNDS].append(round_obj)
             table.append(ohh)
         logging.info(f"[{table_name}] ***FINISHED HAND PARSING***")
-        logging.info(f"[{table_name}] {unprocessed_count} lines were not parsed.")
+        logging.info(
+            f"[{table_name}] {unprocessed_count} lines were not parsed.")
         ohh_directory = Path("OpenHandHistory")
         with open(
             ohh_directory / poker_now_file.with_suffix(".ohh").name,
@@ -1081,12 +1094,13 @@ for poker_now_file in csv_file_list:
         console.print(
             f"[blue]{round(perf_counter() - perf_start_2, 6)} sec[/blue] Performance counter."
         )
-        console.print(f"[blue]{process_time() - proc_start_2} sec[/blue] Process time.")
-save_name_map(name_map_path, players_map)
+        console.print(
+            f"[blue]{process_time() - proc_start_2} sec[/blue] Process time.")
 logging.info(
     f"[ALL][{perf_counter() - timer_perf_start}] Performance counter for all hands."
 )
-logging.info(f"[ALL][{process_time() - timer_proc_start}] Process time for all hands.")
+logging.info(
+    f"[ALL][{process_time() - timer_proc_start}] Process time for all hands.")
 console.print(
     f"[cyan]{round(perf_counter() - timer_perf_start, 2)} sec[/cyan] Performance counter for all "
     "hands."
