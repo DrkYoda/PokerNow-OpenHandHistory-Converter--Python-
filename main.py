@@ -65,6 +65,7 @@ v 1.2.4
     - Fixed issue #45
 v 1.2.5
     - Fixed issue #50
+    - Fixed issue #52
 ****************************************************************************************************
 """
 # MODULES
@@ -448,7 +449,7 @@ seats_regex = re.compile(
     r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>\d+\.\d{2}|\d+)\)"
 )
 post_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) "
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts .+) "
     r"of (?P<amount>\d+\.\d{2})\s*(?P<all_in>[a-z ]+)*"
 )
 round_regex = re.compile(r"(?P<street>^\w.+):.+")
