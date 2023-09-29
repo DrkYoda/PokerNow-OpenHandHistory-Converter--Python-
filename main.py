@@ -450,7 +450,7 @@ seats_regex = re.compile(
 )
 post_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts .+) "
-    r"of (?P<amount>\d+\.\d{2})\s*(?P<all_in>[a-z ]+)*"
+    r"of (?P<amount>\d+\.\d{2}|\d+)\s*(?P<all_in>[a-z ]+)*"
 )
 round_regex = re.compile(r"(?P<street>^\w.+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
@@ -855,7 +855,7 @@ for poker_now_file in csv_file_list:
                     # considered a "dead" and is not considered to be a amount commited, but a
                     # missed BB is a "live"blind and should be added to the amount commited to the
                     # round.
-                    if action[ACTION] != "Post Dead":
+                    if action[ACTION] != "Post Dead" and action[ACTION] != "Post Ante":
                         amount = round(amount - round_commit[player], 2)
                         round_commit[player] += amount
                     action[AMOUNT] = amount
