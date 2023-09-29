@@ -63,6 +63,8 @@ v 1.2.3
     - Fixed issue #43
 v 1.2.4
     - Fixed issue #45
+v 1.2.5
+    - Fixed issue #50
 ****************************************************************************************************
 """
 # MODULES
@@ -73,7 +75,6 @@ import json
 import logging
 from pathlib import Path
 import re
-from shutil import move
 from time import perf_counter, process_time
 from typing import List
 from rich.console import Console
@@ -444,7 +445,7 @@ end_regex = re.compile(r"-- ending hand #(?P<hand_number>\d+) --")
 game_number_regex = re.compile(r"(?P<game_number>\d{13})")
 hand_time_regex = re.compile(r"(?P<start_date_utc>.+:\d+)")
 seats_regex = re.compile(
-    r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>\d+\.\d{2})\)"
+    r" #(?P<seat>\d+) \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" \((?P<amount>\d+\.\d{2}|\d+)\)"
 )
 post_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<type>posts a .+) "
@@ -453,18 +454,18 @@ post_regex = re.compile(
 round_regex = re.compile(r"(?P<street>^\w.+):.+")
 cards_regex = re.compile(r"\[(?P<cards>.+)\]")
 addon_regex = re.compile(
-    r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>\d+\.\d{2})"
+    r"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" adding (?P<amount>\d+\.\d{2}|\d+)"
 )
 hero_hand_regex = re.compile(r"Your hand is (?P<cards>.+)")
 non_bet_action_regex = re.compile(
-    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+(?![ a-z]+\d+\.\d{2}))"
+    r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>\w+(?![ a-z]+(?:\d+\.\d{2}|\d+)))"
 )
 bet_action_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?!collected)(?!shows)(?P<player_action>\w+) "
-    r"[a-z]*\s*(?P<amount>\d+\.\d{2})\s*(?P<all_in>[a-z ]+)*"
+    r"[a-z]*\s*(?P<amount>\d+\.\d{2}|\d+)\s*(?P<all_in>[a-z ]+)*"
 )
 uncalled_regex = re.compile(
-    r"Uncalled bet of (?P<amount>\d+\.\d{2}) .+ \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\""
+    r"Uncalled bet of (?P<amount>\d+\.\d{2}|\d+) .+ \"(?P<player>.+?) @ (?P<device_id>[-\w]+)\""
 )
 show_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" "
@@ -472,7 +473,7 @@ show_regex = re.compile(
 )
 winner_regex = re.compile(
     r"\"(?P<player>.+?) @ (?P<device_id>[-\w]+)\" (?P<player_action>collected) "
-    r"(?P<amount>\d+\.\d{2}).+"
+    r"(?P<amount>\d+\.\d{2}|\d+).+"
 )
 log_dir = Path("./Logs")
 log_dir.mkdir(exist_ok=True)
